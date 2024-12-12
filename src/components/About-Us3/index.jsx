@@ -5,7 +5,7 @@ import "react-modal-video/css/modal-video.css";
 const AboutUs3 = () => {
   React.useEffect(() => {
     console.clear();
-  }, [])
+  }, []);
   const [isOpen, setOpen] = React.useState(false);
   return (
     <section className="about section-padding">
@@ -70,7 +70,7 @@ const AboutUs3 = () => {
               cx="43"
               cy="43"
               r="39"
-              stroke="#b19777"
+              stroke="#4cb753"
               strokeWidth=".5"
             ></circle>
           </svg>
@@ -87,7 +87,7 @@ const AboutUs3 = () => {
           <span className="polygon">
             <i className="pe-7s-play"></i>
           </span>
-        </a>
+         
       </div>
     </section>
   );

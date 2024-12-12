@@ -1,5 +1,5 @@
 import React from "react";
-import Link from 'next/link'
+import Link from "next/link";
 
 const PricingTable = () => {
   return (
@@ -32,7 +32,7 @@ const PricingTable = () => {
               </div>
               <div className="order">
                 <Link href="#" className="btn-curve btn-lit">
-                  <a><span>Purchase Now</span></a>
+                  <span>Purchase Now</span>
                 </Link>
               </div>
             </div>
@@ -58,7 +58,7 @@ const PricingTable = () => {
               </div>
               <div className="order">
                 <Link href="#" className="btn-curve btn-wit">
-                  <a><span>Purchase Now</span></a>
+                  <span>Purchase Now</span>
                 </Link>
               </div>
             </div>
@@ -81,7 +81,7 @@ const PricingTable = () => {
               </div>
               <div className="order">
                 <Link href="#" className="btn-curve btn-lit">
-                  <a><span>Purchase Now</span></a>
+                  <span>Purchase Now</span>
                 </Link>
               </div>
             </div>

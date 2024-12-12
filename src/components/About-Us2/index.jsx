@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import aboutUs2Data from "../../data/about-us2.json";
-import Link from 'next/link'
+import Link from "next/link";
 
 const AboutUs2 = () => {
   return (
@@ -23,10 +23,8 @@ const AboutUs2 = () => {
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
-              <Link href="/about">
-                <a className="btn-curve btn-color mt-30">
-                  <span>Read More</span>
-                </a>
+              <Link href="/about" className="btn-curve btn-color mt-30">
+                <span>Read More</span>
               </Link>
             </div>
           </div>

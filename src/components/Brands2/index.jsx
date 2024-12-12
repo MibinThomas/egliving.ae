@@ -14,8 +14,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/01.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>
@@ -26,8 +30,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/02.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>
@@ -38,8 +46,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/03.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>
@@ -50,8 +62,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/04.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>
@@ -62,8 +78,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/05.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>
@@ -74,8 +94,12 @@ const Brands2 = () => {
                 <img src="/assets/img/clients/brands/06.png" alt="" />
               </div>
               <Split>
-                <Link href="#" data-splitting>
-                  <a className="link words chars splitting">www.Arch.com</a>
+                <Link
+                  href="#"
+                  data-splitting
+                  className="link words chars splitting"
+                >
+                  www.Arch.com
                 </Link>
               </Split>
             </div>

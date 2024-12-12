@@ -1,12 +1,12 @@
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import skillsCircleData from '../../data/skills-circle.json'
+import skillsCircleData from "../../data/skills-circle.json";
 
 const SkillsCircle = () => {
   const cpStyle = {
     path: {
-      stroke: "#b19777",
+      stroke: "#4cb753",
     },
     trail: {
       stroke: "#0f1013",

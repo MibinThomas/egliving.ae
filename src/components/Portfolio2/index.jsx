@@ -17,9 +17,7 @@ const Portfolio2 = () => {
             </div>
             <div className="more">
               <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
+                View Project <i className="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>
@@ -30,9 +28,7 @@ const Portfolio2 = () => {
             </div>
             <div className="more">
               <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
+                View Project <i className="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>
@@ -43,9 +39,7 @@ const Portfolio2 = () => {
             </div>
             <div className="more">
               <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
+                View Project <i className="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>
@@ -56,9 +50,7 @@ const Portfolio2 = () => {
             </div>
             <div className="more">
               <Link href="/project-details">
-                <a>
-                  View Project <i className="fas fa-chevron-right"></i>
-                </a>
+                View Project <i className="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>

@@ -1,0 +1,12 @@
+# Allow all crawlers access to the site
+User-agent: *
+Disallow:
+
+Allow: /assets/img/*.jpg
+Allow: /assets/img/*.png
+Allow: /assets/img/*.svg
+Allow: /assets/img/*.webp
+
+# Sitemap
+Sitemap: https://egliving.ae/sitemap.xml
+    

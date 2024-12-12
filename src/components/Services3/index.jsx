@@ -44,7 +44,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 <Link href="/about">
                   <a className={`more ${!grid ? "custom-font" : ""} mt-30`}>
                     Read More
-                  </a>
+                   
                 </Link>
               </div>
             </div>

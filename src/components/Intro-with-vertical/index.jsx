@@ -10,22 +10,25 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Link from "next/link";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
+
 SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const IntroWithVertical = () => {
   const [load, setLoad] = React.useState(true);
+  const navigationPrevRef = React.useRef(null);
+  const navigationNextRef = React.useRef(null);
+  const paginationRef = React.useRef(null);
+
   React.useEffect(() => {
-    setTimeout(() => {
+    const timeout = setTimeout(() => {
       removeSlashFromPagination();
     }, 1000);
     setTimeout(() => {
       setLoad(false);
     });
-  }, []);
 
-  const navigationPrevRef = React.useRef(null);
-  const navigationNextRef = React.useRef(null);
-  const paginationRef = React.useRef(null);
+    return () => clearTimeout(timeout);
+  }, []);
 
   return (
     <>
@@ -58,27 +61,29 @@ const IntroWithVertical = () => {
                 swiper.params.pagination.el = paginationRef.current;
               }}
               onSwiper={(swiper) => {
-                setTimeout(() => {
-                  for (var i = 0; i < swiper.slides.length; i++) {
-                    swiper.slides[i].childNodes[0].setAttribute(
-                      "data-swiper-parallax",
-                      0.75 * swiper.height
-                    );
+                if (swiper?.slides) {
+                  for (let i = 0; i < swiper.slides.length; i++) {
+                    const slide = swiper.slides[i];
+                    if (slide?.childNodes[0]) {
+                      slide.childNodes[0].setAttribute(
+                        "data-swiper-parallax",
+                        0.75 * swiper.height
+                      );
+                    }
                   }
+                }
 
-                  swiper.params.navigation.prevEl = navigationPrevRef.current;
-                  swiper.params.navigation.nextEl = navigationNextRef.current;
-
-                  swiper.params.pagination.el = paginationRef.current;
-
+                if (swiper.navigation) {
                   swiper.navigation.destroy();
                   swiper.navigation.init();
                   swiper.navigation.update();
+                }
 
+                if (swiper.pagination) {
                   swiper.pagination.destroy();
                   swiper.pagination.init();
                   swiper.pagination.update();
-                });
+                }
               }}
               className="swiper-wrapper cta__slider"
             >
@@ -118,10 +123,11 @@ const IntroWithVertical = () => {
                                 {slide.content.second}
                               </p>
                             )}
-                            <Link href="/work1">
-                              <a className="btn-curve btn-color mt-30">
-                                <span>Discover Work</span>
-                              </a>
+                            <Link
+                              href="/work1"
+                              className="btn-curve btn-color mt-30"
+                            >
+                              <span>Discover Work</span>
                             </Link>
                           </div>
                         </div>

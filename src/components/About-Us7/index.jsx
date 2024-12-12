@@ -18,7 +18,7 @@ const AboutUs7 = () => {
               <Link href="/about">
                 <a className="btn-curve btn-color mt-30">
                   <span>Read More</span>
-                </a>
+                 
               </Link>
             </div>
           </div>

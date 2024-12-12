@@ -23,23 +23,17 @@ const Blogs3 = ({ smallTitle }) => {
               style={{ backgroundImage: "url(/assets/img/blog/1.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog-details">
-                  <a className="date">
-                    <span>
-                      <i>06</i> August
-                    </span>
-                  </a>
+                <Link href="/blog-details" className="date">
+                  <span>
+                    <i>06</i> August
+                  </span>
                 </Link>
                 <div className="info">
-                  <Link href="#">
-                    <a className="author">
-                      <span>Admin</span>
-                    </a>
+                  <Link href="#" className="author">
+                    <span>Admin</span>
                   </Link>
-                  <Link href="/blog-details">
-                    <a className="tag">
-                      <span>WordPress</span>
-                    </a>
+                  <Link href="/blog-details" className="tag">
+                    <span>WordPress</span>
                   </Link>
                 </div>
                 <h6>
@@ -48,8 +42,8 @@ const Blogs3 = ({ smallTitle }) => {
                   </Link>
                 </h6>
                 <div className="btn-more">
-                  <Link href="/blog-details">
-                    <a className="simple-btn">Read More</a>
+                  <Link href="/blog-details" className="simple-btn">
+                    Read More
                   </Link>
                 </div>
               </div>
@@ -62,23 +56,17 @@ const Blogs3 = ({ smallTitle }) => {
               style={{ backgroundImage: "url(/assets/img/blog/2.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog-details">
-                  <a className="date">
-                    <span>
-                      <i>06</i> August
-                    </span>
-                  </a>
+                <Link href="/blog-details" className="date">
+                  <span>
+                    <i>06</i> August
+                  </span>
                 </Link>
                 <div className="info">
-                  <Link href="#">
-                    <a className="author">
-                      <span>Admin</span>
-                    </a>
+                  <Link href="#" className="author">
+                    <span>Admin</span>
                   </Link>
-                  <Link href="/blog-details">
-                    <a className="tag">
-                      <span>WordPress</span>
-                    </a>
+                  <Link href="/blog-details" className="tag">
+                    <span>WordPress</span>
                   </Link>
                 </div>
                 <h6>
@@ -101,23 +89,17 @@ const Blogs3 = ({ smallTitle }) => {
               style={{ backgroundImage: "url(/assets/img/blog/3.jpg)" }}
             >
               <div className="cont">
-                <Link href="/blog-details">
-                  <a className="date">
-                    <span>
-                      <i>06</i> August
-                    </span>
-                  </a>
+                <Link href="/blog-details" className="date">
+                  <span>
+                    <i>06</i> August
+                  </span>
                 </Link>
                 <div className="info">
-                  <Link href="#">
-                    <a className="author">
-                      <span>Admin</span>
-                    </a>
+                  <Link href="#" className="author">
+                    <span>Admin</span>
                   </Link>
-                  <Link href="/blog-details">
-                    <a className="tag">
-                      <span>WordPress</span>
-                    </a>
+                  <Link href="/blog-details" className="tag">
+                    <span>WordPress</span>
                   </Link>
                 </div>
                 <h6>

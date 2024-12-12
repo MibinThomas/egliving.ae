@@ -46,20 +46,16 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
-                      </a>
+                      <img src="/assets/img/blog/1.jpg" alt="" />
                     </Link>
                   </div>
 
                   <div className="sm-post">
                     <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
+                      <p>
+                        The Start-Up Ultimate Guide to Make Your WordPress
+                        Journal.
+                      </p>
                     </Link>
                     <span className="date">14 Jan 2022</span>
                   </div>
@@ -67,19 +63,15 @@ const Footer = ({ classText }) => {
                 <li>
                   <div className="img">
                     <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/2.jpg" alt="" />
-                      </a>
+                      <img src="/assets/img/blog/2.jpg" alt="" />
                     </Link>
                   </div>
                   <div className="sm-post">
                     <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
+                      <p>
+                        The Start-Up Ultimate Guide to Make Your WordPress
+                        Journal.
+                      </p>
                     </Link>
                     <span className="date">14 Jan 2022</span>
                   </div>
@@ -100,24 +92,16 @@ const Footer = ({ classText }) => {
               </div>
               <div className="social">
                 <Link href="#">
-                  <a>
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
+                  <i className="fab fa-facebook-f"></i>
                 </Link>
                 <Link href="#">
-                  <a>
-                    <i className="fab fa-twitter"></i>
-                  </a>
+                  <i className="fab fa-twitter"></i>
                 </Link>
                 <Link href="#">
-                  <a>
-                    <i className="fab fa-instagram"></i>
-                  </a>
+                  <i className="fab fa-instagram"></i>
                 </Link>
                 <Link href="#">
-                  <a>
-                    <i className="fab fa-youtube"></i>
-                  </a>
+                  <i className="fab fa-youtube"></i>
                 </Link>
               </div>
               <div className="copy-right">

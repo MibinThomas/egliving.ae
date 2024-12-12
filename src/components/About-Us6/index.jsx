@@ -17,10 +17,8 @@ const AboutUs6 = () => {
                 perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam.
               </p>
-              <Link href="/about">
-                <a className="btn-curve btn-bord btn-lit mt-30">
+              <Link href="/about" className="btn-curve btn-bord btn-lit mt-30">
                   <span>Read More</span>
-                </a>
               </Link>
             </div>
           </div>
