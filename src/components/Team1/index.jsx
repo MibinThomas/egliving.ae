@@ -4,6 +4,7 @@ import Team1Data from "../../data/team1.json";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 
 class Team1 extends React.Component {
   constructor(props) {
@@ -28,10 +29,7 @@ class Team1 extends React.Component {
           <div className="row">
             <div className="col-lg-5">
               <div className="tit">
-                <h6
-                  className="mb-10 wow fadeInDown"
-                  data-wow-delay=".3s"
-                >
+                <h6 className="mb-10 wow fadeInDown" data-wow-delay=".3s">
                   Some thoughts from Us
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
@@ -86,18 +84,21 @@ class Team1 extends React.Component {
                     <div className="img wow imago">
                       <img src={item.image} alt="" />
                       <div className="social">
-                        <a href={item.facebook}>
+                        <Link href={item.facebook}>
                           <i className="fab fa-facebook-f"></i>
-                        </a>
-                        <a href={item.twitter}>
+                        </Link>
+
+                        <Link href={item.twitter}>
                           <i className="fab fa-twitter"></i>
-                        </a>
-                        <a href={item.behance}>
+                        </Link>
+
+                        <Link href={item.behance}>
                           <i className="fab fa-behance"></i>
-                        </a>
-                        <a href={item.linkedin}>
+                        </Link>
+
+                        <Link href={item.linkedin}>
                           <i className="fab fa-linkedin-in"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="info">

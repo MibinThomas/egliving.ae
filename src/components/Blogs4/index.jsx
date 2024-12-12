@@ -28,11 +28,11 @@ const Blogs4 = () => {
                 </div>
                 <h5>
                   <Link href="/blog-details">
-                    <a>How to use solid color combine with simple furnitures</a>
+                    How to use solid color combine with simple furnitures
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Read More
                 </Link>
               </div>
             </div>
@@ -54,11 +54,11 @@ const Blogs4 = () => {
                 </div>
                 <h5>
                   <Link href="/blog-details">
-                    <a>Double rectangle houses from old containers</a>
+                    Double rectangle houses from old containers
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Read More
                 </Link>
               </div>
             </div>
@@ -80,11 +80,11 @@ const Blogs4 = () => {
                 </div>
                 <h5>
                   <Link href="/blog-details">
-                    <a>Double rectangle houses from old containers</a>
+                    Double rectangle houses from old containers
                   </Link>
                 </h5>
                 <Link href="/blog-details">
-                  <a className="more">Read More</a>
+                  <a className="more">Read More
                 </Link>
               </div>
             </div>

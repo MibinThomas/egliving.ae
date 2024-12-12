@@ -7,7 +7,6 @@ import NextProject from "../../components/Next-Project";
 import ProjectVideo from "../../components/Project-Video";
 
 const ProjectDetails = () => {
-
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   }, []);
@@ -32,9 +31,11 @@ const ProjectDetails = () => {
             <a href="#" className="col-lg-4 col-xl-3 col-md-6">
               <img alt="" src="/assets/img/portfolio/project1/2.jpg" />
             </a>
+
             <a href="#" className="col-lg-4 col-xl-3 col-md-6">
               <img alt="" src="/assets/img/portfolio/project1/6.jpg" />
             </a>
+
             <a href="#" className="col-lg-4 col-xl-3 col-md-12">
               <img alt="" src="/assets/img/portfolio/project1/3.jpg" />
             </a>

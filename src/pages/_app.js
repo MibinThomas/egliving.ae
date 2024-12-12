@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Archo</title>
+        <title>EG Living - Office Furniture, Workstations in Dubai</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
@@ -28,13 +28,11 @@ function MyApp({ Component, pageProps }) {
         strategy="beforeInteractive"
         src="/assets/js/splitting.min.js"
       ></Script>
-
       <Script
         id="simpleParallax"
         src="/assets/js/simpleParallax.min.js"
       ></Script>
       <Script id="isotope" src="/assets/js/isotope.pkgd.min.js"></Script>
-
       <Script src="/assets/js/main.js" id="init" strategy="lazyOnload"></Script>
     </>
   );

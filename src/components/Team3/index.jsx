@@ -35,7 +35,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#4cb753">
                         <textPath xlinkHref="#circlePath">
                           CEO Manager CEO Manager CEO Manager
                         </textPath>
@@ -74,7 +74,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#4cb753">
                         <textPath xlinkHref="#circlePath">
                           Interior Designer Interior Designer Interior Designer
                         </textPath>
@@ -113,7 +113,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#4cb753">
                         <textPath xlinkHref="#circlePath">
                           Landscape Designer Landscape Designer Landscape
                           Designer
@@ -153,7 +153,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#4cb753">
                         <textPath xlinkHref="#circlePath">
                           Client Manager Client Manager Client Manager
                         </textPath>

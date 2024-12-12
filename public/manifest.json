@@ -1,0 +1,95 @@
+{
+    "name": "EG Living",
+    "short_name": "EG Living",
+    "description": "Discover Evergreen Living: Innovative office solutions, versatile commercial designs, and superior modular living. Elevate your space with over 20 years of industry expertise, redefining style and functionality.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "author": "WebEyeCraft Technologies",
+    "publisher": "EG Living",
+    "icons": [
+        {
+            "src": "/assets/favicon/android-icon-36x36.png",
+            "sizes": "36x36",
+            "type": "image/png",
+            "density": "0.75"
+        },
+        {
+            "src": "/assets/favicon/android-icon-48x48.png",
+            "sizes": "48x48",
+            "type": "image/png",
+            "density": "1.0"
+        },
+        {
+            "src": "/assets/favicon/android-icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "density": "1.5"
+        },
+        {
+            "src": "/assets/favicon/android-icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "density": "2.0"
+        },
+        {
+            "src": "/assets/favicon/android-icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "density": "3.0"
+        },
+        {
+            "src": "/assets/favicon/android-icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "density": "4.0"
+        }
+    ],
+    "scope": "/",
+    "lang": "en",
+    "dir": "ltr",
+    "categories": [
+        "Furniture",
+        "Office Furniture",
+        "Interior Design",
+        "Home Furniture",
+        "Luxury Furniture"
+    ],
+    "keywords": [
+        "Best Office Furniture Supplier",
+        "Furniture Store UAE",
+        "Furniture Shop UAE",
+        "Luxury Furniture UAE",
+        "Luxury Furniture Shop",
+        "Furniture UAE Online",
+        "Home Furniture UAE",
+        "Luxury Home Furniture Online",
+        "Luxury Home Furniture UAE",
+        "Best Furniture Shop UAE",
+        "High End Furniture UAE",
+        "Modern Office Furniture",
+        "Office Furniture Online",
+        "Home Office Furniture Sets",
+        "Affordable Office Furniture",
+        "Commercial Office Furniture",
+        "Discount Office Furniture Near Me",
+        "Modern Home Furniture UAE",
+        "High-End Interior Design Company in UAE",
+        "Affordable Interior Design Company in UAE",
+        "Luxury Interior Design Store in UAE",
+        "Modular Conference Table",
+        "Office Conference Table",
+        "Modern Conference Table",
+        "Conference Table Chairs",
+        "Modular Kitchen Design Company in UAE",
+        "Modular Kitchen Near Me",
+        "Modular Kitchen Accessories Shop Near Me",
+        "Modular Kitchen Shop Near Me",
+        "Best Modular Kitchen Near Me"
+    ],
+    "orientation": "portrait",
+    "screen_orientations": [
+        "landscape",
+        "portrait"
+    ]
+}

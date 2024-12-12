@@ -54,7 +54,7 @@ const Services4 = () => {
             <span className="polygon">
               <i className="pe-7s-play"></i>
             </span>
-          </a>
+           
         </Link>
       </div>
       <div className="container ontop">
@@ -67,7 +67,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Read More 
             </Link>
           </div>
 
@@ -79,7 +79,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Read More 
             </Link>
           </div>
 
@@ -91,7 +91,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Read More 
             </Link>
           </div>
 
@@ -103,7 +103,7 @@ const Services4 = () => {
               consequat.
             </p>
             <Link href="#">
-              <a className="more custom-font mt-30">Read More</a>
+              <a className="more custom-font mt-30">Read More 
             </Link>
           </div>
         </div>

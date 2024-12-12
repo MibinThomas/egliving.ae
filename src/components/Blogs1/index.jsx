@@ -41,10 +41,8 @@ const Blogs1 = () => {
                     <Link href="/blog-details">{blog.title}</Link>
                   </h5>
 
-                  <Link href="/blog-details">
-                    <a className="more">
+                  <Link href="/blog-details"className="more">
                       <span>Read More</span>
-                    </a>
                   </Link>
                 </div>
               </div>

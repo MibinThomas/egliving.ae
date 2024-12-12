@@ -60,9 +60,7 @@ const Portfolio1 = () => {
                     }}
                   >
                     <Link href="/project-details">
-                      <a>
-                        <div className="item-img-overlay valign"></div>
-                      </a>
+                      <div className="item-img-overlay valign"></div>
                     </Link>
                   </div>
                   <div className="info mt-10">

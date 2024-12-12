@@ -34,7 +34,7 @@ const Video2 = () => {
             <i className="pe-7s-play"></i>
           </span>
         </div>
-      </a>
+       
       <div className="container">
         <div className="stauts">
           <div className="item">

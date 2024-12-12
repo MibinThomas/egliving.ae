@@ -21,23 +21,15 @@ const BlogsList = () => {
                   <div className="item mb-80" key={item.id}>
                     <div className="img">
                       <Link href="/blog-details">
-                        <a>
-                          <img
-                            src={item.image}
-                            alt=""
-                            className="thumparallax"
-                          />
-                        </a>
+                        <img src={item.image} alt="" className="thumparallax" />
                       </Link>
                     </div>
                     <div className="content">
                       <div className="date">
                         <h5>
                           <Link href="/blog-details">
-                            <a>
-                              <span className="num">{item.date2[1]}</span>
-                              <span>{item.date2[0]}</span>
-                            </a>
+                            <span className="num">{item.date2[1]}</span>
+                            <span>{item.date2[0]}</span>
                           </Link>
                         </h5>
                       </div>
@@ -57,8 +49,8 @@ const BlogsList = () => {
                           learning, studying, sacrifice and most of all, love of
                           what you are doing.
                         </p>
-                        <Link href="/blog-details">
-                          <a className="more">Read More</a>
+                        <Link href="/blog-details" className="more">
+                          Read More
                         </Link>
                       </div>
                     </div>
@@ -73,9 +65,7 @@ const BlogsList = () => {
                   </span>
                   <span>
                     <Link href="#">
-                      <a>
-                        <i className="fas fa-angle-right"></i>
-                      </a>
+                      <i className="fas fa-angle-right"></i>
                     </Link>
                   </span>
                 </div>

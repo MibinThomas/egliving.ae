@@ -18,18 +18,14 @@ const Blogs5 = () => {
               <div className="cont">
                 <div>
                   <div className="info">
-                    <Link href="/blog-details">
-                      <a className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </a>
+                    <Link href="/blog-details" className="date">
+                      <span>
+                        <i>06</i> August
+                      </span>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-details">
-                      <a className="tag">
-                        <span>WordPress</span>
-                      </a>
+                    <Link href="/blog-details" className="tag">
+                      <span>WordPress</span>
                     </Link>
                   </div>
                   <h5>
@@ -54,18 +50,14 @@ const Blogs5 = () => {
               <div className="cont">
                 <div>
                   <div className="info">
-                    <Link href="/blog-details">
-                      <a className="date">
-                        <span>
-                          <i>06</i> August
-                        </span>
-                      </a>
+                    <Link href="/blog-details" className="date">
+                      <span>
+                        <i>06</i> August
+                      </span>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-details">
-                      <a className="tag">
-                        <span>WordPress</span>
-                      </a>
+                    <Link href="/blog-details" className="tag">
+                      <span>WordPress</span>
                     </Link>
                   </div>
                   <h5>
