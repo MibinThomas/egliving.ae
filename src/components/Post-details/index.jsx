@@ -122,19 +122,13 @@ const PostDetails = () => {
                         <div className="share-info">
                           <div className="social">
                             <Link href="#">
-                              
-                                <i className="fab fa-facebook-f"></i>
-                              
+                              <i className="fab fa-facebook-f"></i>
                             </Link>
                             <Link href="#">
-                              
-                                <i className="fab fa-twitter"></i>
-                              
+                              <i className="fab fa-twitter"></i>
                             </Link>
                             <Link href="#">
-                              
-                                <i className="fab fa-behance"></i>
-                              
+                              <i className="fab fa-behance"></i>
                             </Link>
                           </div>
                           <div className="tags">
@@ -160,13 +154,13 @@ const PostDetails = () => {
                           <div className="social">
                             <a href="#">
                               <i className="fab fa-facebook-f"></i>
-                            
+                            </a>
                             <a href="#">
                               <i className="fab fa-twitter"></i>
-                            
+                            </a>
                             <a href="#">
                               <i className="fab fa-behance"></i>
-                            
+                            </a>
                           </div>
                         </div>
                       </div>
@@ -180,9 +174,7 @@ const PostDetails = () => {
                   </span>
                   <span className="icon">
                     <Link href="#">
-                      
-                        <i className="fas fa-th-large"></i>
-                      
+                      <i className="fas fa-th-large"></i>
                     </Link>
                   </span>
                   <span className="text-right">
@@ -202,9 +194,7 @@ const PostDetails = () => {
                       </h6>
                       <span className="replay">
                         <Link href="#">
-                          
-                            Replay <i className="fas fa-reply"></i>
-                          
+                          Replay <i className="fas fa-reply"></i>
                         </Link>
                       </span>
                       <p>
@@ -224,9 +214,7 @@ const PostDetails = () => {
                       </h6>
                       <span className="replay">
                         <Link href="#">
-                          
-                            Replay <i className="fas fa-reply"></i>
-                          
+                          Replay <i className="fas fa-reply"></i>
                         </Link>
                       </span>
                       <p>
@@ -246,9 +234,7 @@ const PostDetails = () => {
                       </h6>
                       <span className="replay">
                         <Link href="#">
-                          
-                            Replay <i className="fas fa-reply"></i>
-                          
+                          Replay <i className="fas fa-reply"></i>
                         </Link>
                       </span>
                       <p>
