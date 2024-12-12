@@ -39,7 +39,7 @@ const ProjectVideo = () => {
                   <i className="fas fa-play"></i>
                 </span>
               </div>
-             
+             </a>
           </div>
         </div>
       </div>
