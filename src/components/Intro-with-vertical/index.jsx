@@ -1,17 +1,14 @@
 import React from "react";
 import intro2Data from "../../data/Intro2.json";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Split from "../Split";
-
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import { Navigation, Pagination, Parallax } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import Link from "next/link";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
-
-SwiperCore.use([Navigation, Pagination, Parallax]);
+import Split from "../Split/index";
 
 const IntroWithVertical = () => {
   const [load, setLoad] = React.useState(true);
@@ -41,6 +38,7 @@ const IntroWithVertical = () => {
             <Swiper
               speed={800}
               parallax={true}
+              modules={[Navigation, Pagination, Parallax]}
               navigation={{
                 prevEl: navigationPrevRef.current,
                 nextEl: navigationNextRef.current,
@@ -74,13 +72,11 @@ const IntroWithVertical = () => {
                 }
 
                 if (swiper.navigation) {
-                  swiper.navigation.destroy();
                   swiper.navigation.init();
                   swiper.navigation.update();
                 }
 
                 if (swiper.pagination) {
-                  swiper.pagination.destroy();
                   swiper.pagination.init();
                   swiper.pagination.update();
                 }
