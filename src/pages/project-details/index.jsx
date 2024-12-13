@@ -43,7 +43,7 @@ const ProjectDetails = () => {
         </div>
       </section>
 
-      <ProjectVideo />
+      {/* <ProjectVideo /> */}
 
       <section className="projdtal">
         <div className="justified-gallery">
