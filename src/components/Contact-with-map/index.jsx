@@ -1,12 +1,20 @@
 import React from "react";
-import appData from '../../data/app.json'
+import appData from "../../data/app.json";
 
 const ContactWithMap = () => {
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-6 map-box">
-          <iframe src={appData.mapIframe}></iframe>
+          <iframe
+            src={appData.mapIframe}
+            width="600"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
         <div className="col-lg-6 form">
           <form id="contact-form" method="post">

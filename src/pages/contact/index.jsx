@@ -5,9 +5,9 @@ import ContactWithMap from "../../components/Contact-with-map";
 import MainLayout from "../../layouts/main";
 
 const Contact = () => {
-   React.useEffect(() => {
-     document.querySelector("body").classList.add("index3");
-   }, []);
+  React.useEffect(() => {
+    document.querySelector("body").classList.add("index3");
+  }, []);
   return (
     <MainLayout>
       <PageHeader
@@ -16,7 +16,7 @@ const Contact = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "contact us", url: "/contact" },
         ]}
-        image="/assets/img/pg2.jpg"
+        image="/assets/img/contact-eg-living-office-furniture.jpg"
       />
       <section className="contact">
         <ContactInfo />

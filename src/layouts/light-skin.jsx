@@ -3,12 +3,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Head from "next/head";
-import appData from '../data/app.json'
+import appData from "../data/app.json";
 
 const LightSkin = ({ children }) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
-  
+
   React.useEffect(() => {
     var navbar = navbarRef.current,
       logo = logoRef.current;

@@ -5,10 +5,14 @@ import { useRouter } from "next/router";
 const PageHeader = ({ title, fullPath, image }) => {
   const router = useRouter();
   return (
-    <header
+    <div
       className="pages-header bg-img valign parallaxie"
       style={{
-        backgroundImage: `url(${!image ? "/assets/img/pg1.jpg" : image})`,
+        backgroundImage: `url(${
+          !image
+            ? "/assets/img/about-eg-living-best-furniture-in-dubai.jpg"
+            : image
+        })`,
       }}
       data-overlay-dark="5"
     >
@@ -34,7 +38,7 @@ const PageHeader = ({ title, fullPath, image }) => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

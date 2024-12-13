@@ -59,8 +59,8 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/services" className="nav-link">
-                  Services
+                <Link href="#!" className="nav-link">
+                  Products
                 </Link>
               </li>
               <li className="nav-item">
@@ -69,7 +69,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/blog" className="nav-link">
+                <Link href="#!" className="nav-link">
                   Blog
                 </Link>
               </li>

@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/1.jpg",
-    "title": "In Good Taste: Mark Finlay Architects and Interiors",
+    "image": "/assets/img/blog/eg-living.png",
+    "title": "In Good Taste: Mark Finlay Architects and Designs",
     "by": "ALEX SMITH",
     "date": "Aug 06 2022"
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/2.jpg",
+    "image": "/assets/img/blog/eg-living.png",
     "title": "Five Things You Should Know About Modern Furniture.",
     "by": "ALEX SMITH",
     "date": "Aug 06 2022"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/3.jpg",
-    "title": "What it's like to be an interior designer?",
+    "image": "/assets/img/blog/eg-living.png",
+    "title": "What it's like to be an Architect?",
     "by": "ALEX SMITH",
     "date": "Aug 06 2022"
   }

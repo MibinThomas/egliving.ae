@@ -14,7 +14,6 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          
 
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -97,9 +96,7 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/manifest.json" />
 
-
           <meta name="msapplication-TileColor" content="#ffffff" />
-          
           <meta
             name="keywords"
             content="EG Living | Modular Design Experts | Office Furniture Solutions | Commercial Design Trends | Innovative Space Solutions | Best Modular Living Ideas | Functional & Stylish Living Spaces | Luxury Home Furniture Online | Luxury Home Furniture UAE | Best Furniture Shop UAE | High End Furniture UAE | Modular Conference Table | Office Conference Table | Modern Conference Table | Conference Table Chairs | Modular Kitchen Design Company in UAE | Modular Kitchen Near Me | Modular Kitchen Accessories Shop Near Me |  Modular Kitchen Shop Near Me​ | Best Modular Kitchen Near Me​"

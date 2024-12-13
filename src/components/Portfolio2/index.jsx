@@ -12,8 +12,8 @@ const Portfolio2 = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6 cluom current" data-tab="tab-1">
             <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Exterior Designs</h5>
+              <h6 className="custom-font">Work Type</h6>
+              <h5>Office Space Designs</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -23,8 +23,8 @@ const Portfolio2 = () => {
           </div>
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-2">
             <div className="info">
-              <h6 className="custom-font">Interior</h6>
-              <h5>Maroon Beach Hotel</h5>
+              <h6 className="custom-font">Work Type</h6>
+              <h5>Modern Bedroom</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -34,7 +34,7 @@ const Portfolio2 = () => {
           </div>
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-3">
             <div className="info">
-              <h6 className="custom-font">Interior</h6>
+              <h6 className="custom-font">Work Type</h6>
               <h5>Apartment Renovation</h5>
             </div>
             <div className="more">
@@ -45,7 +45,7 @@ const Portfolio2 = () => {
           </div>
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
             <div className="info">
-              <h6 className="custom-font">Interior</h6>
+              <h6 className="custom-font">Work Type</h6>
               <h5>Modern Minimalist House</h5>
             </div>
             <div className="more">
