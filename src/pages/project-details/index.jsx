@@ -4,7 +4,7 @@ import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
 import NextProject from "../../components/Next-Project";
-import ProjectVideo from "../../components/Project-Video";
+// import ProjectVideo from "../../components/Project-Video";
 
 const ProjectDetails = () => {
   React.useEffect(() => {
