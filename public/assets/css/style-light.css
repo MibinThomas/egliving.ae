@@ -1172,7 +1172,7 @@ body {
 }
 
 [data-overlay-dark]:before {
-  background: #02050b;
+  background: #02050b60;
 }
 
 [data-overlay-light]:before {
@@ -1905,10 +1905,11 @@ body {
 .slid-half .nofull {
   position: relative;
   overflow: hidden;
-  background-color: #252531;
-  background-image: url(/assets/img/line-pattern1.png);
-  background-repeat: repeat;
-  height: 105vh;
+  background-color: #000000;
+  /* background-image: url(/assets/img/hero/eg-living_pattern.jpg); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 30% 100%; */
+  height: 100vh;
   color: #fff;
 }
 
@@ -2039,11 +2040,15 @@ body {
 .cta__slider-item .caption .top-corn:after, .cta__slider-item .caption .bottom-corn:after {
   width: 30px;
   height: 1px;
+  /*  */
+  display: none;
 }
 
 .cta__slider-item .caption .top-corn:before, .cta__slider-item .caption .bottom-corn:before {
   width: 1px;
   height: 30px;
+  /*  */
+  display: none;
 }
 
 .cta__slider-item .caption .bottom-corn {

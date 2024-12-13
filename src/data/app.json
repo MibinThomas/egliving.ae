@@ -1,6 +1,6 @@
 {
-  "lightLogo": "/assets/img/logo-light.png",
-  "darkLogo": "/assets/img/logo-dark.png",
-  "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29695.671230259337!2d2.3558151621751584!3d48.86295242559001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z2YXYqtit2YEg2KfZhNmE2YjZgdix!5e0!3m2!1sar!2seg!4v1642786626975!5m2!1sar!2seg",
+  "lightLogo": "/assets/img/logo/eg_logo-full.png",
+  "darkLogo": "/assets/img/logo/eg_logo-full.png",
+  "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12128.66639631594!2d55.61629173934418!3d25.342005640795957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef5f24e7b27f4af%3A0x836fd0af4eded0c0!2sAl%20Sajaah%20-%20Emirates%20Industrial%20City%20-%20Sharjah%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1734078613021!5m2!1sen!2sin",
   "showLoading": true
 }

@@ -16,22 +16,25 @@ const Footer = ({ classText }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <h6>Official Address</h6>
+                    <p>
+                      Near Hashim Super Market, Al Sajaah, Emirates Industrial
+                      City, Sharjah, United Arab Emirates
+                    </p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>info@egliving.ae</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <p>+971561998245</p>
                   </div>
                 </li>
               </ul>
@@ -40,7 +43,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Recent Blogs</h5>
               </div>
               <ul>
                 <li>
@@ -53,11 +56,11 @@ const Footer = ({ classText }) => {
                   <div className="sm-post">
                     <Link href="/blog-details">
                       <p>
-                        The Start-Up Ultimate Guide to Make Your WordPress
-                        Journal.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Totam possimus.
                       </p>
                     </Link>
-                    <span className="date">14 Jan 2022</span>
+                    <span className="date">14 Jan 2024</span>
                   </div>
                 </li>
                 <li>
@@ -69,11 +72,11 @@ const Footer = ({ classText }) => {
                   <div className="sm-post">
                     <Link href="/blog-details">
                       <p>
-                        The Start-Up Ultimate Guide to Make Your WordPress
-                        Journal.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Totam possimus.
                       </p>
                     </Link>
-                    <span className="date">14 Jan 2022</span>
+                    <span className="date">14 Jan 2024</span>
                   </div>
                 </li>
                 <li>
@@ -105,10 +108,7 @@ const Footer = ({ classText }) => {
                 </Link>
               </div>
               <div className="copy-right">
-                <p>
-                  © 2022, Arch Template. Made with passion by
-                  <Link href="#">ThemesCamp</Link>.
-                </p>
+                <p>© 2022, EG Living. All Rights Reserved</p>
               </div>
             </div>
           </div>

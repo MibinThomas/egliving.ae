@@ -1,29 +1,38 @@
 [
   {
     "id": 1,
-    "title": { "first": "interior", "second": "design agency" },
-    "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+    "title": {
+      "first": "Luxury",
+      "second": "Office Furniture"
     },
-    "image": "/assets/img/slid/n/01.jpg"
+    "content": {
+      "first": "Elevate your workspace with premium executive desks and height-adjustable solutions.",
+      "second": "Transform your office with furniture that combines style, comfort, and functionality."
+    },
+    "image": "/assets/img/hero/luxury-office-furniture.jpg"
   },
   {
     "id": 2,
-    "title": { "first": "Innovative", "second": "Interior Design" },
-    "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+    "title": {
+      "first": "Innovative",
+      "second": "Storage Solutions"
     },
-    "image": "/assets/img/slid/n/02.jpg"
+    "content": {
+      "first": "Optimize your space with modular cabinets, planter cabinets, and glass door units.",
+      "second": "Efficient storage designed to meet modern office and home needs."
+    },
+    "image": "/assets/img/hero/storage-solutions-in-dubai.jpg"
   },
   {
     "id": 3,
-    "title": { "first": "Elegant &", "second": "Unique Design" },
-    "content": {
-      "first": "Right design and right ideas matter a lot of in interior design",
-      "second": "business. a style that makes a statement."
+    "title": {
+      "first": "Elegant",
+      "second": "Home Furniture"
     },
-    "image": "/assets/img/slid/n/03.jpg"
+    "content": {
+      "first": "Discover bespoke bedroom furniture like wardrobes, bedside tables, and coffee tables.",
+      "second": "Crafting spaces with a perfect blend of elegance and practicality."
+    },
+    "image": "/assets/img/hero/eg-living-modern-home.jpg"
   }
 ]
