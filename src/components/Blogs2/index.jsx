@@ -42,7 +42,7 @@ const Blogs2 = () => {
                   </h5>
 
                   <Link href="/blog-details" className="more">
-                      <span className="custom-font">Read More</span>
+                    <span className="custom-font">Read More</span>
                   </Link>
                 </div>
               </div>

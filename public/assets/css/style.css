@@ -96,11 +96,11 @@ body.index4 h1, body.index4 h2, body.index4 h3, body.index4 h4, body.index4 h5, 
 }
 
 body.index4 .blog-grid .item:after {
-  background: #212121;
+  background: #000000;
 }
 
 body.index4 footer {
-  background: #212121;
+  background: #000000;
 }
 
 img {
@@ -1293,7 +1293,7 @@ body {
 }
 
 [data-overlay-dark]:before {
-  background: #02050b;
+  background: #02050b95;
 }
 
 [data-overlay-light]:before {
@@ -1560,7 +1560,7 @@ body {
 }
 
 .navbar .logo {
-  width: 120px;
+  width: 150px;
 }
 
 .navbar .logo.dis {
@@ -1605,7 +1605,7 @@ body {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
-  background: #212121;
+  background: #000000;
   min-width: 11rem;
   border-top: 2px solid #4cb753 !important;
 }
@@ -1711,7 +1711,7 @@ body {
 }
 
 .nav-scroll {
-  background: #212121;
+  background: #000000;
   -webkit-box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
   box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
   padding: 0;
@@ -2085,7 +2085,7 @@ body {
 }
 
 .slider-mov {
-  background: #212121;
+  background: #000000;
   height: 100vh;
   padding-top: 100px;
 }
@@ -2766,7 +2766,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #212121;
+  background: #000000;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s;
@@ -2774,14 +2774,14 @@ body {
 }
 
 .services-col {
-  background: #212121;
+  background: #000000;
 }
 
 .services-col .item-bx {
   padding: 60px 40px;
   height: 100%;
   background-color: #272727;
-  border: 1px solid #212121;
+  border: 1px solid #000000;
   border-right: 0;
   -webkit-transition: all .4s;
   -o-transition: all .4s;
@@ -2789,7 +2789,7 @@ body {
 }
 
 .services-col .item-bx:last-of-type {
-  border-right: 1px solid #212121;
+  border-right: 1px solid #000000;
 }
 
 .services-col .item-bx:hover {
@@ -2881,14 +2881,14 @@ body {
   width: 35px;
   height: 35px;
   bottom: 0;
-  background: #212121;
+  background: #000000;
 }
 
 .numbers .item:before {
   width: 0;
   height: 0;
   border-top: 35px solid transparent;
-  border-right: 35px solid #212121;
+  border-right: 35px solid #000000;
   bottom: 35px;
 }
 
@@ -3253,9 +3253,21 @@ body {
 
 .work-header {
   min-height: 65vh;
-  background-size: auto;
-  background-repeat: repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
 }
+
+.work-header::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(2, 5, 11, 0.58);
+  z-index: 1;
+}
+
 
 .work-header .cont {
   margin-top: 100px;
@@ -3276,7 +3288,7 @@ body {
 .price .item {
   padding: 50px 30px;
   color: #fff;
-  background: #212121;
+  background: #000000;
   position: relative;
   z-index: 3;
 }
@@ -4513,7 +4525,7 @@ body {
 .testimonials2 .box {
   position: relative;
   margin-top: -120px;
-  background: #212121;
+  background: #000000;
   padding: 120px 80px;
 }
 
@@ -4798,7 +4810,7 @@ body {
 }
 
 .cls-blog .item .cont {
-  background: #212121;
+  background: #000000;
   padding: 30px;
 }
 
@@ -4991,7 +5003,7 @@ body {
 }
 
 .blog-pg.single .post .content .quotes {
-  background: #212121;
+  background: #000000;
   padding: 30px;
   margin: 30px 0;
 }
@@ -5033,7 +5045,7 @@ body {
 .blog-pg.single .post .author {
   padding: 30px;
   margin-top: 40px;
-  background: #212121;
+  background: #000000;
 }
 
 .blog-pg.single .post .author .author-img {
@@ -5166,7 +5178,7 @@ body {
   color: #fff;
   width: 100%;
   padding: 17px;
-  background: #212121;
+  background: #000000;
   border: 0;
 }
 
@@ -5289,7 +5301,7 @@ body {
 
 .contact .info .item {
   padding: 40px 20px;
-  background: #212121;
+  background: #000000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5545,7 +5557,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 50px;
+    width: 150px;
   }
 
   .navbar .social-icon,
@@ -5791,7 +5803,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 60px;
+    width: 150px;
   }
 
   .main-header h3 {

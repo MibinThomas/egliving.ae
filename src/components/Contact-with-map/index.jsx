@@ -1,25 +1,34 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import appData from "../../data/app.json";
 
 const ContactWithMap = () => {
+  const [isIframeLoaded, setIsIframeLoaded] = useState(false);
+
+  useEffect(() => {
+    setIsIframeLoaded(true);
+  }, []);
+
   return (
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-6 map-box">
-          <iframe
-            src={appData.mapIframe}
-            width="600"
-            height="450"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          {isIframeLoaded ? (
+            <iframe
+              src={appData.mapIframe}
+              width="600"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
+          ) : (
+            <div>Loading map...</div>
+          )}
         </div>
         <div className="col-lg-6 form">
           <form id="contact-form" method="post">
             <div className="messages"></div>
-
             <div className="controls">
               <div className="form-group">
                 <input

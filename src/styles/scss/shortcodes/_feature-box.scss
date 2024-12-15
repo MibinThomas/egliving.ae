@@ -1,59 +1,57 @@
-
-
 /* ====================== [ Start services ] ====================== */
 
-.services{
+.services {
 
-	.container{
-		border-bottom: 1px solid rgba(255,255,255,.5);
+	.container {
+		border-bottom: 1px solid rgba(255, 255, 255, .5);
 		padding-bottom: 120px;
 	}
 
-	.item{
+	.item {
 
-		.icon{
+		.icon {
 			color: $main-color;
 			font-size: 50px;
 			margin-bottom: 20px;
 		}
 
-		h6{
+		h6 {
 			margin-bottom: 20px;
 		}
 	}
 }
 
-.services-feat{
+.services-feat {
 
-	.img{
+	.img {
 		position: relative;
 
-		&:before{
-            content: '';
-            position: absolute;
-            top: -120px;
+		&:before {
+			content: '';
+			position: absolute;
+			top: -120px;
 			bottom: -120px;
-            left: -50px;
-            width: 60%;
-            background-image: url(/assets/img/dots.png);
-            background-repeat: repeat;
-            opacity: .1;
-            z-index: -1;
-        }
+			left: -50px;
+			width: 60%;
+			background-image: url(/assets/img/dots.png);
+			background-repeat: repeat;
+			opacity: .1;
+			z-index: -1;
+		}
 	}
 
-	.item{
+	.item {
 		display: flex;
 		padding-left: 50px;
 		margin: 25px 0;
 
-		.icon{
+		.icon {
 			font-size: 50px;
 			color: $main-color;
 			margin-right: 50px;
 		}
 
-		h5{
+		h5 {
 			font-size: 28px;
 			font-weight: 300;
 			letter-spacing: 1px;
@@ -62,43 +60,43 @@
 	}
 }
 
-.services-grid{
+.services-grid {
 
-	.item-bx{
+	.item-bx {
 		padding: 60px 40px;
 		height: 100%;
 		transition: all .4s;
 
-		.icon{
+		.icon {
 			font-size: 60px;
 			color: $main-color;
 			margin-bottom: 30px;
 		}
 
-		.more{
+		.more {
 			font-size: 13px;
 		}
 
-		&.bg-img{
+		&.bg-img {
 			position: relative;
 			border: 0;
 			z-index: 2;
 
-			&:hover{
+			&:hover {
 
-				&:after{
-					background: rgba(0,0,0,.6);
+				&:after {
+					background: rgba(0, 0, 0, .6);
 				}
 			}
 
-			&:after{
+			&:after {
 				content: '';
 				position: absolute;
 				top: 0;
 				left: 0;
 				right: 0;
 				bottom: 0;
-				background: #212121;
+				background: #000000;
 				transition: all .4s;
 				z-index: -1;
 			}
@@ -106,43 +104,43 @@
 	}
 }
 
-.services-col{
-	background: #212121;
+.services-col {
+	background: #000000;
 
-	.item-bx{
+	.item-bx {
 		padding: 60px 40px;
 		height: 100%;
 		background-color: #272727;
-		border: 1px solid #212121;
+		border: 1px solid #000000;
 		border-right: 0;
 		transition: all .4s;
 
-		&:last-of-type{
-			border-right: 1px solid #212121;
+		&:last-of-type {
+			border-right: 1px solid #000000;
 		}
 
-		&:hover{
+		&:hover {
 			background-color: #181818;
 
-			.more{
+			.more {
 				color: $main-color;
 			}
 		}
 
-		.numb{
+		.numb {
 			font-size: 60px;
 			margin-bottom: 10px;
 			color: transparent;
-    		-webkit-text-stroke: 1px $main-color;
+			-webkit-text-stroke: 1px $main-color;
 		}
 
-		.icon{
+		.icon {
 			font-size: 60px;
 			color: $main-color;
 			margin-bottom: 30px;
 		}
 
-		.more{
+		.more {
 			font-size: 13px;
 		}
 	}

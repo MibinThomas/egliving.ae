@@ -2,15 +2,15 @@ import React from "react";
 
 const WorkHeader = ({ title, content, center }) => {
   return (
-    <header
+    <div
       className="work-header bg-img valign"
-      style={{ backgroundImage: "url(/assets/img/patern.png)" }}
+      style={{ backgroundImage: "url(/assets/img/works/eg-living-works.jpg)" }}
     >
       <div className="container">
         <div className={`row ${center ? "justify-content-center" : ""}`}>
           <div className="col-lg-9">
             <div className={`cont ${center ? "text-center" : ""}`}>
-              <h2>
+              <h1 style={{ fontSize: "36px", marginBottom: "10px" }}>
                 {typeof title == "object" ? (
                   <>
                     {title.first} <br /> {title.second}
@@ -18,16 +18,14 @@ const WorkHeader = ({ title, content, center }) => {
                 ) : (
                   title
                 )}
-              </h2>
+              </h1>
 
-              <p>
-                {content}
-              </p>
+              <p>{content}</p>
             </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

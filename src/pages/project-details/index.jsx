@@ -3,7 +3,6 @@ import React from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
-import NextProject from "../../components/Next-Project";
 // import ProjectVideo from "../../components/Project-Video";
 
 const ProjectDetails = () => {
@@ -15,9 +14,9 @@ const ProjectDetails = () => {
       <PageHeader
         title="Luxury Furniture"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
-          { id: 2, name: "portfolio", url: "/work1" },
-          { id: 3, name: "project details", url: "/project-details" },
+          { id: 1, name: "Home", url: "/" },
+          { id: 2, name: "Works", url: "/works" },
+          { id: 3, name: "Project details", url: "/project-details" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
       />
@@ -55,8 +54,6 @@ const ProjectDetails = () => {
           </a>
         </div>
       </section>
-
-      <NextProject />
     </MainLayout>
   );
 };

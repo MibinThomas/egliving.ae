@@ -34,20 +34,18 @@ const BlogsList = () => {
                         </h5>
                       </div>
                       <div className="cont">
-                        <div className="tags">
-                          <Link href="#">WordPress</Link>
-                          <Link href="#">Themeforest</Link>
-                          <Link href="#">Archo</Link>
-                        </div>
                         <h4 className="title">
                           <Link href="/blog-details">
-                            Build a Beautiful Blog With Ease
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Fugit, sapiente at nemo est accusantium.
                           </Link>
                         </h4>
                         <p>
-                          Success is no accident. It is hard work, perseverance,
-                          learning, studying, sacrifice and most of all, love of
-                          what you are doing.
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Illo eius numquam tempore saepe laborum ut,
+                          assumenda repellendus dolorum praesentium porro
+                          pariatur quam dolores nemo, ducimus nostrum ipsa.
+                          Dolorem, fugit eos?
                         </p>
                         <Link href="/blog-details" className="more">
                           Read More

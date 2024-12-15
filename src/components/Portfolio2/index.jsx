@@ -46,7 +46,7 @@ const Portfolio2 = () => {
           <div className="col-lg-3 col-md-6 cluom" data-tab="tab-4">
             <div className="info">
               <h6 className="custom-font">Work Type</h6>
-              <h5>Modern Minimalist House</h5>
+              <h5>Modern Office</h5>
             </div>
             <div className="more">
               <Link href="/project-details">
@@ -60,25 +60,33 @@ const Portfolio2 = () => {
         <div
           id="tab-1"
           className="bg-img tab-img current"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/01.jpg)` }}
+          style={{
+            backgroundImage: `url(/assets/img/portfolio/full/eg-living_office-space.jpg)`,
+          }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-2"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/02.jpg)` }}
+          style={{
+            backgroundImage: `url(/assets/img/portfolio/full/eg-living_bedroom-furniture.jpg)`,
+          }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-3"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/03.jpg)` }}
+          style={{
+            backgroundImage: `url(/assets/img/portfolio/full/eg-living_apartment-furniture.jpg)`,
+          }}
           data-overlay-dark="2"
         ></div>
         <div
           id="tab-4"
           className="bg-img tab-img"
-          style={{ backgroundImage: `url(/assets/img/portfolio/full/04.jpg)` }}
+          style={{
+            backgroundImage: `url(/assets/img/portfolio/full/eg-living_modern-office.jpg)`,
+          }}
           data-overlay-dark="2"
         ></div>
       </div>

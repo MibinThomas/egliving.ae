@@ -33,7 +33,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
           <Link href="/" className={`logo ${logoClass && logoClass}`}>
-            <img src={appData.lightLogo} alt="logo" ref={logoRef} />
+            <img src={appData.lightLogo} alt="EG Logo" ref={logoRef} />
           </Link>
 
           <button
@@ -64,12 +64,17 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link href="/works" className="nav-link">
+                  Works
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link href="/about" className="nav-link">
                   About
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#!" className="nav-link">
+                <Link href="/blogs" className="nav-link">
                   Blog
                 </Link>
               </li>

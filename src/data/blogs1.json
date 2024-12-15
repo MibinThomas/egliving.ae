@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/eg-living.png",
-    "title": "In Good Taste: Mark Finlay Architects and Designs",
-    "by": "ALEX SMITH",
-    "date": "Aug 06 2022"
+    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
+    "by": "John Doe",
+    "date": "Aug 06 2024"
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/eg-living.png",
-    "title": "Five Things You Should Know About Modern Furniture.",
-    "by": "ALEX SMITH",
-    "date": "Aug 06 2022"
+    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
+    "by": "John Doe",
+    "date": "Aug 06 2024"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/eg-living.png",
-    "title": "What it's like to be an Architect?",
-    "by": "ALEX SMITH",
-    "date": "Aug 06 2022"
+    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
+    "by": "John Doe",
+    "date": "Aug 06 2024"
   }
 ]

@@ -1,4 +1,3 @@
-
 /* ====================== [ Start Typography d1ed5d abe5ca abe5e2 ] ====================== */
 
 * {
@@ -18,39 +17,52 @@ body {
   overflow-x: hidden !important;
   font-family: 'Poppins', sans-serif;
 
-  &.index2{
+  &.index2 {
 
-    h1, h2, h3, h4, h5{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
       font-family: 'Teko', sans-serif;
       font-weight: 400;
     }
   }
 
-  &.index3{
+  &.index3 {
 
-    h1, h2, h3, h4, h5{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
       font-family: 'Jost', sans-serif;
       font-weight: 500;
     }
 
-    .section-padding{
+    .section-padding {
       padding: 140px 0;
     }
   }
 
-  &.index4{
+  &.index4 {
     background: #272727;
 
-    h1, h2, h3, h4, h5, h6{
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       font-family: 'Jost', sans-serif;
     }
 
-    .blog-grid .item:after{
-      background: #212121;
+    .blog-grid .item:after {
+      background: #000000;
     }
 
-    footer{
-      background: #212121;
+    footer {
+      background: #000000;
     }
   }
 }
@@ -60,7 +72,9 @@ img {
   height: auto;
 }
 
-span, a, a:hover {
+span,
+a,
+a:hover {
   display: inline-block;
   color: inherit;
 }
@@ -89,14 +103,18 @@ h6 {
   font-size: 18px;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   margin: 0;
   line-height: 1.4;
   font-weight: 600;
   font-family: 'Cinzel', serif;
 }
 
-h6{
+h6 {
   margin: 0;
   line-height: 1.4;
   font-weight: 500;
@@ -110,10 +128,11 @@ p {
   margin: 0;
 }
 
-a, span{
+a,
+span {
   display: inline-block;
-  
-  &:hover{
+
+  &:hover {
     text-decoration: none;
   }
 }

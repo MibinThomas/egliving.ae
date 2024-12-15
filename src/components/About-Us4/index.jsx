@@ -47,17 +47,17 @@ const AboutUs4 = () => {
           <div className="col-lg-6">
             <div className="txt-cont">
               <p className="mb-20">
-                Maecenas imperdiet ante eget hendrerit posuere. Nunc urna
-                libero, congue porta nibh a, semper feugiat sem. Sed auctor dui
-                eleifend, scelerisque eros ut.
+                Crafting Spaces, Setting New Standards. Founded in 2022, we
+                leverage over 20 years of industry experience in every design we
+                create. Our dedication to exceptional quality and unmatched
+                value positions us as leaders in a constantly evolving market.
               </p>
               <p>
-                Curabitur sed iaculis dolor, non congue ligula. Maecenas
-                imperdiet ante eget hendrerit posuere. Nunc urna libero, congue
-                porta nibh a, semper feugiat sem. Sed auctor dui eleifend,
-                scelerisque eros ut, pellentesque nibh. Nam lacinia suscipit
-                accumsan. Donec sodales, neque vitae rutrum convallis, nulla
-                tortor pharetra odio, in varius ante ante sed nisi.
+                From cutting-edge office solutions to flexible commercial
+                designs, EG Living’s curated collection seamlessly combines
+                practicality with the latest trends, redefining modular living.
+                Transform your space with EG Living – where innovation and style
+                come together in every detail.
               </p>
             </div>
           </div>

@@ -1,21 +1,19 @@
-
-
 /* ====================== [ Start Price ] ====================== */
 
-.price{
+.price {
     position: relative;
     z-index: 3;
 
-    .item{
+    .item {
         padding: 50px 30px;
         color: #fff;
-        background: #212121;
+        background: #000000;
         position: relative;
         z-index: 3;
 
-        &.active{
+        &.active {
 
-            &:after{
+            &:after {
                 content: '';
                 position: absolute;
                 top: -20px;
@@ -27,25 +25,25 @@
             }
         }
 
-        .type{
+        .type {
             margin-bottom: 15px;
 
-            h5{
+            h5 {
                 font-weight: 300;
                 letter-spacing: 2px;
             }
         }
 
-        .amount{
+        .amount {
             margin-bottom: 30px;
 
-            h2{
+            h2 {
                 position: relative;
                 font-size: 60px;
                 font-weight: 300;
                 display: inline-block;
 
-                span{
+                span {
                     color: #aaa;
                     font-size: 20px;
                     font-weight: 300;
@@ -54,26 +52,26 @@
                     top: 0;
                 }
 
-                i{
+                i {
                     font-size: 13px;
                     color: #aaa;
                 }
             }
         }
 
-        .feat{
+        .feat {
             margin-bottom: 30px;
 
-            ul{
+            ul {
                 margin: 0;
 
-                li{
+                li {
                     line-height: 2;
                     color: $pcolor;
                     font-size: 15px;
                     font-weight: 400;
 
-                    .icon{
+                    .icon {
                         color: $main-color;
                     }
                 }
