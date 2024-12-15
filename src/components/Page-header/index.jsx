@@ -13,6 +13,7 @@ const PageHeader = ({ title, fullPath, image }) => {
             ? "/assets/img/about-eg-living-best-furniture-in-dubai.jpg"
             : image
         })`,
+        backgroundPosition: "center",
       }}
       data-overlay-dark="5"
     >

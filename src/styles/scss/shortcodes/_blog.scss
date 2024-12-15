@@ -1,232 +1,230 @@
-
-
 /* ====================== [ Start Blog ] ====================== */
 
-.blog-grid{
+.blog-grid {
 
-    .item{
-        padding: 50px 30px;
-        position: relative;
+	.item {
+		padding: 50px 30px;
+		position: relative;
 
-        &:hover{
+		&:hover {
 
-            &:after{
-                opacity: .3;
-            }
-        }
+			&:after {
+				opacity: .3;
+			}
+		}
 
-        &.active{
+		&.active {
 
-            &:after{
-                opacity: .3;
-            }
-        }
+			&:after {
+				opacity: .3;
+			}
+		}
 
-        &:after{
-            content: '';
-            position: absolute;
-            top: -1px;
-            left: -1px;
-            right: -1px;
-            bottom: -1px;
-            background: #272727;
-            transition: all .4s;
-        }
+		&:after {
+			content: '';
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			right: -1px;
+			bottom: -1px;
+			background: #272727;
+			transition: all .4s;
+		}
 
-        .cont{
-            position: relative;
-            z-index: 2;
-        }
+		.cont {
+			position: relative;
+			z-index: 2;
+		}
 
-        .date{
-            margin-bottom:50px;
+		.date {
+			margin-bottom: 50px;
 
-            span{
-                font-size: 11px;
-                padding: 5px 10px;
-                border: 1px solid rgba(255,255,255,.3);
+			span {
+				font-size: 11px;
+				padding: 5px 10px;
+				border: 1px solid rgba(255, 255, 255, .3);
 
-                i{
-                    font-style: normal;
-                }
-            }
-        }
+				i {
+					font-style: normal;
+				}
+			}
+		}
 
-        .info{
-            margin-bottom: 15px;
-            font-size: 12px;
+		.info {
+			margin-bottom: 15px;
+			font-size: 12px;
 
-            a{
-                margin-right: 15px;
-            }
-        }
+			a {
+				margin-right: 15px;
+			}
+		}
 
-        h6{
-            font-weight: 600;
-        }
+		h6 {
+			font-weight: 600;
+		}
 
-        .btn-more{
-            margin-top: 40px;
+		.btn-more {
+			margin-top: 40px;
 
-            a{
-                font-size: 12px;
-                letter-spacing: 2px;
-            }
-        }
-    }
+			a {
+				font-size: 12px;
+				letter-spacing: 2px;
+			}
+		}
+	}
 }
 
-.blog{
+.blog {
 
-	.item{
+	.item {
 
-		.cont{
+		.cont {
 			margin-top: 30px;
-            position: relative;
-            z-index: 2;
-        }
+			position: relative;
+			z-index: 2;
+		}
 
-        .info{
-            margin-bottom: 10px;
-            font-size: 12px;
+		.info {
+			margin-bottom: 10px;
+			font-size: 12px;
 
-			.date{
+			.date {
 				margin-right: 15px;
-	
-				span{
-	
-					i{
+
+				span {
+
+					i {
 						font-style: normal;
 					}
 				}
 			}
 
-            span{
+			span {
 				text-transform: uppercase;
 				letter-spacing: 3px;
 				font-size: 10px;
 				color: #aaa;
-            }
+			}
 
-			.tag{
+			.tag {
 				margin-left: 15px;
 
-				span{
+				span {
 					color: $main-color;
 				}
 			}
-        }
+		}
 
-        h5{
+		h5 {
 			font-size: 28px;
-            font-weight: 400;
-        }
+			font-weight: 400;
+		}
 
-        .btn-more{
-            margin-top: 15px;
+		.btn-more {
+			margin-top: 15px;
 			color: #eee;
 
-            a{
-                font-size: 12px;
-                letter-spacing: 2px;
-            }
-        }
+			a {
+				font-size: 12px;
+				letter-spacing: 2px;
+			}
+		}
 	}
 }
 
-.cls-blog{
+.cls-blog {
 
-    .item{
+	.item {
 
-        .img{
-            position: relative;
-            height: 300px;
+		.img {
+			position: relative;
+			height: 300px;
 
-            img{
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center center;
-            }
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: center center;
+			}
 
-            .tag{
-                padding: 5px 15px;
-                font-size: 11px;
-                font-weight: 400;
-                position: absolute;
-                top: 15px;
-                left: 15px;
-                background: $main-color;
-                color: #fff;
-            }
-        }
+			.tag {
+				padding: 5px 15px;
+				font-size: 11px;
+				font-weight: 400;
+				position: absolute;
+				top: 15px;
+				left: 15px;
+				background: $main-color;
+				color: #fff;
+			}
+		}
 
-        .cont{
-            background: #212121;
-            padding: 30px;
+		.cont {
+			background: #000000;
+			padding: 30px;
 
-            h6{
-                font-size: 12px;
-                font-weight: 600;
-                text-transform: uppercase;
+			h6 {
+				font-size: 12px;
+				font-weight: 600;
+				text-transform: uppercase;
 
-                span{
-                    font-size: 11px;
-                    font-weight: 500;
-                    float: right;
-                    color: #999;
-                }
-            }
+				span {
+					font-size: 11px;
+					font-weight: 500;
+					float: right;
+					color: #999;
+				}
+			}
 
-            h5{
-                font-size: 17px;
-                font-weight: 600;
-                margin-top: 15px;
-            }
+			h5 {
+				font-size: 17px;
+				font-weight: 600;
+				margin-top: 15px;
+			}
 
-            .more{
-                margin-top: 30px;
-                font-size: 13px;
-                text-transform: uppercase;
-                letter-spacing: 2px;
-            }
-        }
-    }
+			.more {
+				margin-top: 30px;
+				font-size: 13px;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+			}
+		}
+	}
 }
 
-.blog-pg{
+.blog-pg {
 
-	.posts{
+	.posts {
 
-		.item{
+		.item {
 
-			.content{
+			.content {
 				padding-top: 25px;
 				display: flex;
 
-				.date{
+				.date {
 					margin-right: 40px;
 
-					span{
+					span {
 						font-size: 16px;
 					}
 
-					.num{
+					.num {
 						font-size: 60px;
 					}
 				}
 
-				.tags{
+				.tags {
 					margin-bottom: 10px;
 
-					a{
+					a {
 						font-size: 12px;
 						font-weight: 500;
 						color: $main-color;
 						padding-right: 20px;
 						position: relative;
 
-						&:after{
+						&:after {
 							content: '';
 							width: 8px;
 							height: 2px;
@@ -236,23 +234,23 @@
 							top: 50%;
 						}
 
-						&:last-of-type{
+						&:last-of-type {
 							padding-right: 0;
 
-							&:after{
+							&:after {
 								display: none;
 							}
 						}
 					}
 				}
 
-				h4{
+				h4 {
 					font-weight: 700;
 					line-height: 1.6;
 					margin-bottom: 5px;
 				}
 
-				.more{
+				.more {
 					margin-top: 20px;
 					font-size: 12px;
 					font-weight: 500;
@@ -262,7 +260,7 @@
 					position: relative;
 					transition: all .5s;
 
-					&:after{
+					&:after {
 						content: '';
 						width: 50px;
 						height: 1px;
@@ -273,10 +271,10 @@
 						transition: all .5s;
 					}
 
-					&:hover{
+					&:hover {
 						padding-left: 40px;
 
-						&:after{
+						&:after {
 							width: 30px;
 						}
 					}
@@ -284,16 +282,16 @@
 			}
 		}
 
-		.pagination{
+		.pagination {
 			margin: 80px auto 0;
 			width: max-content;
 			text-align: center;
 
-			span{
+			span {
 				text-align: center;
 				margin: 0 2px;
 
-				a{
+				a {
 					width: 50px;
 					height: 50px;
 					line-height: 50px;
@@ -301,9 +299,9 @@
 					font-size: 18px;
 				}
 
-				&.active{
+				&.active {
 
-					a{
+					a {
 						border-color: $main-color;
 						color: $main-color;
 					}
@@ -312,19 +310,19 @@
 		}
 	}
 
-	&.single{
+	&.single {
 
-		.post{
+		.post {
 
-			.title-head{
+			.title-head {
 				text-align: center;
 				margin-bottom: 50px;
 
-				h2{
+				h2 {
 					margin-bottom: 10px;
 				}
 
-				a{
+				a {
 					font-size: 12px;
 					font-weight: 500;
 					letter-spacing: 2px;
@@ -333,14 +331,14 @@
 				}
 			}
 
-			.main-img{
-				
-				.simpleParallax{
+			.main-img {
+
+				.simpleParallax {
 					height: 70vh;
 					max-height: 600px;
 				}
 
-				img{
+				img {
 					width: 100%;
 					height: 100%;
 					object-fit: cover;
@@ -348,20 +346,20 @@
 				}
 			}
 
-			.content{
+			.content {
 
-				p{
+				p {
 					font-size: 16px;
 					font-family: inherit;
 					margin: 30px 0;
 				}
 
-				ul{
+				ul {
 
-					li{
+					li {
 						margin: 10px 0;
 
-						span{
+						span {
 							margin-right: 10px;
 							font-weight: 500;
 							font-size: 13px;
@@ -369,44 +367,44 @@
 					}
 				}
 
-				.quotes{
-					background: #212121;
+				.quotes {
+					background: #000000;
 					padding: 30px;
 					margin: 30px 0;
-					
-					p{
+
+					p {
 						font-size: 18px;
 						font-style: italic;
 					}
 				}
 
-				.spacial{
+				.spacial {
 
-					p{
+					p {
 						color: #fff;
 						font-size: 18px;
 						font-weight: 500;
 					}
 				}
 
-				.share-info{
+				.share-info {
 					margin-top: 20px;
 					padding-top: 10px;
 					border-top: 1px solid #333;
 					display: flex;
 
-					.social{
-						
-						a{
+					.social {
+
+						a {
 							font-size: 13px;
 							margin-right: 20px;
 						}
 					}
 
-					.tags{
+					.tags {
 						margin-left: auto;
 
-						a{
+						a {
 							font-size: 12px;
 							margin: 0 10px;
 						}
@@ -414,42 +412,42 @@
 				}
 			}
 
-			.author{
+			.author {
 				padding: 30px;
 				margin-top: 40px;
-				background: #212121;
-				
-				.author-img{
+				background: #000000;
+
+				.author-img {
 					display: table-cell;
 					vertical-align: middle;
 					width: 140px;
 				}
 
-				.info{
+				.info {
 					display: table-cell;
 					padding-left: 40px;
 
-					h6{
+					h6 {
 						margin-bottom: 10px;
 						font-size: 15px;
 
-						span{
+						span {
 							font-weight: 700;
 							text-transform: uppercase;
 							margin-right: 10px;
 						}
 					}
 
-					p{
+					p {
 						padding: 0;
 						margin: 0;
 					}
 
-					.social{
+					.social {
 						margin-top: 15px;
 						font-size: 13px;
 
-						a{
+						a {
 							margin-right: 15px;
 						}
 					}
@@ -457,13 +455,13 @@
 			}
 		}
 
-		.pagination{
+		.pagination {
 			margin-top: 80px;
 			border-top: 1px solid #333;
 			border-bottom: 1px solid #333;
 			display: flex;
 
-			span{
+			span {
 				width: 100%;
 				padding: 20px;
 				border-right: 1px solid #333;
@@ -474,42 +472,42 @@
 				letter-spacing: 1px;
 			}
 
-			.icon{
+			.icon {
 				border: 0;
 				width: 70px;
 			}
 		}
 
-		.comments-area{
+		.comments-area {
 			margin-top: 80px;
 
-			.item{
+			.item {
 				padding: 30px 0;
 				margin: 30px 0;
 				border-bottom: 1px solid #333;
 
-				&.relped{
+				&.relped {
 					margin-left: 100px;
 				}
 
-				.comment-img{
+				.comment-img {
 					display: table-cell;
 					width: 80px;
 				}
 
-				.info{
+				.info {
 					display: table-cell;
 					vertical-align: middle;
 					padding-left: 40px;
 					position: relative;
 
-					h6{
+					h6 {
 						font-size: 14px;
 						text-transform: uppercase;
 						letter-spacing: 1px;
 						font-weight: 500;
 
-						span{
+						span {
 							display: block;
 							color: $main-color;
 							font-size: 12px;
@@ -518,18 +516,18 @@
 						}
 					}
 
-					p{
+					p {
 						line-height: 1.5;
 						margin-top: 15px;
 					}
 
-					.replay{
+					.replay {
 						position: absolute;
 						right: 0;
 						top: 0;
 						font-size: 13px;
 
-						i{
+						i {
 							margin-left: 5px;
 						}
 					}
@@ -537,25 +535,26 @@
 			}
 		}
 
-		.comment-form{
+		.comment-form {
 			margin-top: 80px;
 
-			form{
+			form {
 				margin-top: 50px;
 
-				input,textarea{
+				input,
+				textarea {
 					color: #fff;
 					width: 100%;
 					padding: 17px;
-					background: #212121;
+					background: #000000;
 					border: 0;
 				}
 
-				textarea{
+				textarea {
 					height: 140px;
 				}
 
-				button{
+				button {
 					background: $main-color;
 					cursor: pointer;
 				}
@@ -564,7 +563,7 @@
 	}
 }
 
-.next-project{
+.next-project {
 	position: relative;
 	padding: 80px 0;
 	margin-top: 90px;
@@ -572,11 +571,11 @@
 	z-index: 2;
 	overflow: hidden;
 
-	&:before{
+	&:before {
 		display: none;
 	}
 
-	&:after{
+	&:after {
 		content: '';
 		height: 0;
 		width: 100%;
@@ -584,24 +583,24 @@
 		bottom: auto;
 		right: 0;
 		top: 0;
-		transition: height .6s cubic-bezier(.25,.8,.25,1) 0s;
+		transition: height .6s cubic-bezier(.25, .8, .25, 1) 0s;
 		background: #f5f5f5;
 		z-index: -1;
 	}
 
-	&:hover{
+	&:hover {
 
-		&:after{
+		&:after {
 			height: 100%;
 			bottom: 0;
 			top: auto;
 		}
 	}
 
-	.content{
+	.content {
 		width: 100%;
 
-		h2{
+		h2 {
 			font-size: 90px;
 			font-weight: 800;
 			text-transform: uppercase;
@@ -609,7 +608,7 @@
 			margin-bottom: 20px;
 		}
 
-		p{
+		p {
 			font-size: 18px;
 			color: #555;
 		}

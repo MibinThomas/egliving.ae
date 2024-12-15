@@ -11,15 +11,15 @@ const Process = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
-                How We Do It
+                Our Approach
               </h6>
               <h4 className="playfont wow flipInX" data-wow-delay=".5s">
-                Work Process
+                Step-by-Step Process
               </h4>
             </div>
           </div>
         </div>
-        <div className=" row">
+        <div className="row">
           <div
             className="col-lg-3 col-md-6 coulmn wow fadeInUp"
             data-wow-delay=".3s"
@@ -27,13 +27,17 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/01.jpg)` }}
+                style={{
+                  backgroundImage: `url(/assets/img/process/modern-office-concept.jpg)`,
+                }}
               >
                 <h3 className="numb custom-font">01</h3>
               </div>
               <div className="cont">
-                <h6 className="mb-10">Concept</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <h6 className="mb-10">Idea Generation</h6>
+                <p>
+                  We start by brainstorming and developing innovative ideas.
+                </p>
               </div>
             </div>
           </div>
@@ -44,13 +48,15 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/02.jpg)` }}
+                style={{
+                  backgroundImage: `url(/assets/img/process/eg-living-creative-design.jpg)`,
+                }}
               >
                 <h3 className="numb custom-font">02</h3>
               </div>
               <div className="cont">
-                <h6 className="mb-10">Design Process</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <h6 className="mb-10">Creative Design</h6>
+                <p>Turning concepts into visually appealing designs.</p>
               </div>
             </div>
           </div>
@@ -61,13 +67,15 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/03.jpg)` }}
+                style={{
+                  backgroundImage: `url(/assets/img/process/eg-living-quality-assurance.jpg)`,
+                }}
               >
                 <h3 className="numb custom-font">03</h3>
               </div>
               <div className="cont">
-                <h6 className="mb-10">Supervision</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <h6 className="mb-10">Quality Assurance</h6>
+                <p>Ensuring every detail meets our high standards.</p>
               </div>
             </div>
           </div>
@@ -75,13 +83,15 @@ const Process = () => {
             <div className="item">
               <div
                 className="bg-img"
-                style={{ backgroundImage: `url(/assets/img/process/04.jpg)` }}
+                style={{
+                  backgroundImage: `url(/assets/img/process/eg-living-execution-and-delivery.jpg)`,
+                }}
               >
                 <h3 className="numb custom-font">04</h3>
               </div>
               <div className="cont">
-                <h6 className="mb-10">Budget Planning</h6>
-                <p>Nulla metus metus ullamcorper vel tincidunt sed euismod.</p>
+                <h6 className="mb-10">Execution & Delivery</h6>
+                <p>Bringing your vision to life with seamless execution.</p>
               </div>
             </div>
           </div>

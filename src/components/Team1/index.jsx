@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Team1Data from "../../data/team1.json";
 import Slider from "react-slick";
@@ -30,16 +29,19 @@ class Team1 extends React.Component {
             <div className="col-lg-5">
               <div className="tit">
                 <h6 className="mb-10 wow fadeInDown" data-wow-delay=".3s">
-                  Some thoughts from Us
+                  Meet the Visionaries
                 </h6>
                 <h3 className="playfont wow flipInX" data-wow-delay=".5s">
-                  Our Employees
+                  Our Leadership Team
                 </h3>
                 <p className="wow fadeInUp" data-wow-delay=".3s">
-                  We feel proud for our expert team members beatae ipsum dolor
-                  sit amet, consectetur adipisicing elit mauris vitae consequat
-                  nibh, vitae interdum mi.
+                  Our leadership team is made up of experienced professionals
+                  who bring their expertise, vision, and dedication to every
+                  project. From the founder's innovative ideas to the directors'
+                  strategic insights, we work together to drive success and
+                  growth at every level.
                 </p>
+
                 {this.renderArrows()}
               </div>
             </div>
@@ -81,7 +83,7 @@ class Team1 extends React.Component {
                     data-wow-delay=".3s"
                     key={item.id}
                   >
-                    <div className="img wow imago">
+                    <div className="img wow">
                       <img src={item.image} alt="" />
                       <div className="social">
                         <Link href={item.facebook}>

@@ -12,8 +12,16 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <title>EG Living - Office Furniture, Workstations in Dubai</title>
+
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link
+            rel="manifest"
+            href="/manifest.json"
+            crossOrigin="use-credentials"
+          />
 
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
@@ -24,7 +32,9 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="shortcut icon" href="/favicon.ico" />
+          <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+          <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
           <link
             rel="apple-touch-icon"
             sizes="57x57"
@@ -141,7 +151,7 @@ class MyDocument extends Document {
             name="twitter:image"
             content="/assets/favicon/android-icon-192x192.png"
           />
-          <meta name="twitter:site" content="" />
+          <meta name="twitter:site" content="@egliving" />
         </Head>
 
         <body>

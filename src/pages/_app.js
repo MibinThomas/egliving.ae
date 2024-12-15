@@ -5,22 +5,32 @@ import LoadingScreen from "../components/Loading-Screen/loading-screen";
 import "../styles/globals.css";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/scrollToTop";
+import { Lenis, useLenis } from "lenis/react";
 
 function MyApp({ Component, pageProps }) {
+  useLenis((lenis) => {
+    lenis.on("scroll", () => {});
+  });
+
   return (
     <>
       <Head>
         <title>EG Living - Office Furniture, Workstations in Dubai</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
       </Head>
 
-      <Cursor />
-      <LoadingScreen />
-      <Component {...pageProps} />
-      <ScrollToTop />
+      <Lenis
+        root
+        options={{
+          smooth: true,
+          duration: 1,
+          easing: (t) => 1 - Math.pow(1 - t, 3),
+        }}
+      >
+        <Cursor />
+        <LoadingScreen />
+        <Component {...pageProps} />
+        <ScrollToTop />
+      </Lenis>
 
       <Script id="wow" src="/assets/js/wow.min.js"></Script>
       <Script

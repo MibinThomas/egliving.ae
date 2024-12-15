@@ -8,16 +8,17 @@ const ProjectIntro = () => {
         <div className="row">
           <div className="col-lg-3 col-md-4">
             <div className="htit">
-              <h4>introduction</h4>
+              <h4>Introduction</h4>
             </div>
           </div>
           <div className="col-lg-8 offset-lg-1 col-md-8 mb-30">
             <div className="text">
               <p>
-                We are a Creative Agency &amp; Startup Studio that provides
-                Digital Products and Services turns to focus on client success.
-                We specialize in user interface design, including front-end
-                development which we consider to be an integral part.
+                EG Living is committed to creating an exceptional living
+                experience for our clients through innovative digital solutions.
+                By integrating cutting-edge technology and design, we deliver
+                tailored platforms that enhance community engagement and
+                resource management.
               </p>
             </div>
           </div>
@@ -26,22 +27,21 @@ const ProjectIntro = () => {
             <div className="item mt-30">
               <h6>Client</h6>
               <p>
-                <Link href="#">Envato.com</Link>
+                <Link href="#">egliving.ae</Link>
               </p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Date</h6>
-              <p>6 August 2022</p>
+              <p>15 December 2024</p>
             </div>
           </div>
           <div className="col-lg-3">
             <div className="item mt-30">
               <h6>Categories</h6>
               <p>
-                <Link href="#">Web Design </Link>,
-                <Link href="#">WordPress</Link>
+                <Link href="#">Modern</Link>, <Link href="#">Workstations</Link>
               </p>
             </div>
           </div>
@@ -49,8 +49,8 @@ const ProjectIntro = () => {
             <div className="item mt-30">
               <h6>Tags</h6>
               <p>
-                <Link href="#">Minimal</Link> , <Link href="#">Modern</Link> ,
-                <Link href="#">Design</Link>
+                <Link href="#">Innovative</Link>,{" "}
+                <Link href="#">Modern Design</Link>
               </p>
             </div>
           </div>

@@ -883,7 +883,7 @@ a:hover, span:hover {
   left: 0;
   height: 50vh;
   width: 100%;
-  background: #252531;
+  background: #000000;
   -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   -o-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
@@ -1045,6 +1045,12 @@ body {
   visibility: hidden;
 }
 
+@media screen and (max-width: 991px) {
+  .mouse-cursor {
+    display: none;
+  }
+}
+
 .cursor-inner {
   margin-left: 2px;
   margin-top: 2px;
@@ -1172,7 +1178,7 @@ body {
 }
 
 [data-overlay-dark]:before {
-  background: #02050b60;
+  background: #02050b95;
 }
 
 [data-overlay-light]:before {
@@ -1455,7 +1461,7 @@ body {
 }
 
 .navbar .logo {
-  width: 100px;
+  width: 150px;
 }
 
 .navbar .icon-bar {
@@ -1913,7 +1919,14 @@ body {
   color: #fff;
 }
 
+@media screen and (max-width: 991px) {
+  .slid-half .nofull {
+    height: 80vh;
+  }
+}
+
 .slid-half .swiper-pagination-fraction.top {
+  display: none;
   position: absolute;
   right: 15%;
   left: auto;
@@ -2016,6 +2029,13 @@ body {
 .cta__slider-item .container {
   position: relative;
   z-index: 4;
+}
+
+
+@media screen and (max-width: 991px) {
+  .cta__slider-item .container {
+    margin-bottom: 10vh;
+  }
 }
 
 .cta__slider-item .caption {
@@ -2991,7 +3011,7 @@ body {
 }
 
 .work-carousel.dark {
-  background: #252531 !important;
+  background: #000000 !important;
   color: #fff;
 }
 
@@ -4390,7 +4410,7 @@ body {
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
 footer {
-  background: #252531;
+  background: #000000;
   color: #fff;
   padding: 100px 0;
 }
@@ -4693,7 +4713,10 @@ footer .item .copy-right p a {
   .services .feat-top .item-sm {
     margin-bottom: 30px;
     background: #fff;
-    padding: 30px;
+  }
+
+  .section-padding {
+    padding: 0px;
   }
 
   .portfolio.full-bg .cluom {
@@ -4881,7 +4904,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 60px;
+    width: 150px;
   }
 
   .btn-curve {

@@ -27,7 +27,6 @@ const Home = () => {
         <Portfolio2 />
         <Process />
         <Team1 />
-        {/* <Testimonials1 withBg /> */}
         {/* <Brands /> */}
         <Blogs2 />
       </LightLayout>

@@ -5,8 +5,8 @@ import PostDetails from "../../components/Post-details";
 
 const BlogDetails = () => {
   React.useEffect(() => {
-    document.querySelector('body').classList.add('index3')
-  }, [])
+    document.querySelector("body").classList.add("index3");
+  }, []);
   return (
     <MainLayout>
       <PageHeader
@@ -16,6 +16,7 @@ const BlogDetails = () => {
           { id: 2, name: "blogs", url: "/blogs" },
           { id: 3, name: "post details", url: "/blog-details" },
         ]}
+        image={"/assets/img/blog/eg-living-modern-office-furniture.jpg"}
       />
       <PostDetails />
     </MainLayout>
