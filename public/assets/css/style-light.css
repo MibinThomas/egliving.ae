@@ -4401,11 +4401,13 @@ body {
   background: #f7f7f7;
   border: 0;
   width: 100%;
+  color: #00000090;
 }
 
 .contact .form textarea {
   height: 160px;
 }
+
 
 /* ====================== [ End contact ] ====================== */
 /* ====================== [ Start Footer ] ====================== */
@@ -4463,7 +4465,7 @@ footer .item li .subscribe input {
   width: 100%;
   padding: 15px;
   border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid #4cb753;
   background: transparent;
   color: #fff;
   font-size: 13px;
@@ -4487,7 +4489,7 @@ footer .item .logo {
 }
 
 footer .item .logo img {
-  width: 100px;
+  width: 200px;
 }
 
 footer .item .social a {
@@ -4496,7 +4498,7 @@ footer .item .social a {
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid #4cb753;
   font-size: 13px;
   margin-right: 10px;
 }

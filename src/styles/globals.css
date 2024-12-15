@@ -54,7 +54,7 @@ a,
 
 .contact .form input,
 .contact .form textarea {
-  color: #fff;
+  color: inherit;
 }
 
 .twentytwenty-handle:before,

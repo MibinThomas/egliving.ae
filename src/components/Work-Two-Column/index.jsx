@@ -39,9 +39,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">
-                      Collaborative Workstation
-                    </Link>
+                    <Link href="#!">Collaborative Workstation</Link>
                   </h5>
                   <span>Modern Office</span>
                   <span>Ergonomic Design</span>
@@ -58,9 +56,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">
-                      Corporate Office Interior
-                    </Link>
+                    <Link href="#!">Corporate Office Interior</Link>
                   </h5>
                   <span>Office Design</span>
                   <span>Contemporary</span>
@@ -77,9 +73,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">
-                      Creative Workspace Design
-                    </Link>
+                    <Link href="#!">Creative Workspace Design</Link>
                   </h5>
                   <span>Innovative Design</span>
                   <span>Flexible Space</span>
@@ -96,9 +90,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">
-                      Ergonomic Desk Solutions
-                    </Link>
+                    <Link href="#!">Ergonomic Desk Solutions</Link>
                   </h5>
                   <span>Workstation</span>
                   <span>Ergonomic</span>
@@ -115,9 +107,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">
-                      Modern Office Workstation
-                    </Link>
+                    <Link href="#!">Modern Office Workstation</Link>
                   </h5>
                   <span>Office Furniture</span>
                   <span>Design</span>

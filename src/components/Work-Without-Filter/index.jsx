@@ -28,7 +28,7 @@ const WorkWithoutFilter = ({ vis }) => {
                   <span>Architecture</span>
                   <span>Modern</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                 </div>
               </div>
@@ -42,7 +42,7 @@ const WorkWithoutFilter = ({ vis }) => {
                   <span>Architecture</span>
                   <span>Modern</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                 </div>
               </div>
@@ -56,7 +56,7 @@ const WorkWithoutFilter = ({ vis }) => {
                   <span>Architecture</span>
                   <span>Modern</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const WorkWithoutFilter = ({ vis }) => {
                   <span>Architecture</span>
                   <span>Modern</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const WorkWithoutFilter = ({ vis }) => {
                   <span>Architecture</span>
                   <span>Modern</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                 </div>
               </div>

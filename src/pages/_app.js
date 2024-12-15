@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/scrollToTop";
 import { Lenis, useLenis } from "lenis/react";
+import Chat from "../components/Chat";
 
 function MyApp({ Component, pageProps }) {
   useLenis((lenis) => {
@@ -29,6 +30,7 @@ function MyApp({ Component, pageProps }) {
         <Cursor />
         <LoadingScreen />
         <Component {...pageProps} />
+        <Chat />
         <ScrollToTop />
       </Lenis>
 

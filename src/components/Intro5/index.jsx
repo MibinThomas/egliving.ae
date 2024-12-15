@@ -1,6 +1,6 @@
 import React from "react";
 import Split from "../Split";
-import Link from 'next/link'
+import Link from "next/link";
 
 const Intro5 = () => {
   return (
@@ -23,7 +23,7 @@ const Intro5 = () => {
                 Right design and right ideas matter a lot of in interior design
                 business. <br /> a style that makes a statement.
               </p>
-              <Link href="/project-details">
+              <Link href="#!">
                 <a className="btn-curve btn-bord btn-lit mt-30">
                   <span>Read More</span>
                 </a>

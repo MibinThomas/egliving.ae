@@ -27,14 +27,38 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>info@egliving.ae</p>
+                    <Link
+                      href="mailto:info@egliving.ae"
+                      title="Raise a mail"
+                      style={{
+                        color: "#888",
+                        fontSize: "15px",
+                        fontWeight: "400",
+                        lineHeight: "2",
+                        margin: 0,
+                      }}
+                    >
+                      info@egliving.ae
+                    </Link>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+971561998245</p>
+                    <Link
+                      href="tel:+971065448335"
+                      title="Call Us Now"
+                      style={{
+                        color: "#888",
+                        fontSize: "15px",
+                        fontWeight: "400",
+                        lineHeight: "2",
+                        margin: 0,
+                      }}
+                    >
+                      +971 065448335
+                    </Link>
                   </div>
                 </li>
               </ul>
@@ -97,7 +121,10 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/logo-light.png" alt="" />
+                <img
+                  src="/assets/img/logo/eg_logo-full-white.png"
+                  alt="EG Living"
+                />
               </div>
               <div className="social">
                 <Link href="#">

@@ -2893,6 +2893,7 @@ body {
 }
 
 .numbers .item:before, .numbers .item:after {
+  display: none;
   content: '';
   position: absolute;
   right: 20%;

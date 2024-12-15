@@ -31,7 +31,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -45,7 +45,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -59,7 +59,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -73,7 +73,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -87,7 +87,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -101,7 +101,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -115,7 +115,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -129,7 +129,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>
@@ -143,7 +143,7 @@ const WorkThreeColumn = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <Link href="#!">Modern Townhouse</Link>
                   </h5>
                   <span>Architecture</span>
                   <span>Modern</span>

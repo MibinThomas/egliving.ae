@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import AboutUs2 from "../../components/About-Us2";
 import Services2 from "../../components/Services2";
@@ -10,17 +10,29 @@ import IntroWithVertical from "../../components/Intro-with-vertical";
 import Process from "../../components/Process";
 import Brands from "../../components/Brands";
 import LightLayout from "../../layouts/light";
+import Form from "../../components/Form";
 
 const Home = () => {
-  React.useEffect(() => {
+  const [showForm, setShowForm] = useState(false);
+
+  useEffect(() => {
     document.querySelector("body").classList.add("homepage");
+
+    const timer = setTimeout(() => {
+      setShowForm(true);
+    }, 5000);
+
+    return () => clearTimeout(timer);
   }, []);
+
   return (
     <>
       <Head>
         <link rel="canonical" href="https://egliving.ae" />
       </Head>
       <LightLayout>
+        {/* {showForm && <Form onClose={() => setShowForm(false)} />} */}
+
         <IntroWithVertical />
         <Services2 />
         <AboutUs2 />
