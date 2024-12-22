@@ -28,6 +28,7 @@ const PageHeader = ({ title, fullPath, image }) => {
                     <Link
                       href={item.url}
                       className={router.pathname == item.url ? "active" : ""}
+                      title={item.name}
                     >
                       {item.name}
                     </Link>

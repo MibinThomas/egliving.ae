@@ -22,9 +22,8 @@ const Form = ({ onClose }) => {
           padding: "20px",
           borderRadius: "8px",
           zIndex: 1000,
-          width: "500px",
         }}
-        className="contact"
+        className="contact cta-form-wrapper"
       >
         <button
           onClick={onClose}
@@ -43,68 +42,82 @@ const Form = ({ onClose }) => {
         >
           X
         </button>
-        <div
-          style={{
-            fontSize: "18px",
-            fontWeight: "bold",
-            maxWidth: "50%",
-            margin: "auto",
-            textAlign: "center",
-          }}
-        >
-          Send Your Enquiry to the EG Team
+        <div className="cta-title">
+          <h3>Reach Out to Us!</h3>
+          <p>
+            Share your needs, and we’ll get back to you with the best solution.
+          </p>
         </div>
-        <div className="form" style={{ padding: "0px", marginTop: "30px" }}>
-          <form id="contact-form" method="post">
-            <div className="messages"></div>
-            <div className="controls">
-              <div className="form-group">
-                <input
-                  id="form_name"
-                  type="text"
-                  name="name"
-                  placeholder="Name"
-                  required="required"
-                />
-              </div>
-
-              <div className="form-group">
-                <input
-                  id="form_phone"
-                  type="tel"
-                  name="phone"
-                  placeholder="Phone"
-                  required="required"
-                />
-              </div>
-
-              <div className="form-group">
-                <input
-                  id="form_email"
-                  type="email"
-                  name="email"
-                  placeholder="Email"
-                />
-              </div>
-
-              <div className="form-group">
-                <textarea
-                  id="form_message"
-                  name="message"
-                  placeholder="Message"
-                  rows="4"
-                ></textarea>
-              </div>
-
-              <button
-                type="submit"
-                className="btn-curve btn-color"
-                style={{ padding: "10px 20px" }}
-              >
-                <span>Enquire Now</span>
-              </button>
+        <div className="form" style={{ padding: "0px", marginTop: "20px" }}>
+          <div className="form-row-wrapper">
+            <div
+              className="cta-img"
+              style={{ borderRadius: "8px", overflow: "hidden" }}
+            >
+              <img
+                src="/assets/img/eg-living-mission.jpeg"
+                alt="EG Logistics"
+                style={{ width: "100%" }}
+              />
             </div>
-          </form>
+
+            <div className="cta-form">
+              <form id="contact-form" method="post">
+                <div className="messages"></div>
+                <div className="controls">
+                  <div className="form-group">
+                    <input
+                      id="form_name"
+                      type="text"
+                      name="name"
+                      placeholder="Name"
+                      required="required"
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <input
+                      id="form_phone"
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone"
+                      required="required"
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <input
+                      id="form_email"
+                      type="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+
+                  <div className="form-group">
+                    <textarea
+                      id="form_message"
+                      name="message"
+                      placeholder="Message"
+                      rows="4"
+                    ></textarea>
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="btn-curve btn-color"
+                    style={{
+                      padding: "8px 15px",
+                      fontSize: "14px",
+                      borderRadius: "8px",
+                    }}
+                  >
+                    Enquire Now
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>

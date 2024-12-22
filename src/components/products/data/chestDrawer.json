@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/chest-drawer/hkcd-9001.webp",
+        "name": "HKCD 9001",
+        "tag": "chestDrawer"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/chest-drawer/hkcd-9002.webp",
+        "name": "HKCD 9002",
+        "tag": "chestDrawer"
+    }
+]

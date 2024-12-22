@@ -1,20 +1,20 @@
 import getSiblings from "./getSiblings";
 
 const worksCardEffect = () => {
-  let workColumns = document.querySelectorAll(".full-bg .cluom"),
+  let workColumns = document.querySelectorAll(".full-bg .egColumn"),
     glryTabsImages = document.querySelectorAll(".glry-img .tab-img");
   if (workColumns) {
-    workColumns.forEach((cluom) => {
-      cluom.addEventListener("mouseenter", (e) => {
+    workColumns.forEach((egColumn) => {
+      egColumn.addEventListener("mouseenter", (e) => {
         var tab_id = e.target.getAttribute("data-tab");
-        cluom.classList.remove("current");
+        egColumn.classList.remove("current");
         e.target.classList.add("current");
         glryTabsImages.forEach((tabImg) => {
           tabImg.classList.remove("current");
         });
         document.getElementById(tab_id).classList.add("current");
       });
-      cluom.addEventListener("mouseleave", (e) => {
+      egColumn.addEventListener("mouseleave", (e) => {
         if (e.target.classList.contains("current")) {
           getSiblings(e.target).forEach((item) =>
             item.classList.remove("current")

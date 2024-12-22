@@ -1404,9 +1404,9 @@ body {
   border-color: #4cb753;
 }
 
-.btn-curve.btn-color:after {
+/* .btn-curve.btn-color:after {
   background: #fff;
-}
+} */
 
 .btn-curve.btn-color span {
   color: #fff;
@@ -1461,7 +1461,7 @@ body {
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 80px;
 }
 
 .navbar .icon-bar {
@@ -1912,9 +1912,9 @@ body {
   position: relative;
   overflow: hidden;
   background-color: #000000;
-  /* background-image: url(/assets/img/hero/eg-living_pattern.jpg); */
-  /* background-repeat: no-repeat; */
-  /* background-size: 30% 100%; */
+  background-image: url(/assets/img/hero/eg-living_pattern.jpg);
+  background-repeat: no-repeat;
+  background-size: 30% 100%;
   height: 100vh;
   color: #fff;
 }
@@ -2830,7 +2830,7 @@ body {
   position: relative;
 }
 
-.portfolio.full-bg .cluom {
+.portfolio.full-bg .egColumn {
   height: 90vh;
   padding: 0;
   position: relative;
@@ -2841,26 +2841,26 @@ body {
   transition: all 0.4s;
 }
 
-.portfolio.full-bg .cluom.current {
+.portfolio.full-bg .egColumn.current {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.portfolio.full-bg .cluom:hover .info {
+.portfolio.full-bg .egColumn:hover .info {
   color: inherit;
 }
 
-.portfolio.full-bg .cluom:hover .info:after {
+.portfolio.full-bg .egColumn:hover .info:after {
   height: 100%;
 }
 
-.portfolio.full-bg .cluom:hover .more {
+.portfolio.full-bg .egColumn:hover .more {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
 }
 
-.portfolio.full-bg .cluom .info {
+.portfolio.full-bg .egColumn .info {
   padding: 40px 10px 40px 20px;
   color: #fff;
   position: relative;
@@ -2871,7 +2871,7 @@ body {
   overflow: hidden;
 }
 
-.portfolio.full-bg .cluom .info:after {
+.portfolio.full-bg .egColumn .info:after {
   content: '';
   position: absolute;
   top: 0;
@@ -2885,7 +2885,7 @@ body {
   transition: all 0.4s;
 }
 
-.portfolio.full-bg .cluom .info h6 {
+.portfolio.full-bg .egColumn .info h6 {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 4px;
@@ -2893,11 +2893,11 @@ body {
   margin-bottom: 10px;
 }
 
-.portfolio.full-bg .cluom .info h5 {
+.portfolio.full-bg .egColumn .info h5 {
   font-size: 21px;
 }
 
-.portfolio.full-bg .cluom .more {
+.portfolio.full-bg .egColumn .more {
   position: absolute;
   bottom: 50px;
   right: 50px;
@@ -2914,7 +2914,7 @@ body {
   transition: all 0.4s;
 }
 
-.portfolio.full-bg .cluom .more i {
+.portfolio.full-bg .egColumn .more i {
   font-size: 10px;
   margin-left: 2px;
 }
@@ -4721,7 +4721,7 @@ footer .item .copy-right p a {
     padding: 0px;
   }
 
-  .portfolio.full-bg .cluom {
+  .portfolio.full-bg .egColumn {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     height: 50vh;
   }
@@ -4906,7 +4906,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 150px;
+    width: 80px;
   }
 
   .btn-curve {
@@ -5056,7 +5056,7 @@ footer .item .copy-right p a {
     text-transform: capitalize;
   }
 
-  .portfolio.full-bg .cluom {
+  .portfolio.full-bg .egColumn {
     height: 40vh;
     min-height: 250px;
   }
@@ -5184,3 +5184,76 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+
+/* custom style for the CTA form in the home page */
+
+.cta-form-wrapper {
+  width: 45%;
+  max-height: max-content;
+}
+
+.cta-form-wrapper .cta-title {
+  margin-bottom: 20px;
+  max-width: 60%;
+}
+
+.cta-form-wrapper .cta-title h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.cta-form-wrapper .cta-title p {
+  font-size: 14px;
+  line-height: normal;
+}
+
+@media screen and (max-width: 991px) {
+  .cta-form-wrapper {
+    width: calc(100% - 30px);
+  }
+
+  .cta-form-wrapper .cta-title {
+    max-width: 80% !important;
+  }
+}
+
+.form-row-wrapper {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.cta-form-wrapper .cta-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: auto;
+  width: 100%;
+}
+
+.cta-form-wrapper .cta-form {
+  width: 100%;
+}
+
+.cta-form-wrapper .cta-img img {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 767px) {
+  .cta-form-wrapper .cta-img {
+    display: none;
+  }
+
+  .cta-form-wrapper .cta-form {
+    width: 100% !important;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+
+
+/* custom style for the CTA form in the home page */

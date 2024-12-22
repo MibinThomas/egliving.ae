@@ -27,7 +27,7 @@ const PostDetails = () => {
                 </div>
                 <div className="img main-img">
                   <img
-                    src="/assets/img/blog/eg-living-office-furnitures.jpg"
+                    src="/assets/img/blog/eg-living-office-furnitures.webp"
                     alt=""
                     className="thumparallax"
                   />
@@ -96,7 +96,7 @@ const PostDetails = () => {
                           <div className="col-md-6">
                             <div className="mb-10">
                               <img
-                                src="/assets/img/blog/eg-living-office-furnitures.jpg"
+                                src="/assets/img/blog/eg-living-office-furnitures.webp"
                                 alt=""
                               />
                             </div>
@@ -104,7 +104,7 @@ const PostDetails = () => {
                           <div className="col-md-6">
                             <div className="mb-10">
                               <img
-                                src="/assets/img/blog/eg-living-office-furnitures.jpg"
+                                src="/assets/img/blog/eg-living-office-furnitures.webp"
                                 alt=""
                               />
                             </div>

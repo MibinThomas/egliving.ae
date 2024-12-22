@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6001-1500x450x1800.webp",
+        "name": "HKLC 6001 1500x450x1800",
+        "tag": "fileRack"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6002-1200x450x500.webp",
+        "name": "HKLC 6002 1200x450x500",
+        "tag": "fileRack"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6003-1200x400x400.webp",
+        "name": "HKLC 6003 1200x400x400",
+        "tag": "fileRack"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6004-1800x1800x420.webp",
+        "name": "HKLC 6004 1800x1800x420",
+        "tag": "fileRack"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6007-1500x450x400.webp",
+        "name": "HKLC 6007 1500x450x400",
+        "tag": "fileRack"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6009-2000x1890x400.webp",
+        "name": "HKLC 6009 2000x1890x400",
+        "tag": "fileRack"
+    },
+    {
+        "id": 7,
+        "imgSrc": "/assets/img/products/lcd-unit/hklc-6010-1200x700x450.webp",
+        "name": "HKLC 6010 1200x700x450",
+        "tag": "fileRack"
+    }
+]

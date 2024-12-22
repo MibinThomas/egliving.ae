@@ -1560,7 +1560,7 @@ body {
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 80px;
 }
 
 .navbar .logo.dis {
@@ -3126,7 +3126,7 @@ body {
   position: relative;
 }
 
-.portfolio.full-bg .cluom {
+.portfolio.full-bg .egColumn {
   height: 70vh;
   min-height: 300px;
   padding: 0;
@@ -3138,26 +3138,26 @@ body {
   transition: all .4s;
 }
 
-.portfolio.full-bg .cluom.current {
+.portfolio.full-bg .egColumn.current {
   background: rgba(0, 0, 0, 0.3);
 }
 
-.portfolio.full-bg .cluom:hover .info {
+.portfolio.full-bg .egColumn:hover .info {
   color: inherit;
 }
 
-.portfolio.full-bg .cluom:hover .info:after {
+.portfolio.full-bg .egColumn:hover .info:after {
   height: 100%;
 }
 
-.portfolio.full-bg .cluom:hover .more {
+.portfolio.full-bg .egColumn:hover .more {
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
 }
 
-.portfolio.full-bg .cluom .info {
+.portfolio.full-bg .egColumn .info {
   padding: 40px 10px 40px 20px;
   color: #fff;
   position: relative;
@@ -3168,7 +3168,7 @@ body {
   overflow: hidden;
 }
 
-.portfolio.full-bg .cluom .info:after {
+.portfolio.full-bg .egColumn .info:after {
   content: '';
   position: absolute;
   top: 0;
@@ -3182,7 +3182,7 @@ body {
   transition: all .4s;
 }
 
-.portfolio.full-bg .cluom .info h6 {
+.portfolio.full-bg .egColumn .info h6 {
   font-size: 11px;
   font-weight: 400;
   letter-spacing: 4px;
@@ -3190,11 +3190,11 @@ body {
   margin-bottom: 10px;
 }
 
-.portfolio.full-bg .cluom .info h5 {
+.portfolio.full-bg .egColumn .info h5 {
   font-size: 21px;
 }
 
-.portfolio.full-bg .cluom .more {
+.portfolio.full-bg .egColumn .more {
   position: absolute;
   bottom: 50px;
   right: 50px;
@@ -3211,7 +3211,7 @@ body {
   transition: all .4s;
 }
 
-.portfolio.full-bg .cluom .more i {
+.portfolio.full-bg .egColumn .more i {
   font-size: 10px;
   margin-left: 2px;
 }
@@ -5441,7 +5441,7 @@ footer .item .social a {
   line-height: 60px;
   text-align: center;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid #4cb753;
   font-size: 13px;
   margin-right: 10px;
 }
@@ -5558,7 +5558,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 150px;
+    width: 80px;
   }
 
   .navbar .social-icon,
@@ -5699,7 +5699,7 @@ footer .item .copy-right p a {
     margin-right: -15px;
   }
 
-  .portfolio.full-bg .cluom {
+  .portfolio.full-bg .egColumn {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     height: 50vh;
   }
@@ -5904,7 +5904,7 @@ footer .item .copy-right p a {
     text-transform: capitalize;
   }
 
-  .portfolio.full-bg .cluom {
+  .portfolio.full-bg .egColumn {
     height: 40vh;
     min-height: 250px;
   }

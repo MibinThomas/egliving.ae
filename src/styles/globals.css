@@ -55,6 +55,13 @@ a,
 .contact .form input,
 .contact .form textarea {
   color: inherit;
+  border: 1px solid #4db753;
+  border-radius: 10px;
+  background: #ffffff
+}
+
+.form-group {
+  margin-bottom: 0.7rem !important;
 }
 
 .twentytwenty-handle:before,
@@ -303,4 +310,14 @@ body.hideX .pace {
 
 .main {
   scroll-behavior: smooth
+}
+
+@media screen and (min-width: 991px) {
+  .slick-initialized .slick-slide {
+    max-width: 250px !important;
+  }
+
+  .navs {
+    display: none;
+  }
 }

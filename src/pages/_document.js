@@ -5,10 +5,16 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return {
       ...initialProps,
+      canonical: ctx.req
+        ? `${ctx.req.protocol || "http"}://${ctx.req.headers.host}${
+            ctx.req.url
+          }`
+        : "",
     };
   }
 
   render() {
+    const { canonical } = this.props;
     return (
       <Html lang="en">
         <Head>
@@ -152,6 +158,11 @@ class MyDocument extends Document {
             content="/assets/favicon/android-icon-192x192.png"
           />
           <meta name="twitter:site" content="@egliving" />
+
+          <link rel="canonical" href={canonical} />
+
+          <link rel="preload" href="/assets/css/style-light.css" as="style" />
+          <link rel="stylesheet" href="/assets/css/style-light.css" />
         </Head>
 
         <body>

@@ -28,7 +28,7 @@ const Process = () => {
               <div
                 className="bg-img"
                 style={{
-                  backgroundImage: `url(/assets/img/process/modern-office-concept.jpg)`,
+                  backgroundImage: `url(/assets/img/process/modern-office-concept.webp)`,
                 }}
               >
                 <h3 className="numb custom-font">01</h3>
@@ -49,7 +49,7 @@ const Process = () => {
               <div
                 className="bg-img"
                 style={{
-                  backgroundImage: `url(/assets/img/process/eg-living-creative-design.jpg)`,
+                  backgroundImage: `url(/assets/img/process/eg-living-creative-design.webp)`,
                 }}
               >
                 <h3 className="numb custom-font">02</h3>
@@ -68,7 +68,7 @@ const Process = () => {
               <div
                 className="bg-img"
                 style={{
-                  backgroundImage: `url(/assets/img/process/eg-living-quality-assurance.jpg)`,
+                  backgroundImage: `url(/assets/img/process/eg-living-quality-assurance.webp)`,
                 }}
               >
                 <h3 className="numb custom-font">03</h3>
@@ -84,7 +84,7 @@ const Process = () => {
               <div
                 className="bg-img"
                 style={{
-                  backgroundImage: `url(/assets/img/process/eg-living-execution-and-delivery.jpg)`,
+                  backgroundImage: `url(/assets/img/process/eg-living-execution-and-delivery.webp)`,
                 }}
               >
                 <h3 className="numb custom-font">04</h3>

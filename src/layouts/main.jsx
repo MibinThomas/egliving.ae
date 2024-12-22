@@ -19,18 +19,15 @@ const MainLayout = ({ children, logoClassText }) => {
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
-        logo.setAttribute("src", "/assets/img/logo/eg_logo-full-white.png");
+        // logo.setAttribute("src", "/assets/img/logo/eg-living-logo-single.svg");
       } else {
         navbar.classList.remove("nav-scroll");
-        logo.setAttribute("src", "/assets/img/logo/eg_logo-full-white.png");
+        // logo.setAttribute("src", "/assets/img/logo/eg-living-logo-single.svg");
       }
     });
   }, [navbarRef]);
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="/assets/css/style.css" />
-      </Head>
       <Navbar
         navbarRef={navbarRef}
         logoRef={logoRef}

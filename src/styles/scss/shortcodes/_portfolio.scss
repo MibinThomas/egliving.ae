@@ -1,96 +1,94 @@
-
-
 /* ====================== [ Start Work ] ====================== */
 
-.works{
+.works {
 
-	&.filter-img{
+	&.filter-img {
 
-		.filtering{
+		.filtering {
 			overflow: hidden;
-			
-			.filter{
 
-				span{
+			.filter {
+
+				span {
 					margin-right: 20px;
 					font-size: 13px;
 
-					&.active{
+					&.active {
 						color: $main-color;
 					}
 				}
 
-				&.floating{
+				&.floating {
 					float: right;
 				}
 			}
 		}
 	}
 
-	&.three-col{
+	&.three-col {
 
 		.container {
 			max-width: 1300px;
 		}
 
-		.row{
+		.row {
 			margin-left: -10px;
 			margin-right: -10px;
 		}
 
-		.items{
+		.items {
 			margin-top: 40px;
 			padding: 0 20px;
 		}
 	}
 
-	&.four-col{
+	&.four-col {
 
-		.row{
+		.row {
 			margin-left: -15px;
 			margin-right: -15px;
 		}
 
-		.items{
+		.items {
 			margin-top: 30px;
 			padding: 0 15px;
 		}
 	}
 
-	.row{
+	.row {
 		margin-left: -50px;
 		margin-right: -50px;
 	}
 
-	.items{
+	.items {
 		margin-top: 100px;
 		padding: 0 50px;
 	}
 
-	.item{
+	.item {
 		position: relative;
 
-		&:hover{
+		&:hover {
 
 			&:after,
-			.cont{
+			.cont {
 				opacity: 1;
 			}
 		}
 
-		&:after{
+		&:after {
 			content: '';
 			position: absolute;
 			top: 0;
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: linear-gradient(to top, rgba(0,0,0,.7), rgba(0,0,0,.05));
+			background: linear-gradient(to top, rgba(0, 0, 0, .7), rgba(0, 0, 0, .05));
 			opacity: 0;
 			transition: all .4s;
 		}
 
-		.cont{
+		.cont {
 			position: absolute;
 			bottom: 40px;
 			left: 40px;
@@ -98,7 +96,7 @@
 			opacity: 0;
 			transition: all .4s;
 
-			&.vis{
+			&.vis {
 				bottom: -1px;
 				left: -1px;
 				padding: 15px 30px;
@@ -107,11 +105,11 @@
 				opacity: 1;
 			}
 
-			h5{
+			h5 {
 				font-size: 17px;
 			}
 
-			span{
+			span {
 				margin-right: 15px;
 				font-size: 13px;
 				color: $main-color;
@@ -120,11 +118,11 @@
 	}
 }
 
-.portfolio{
+.portfolio {
 	overflow: hidden;
 	position: relative;
 
-	.swiper-container{
+	.swiper-container {
 		width: 140%;
 	}
 
@@ -141,20 +139,20 @@
 		width: 25%;
 	}
 
-	.swiper-slide-active{
+	.swiper-slide-active {
 
-		.item{
+		.item {
 
-			.cont{
+			.cont {
 				opacity: 1;
 			}
 		}
 	}
 
-	.item{
+	.item {
 		position: relative;
 
-		.img{
+		.img {
 			height: 65vh;
 			overflow: hidden;
 
@@ -167,7 +165,7 @@
 			}
 		}
 
-		.cont{
+		.cont {
 			position: absolute;
 			bottom: -1px;
 			left: -1px;
@@ -176,11 +174,11 @@
 			opacity: 0;
 			transition: opacity .5s;
 
-			h5{
+			h5 {
 				font-size: 20px;
 			}
 
-			span{
+			span {
 				margin-right: 15px;
 				font-size: 13px;
 				color: $main-color;
@@ -188,12 +186,12 @@
 		}
 	}
 
-	.controls{
+	.controls {
 		position: absolute;
 		top: 10px;
 		right: 100px;
 
-		.swiper-nav-ctrl{
+		.swiper-nav-ctrl {
 			color: #ccc;
 			font-size: 13px;
 			width: 55px;
@@ -201,11 +199,11 @@
 			line-height: 55px;
 			text-align: center;
 			margin: 5px 0;
-			border: 1px solid rgba(255,255,255, .3);
+			border: 1px solid rgba(255, 255, 255, .3);
 			position: static;
 			display: inline-block;
 
-			&:after{
+			&:after {
 				display: none;
 			}
 		}
@@ -215,36 +213,36 @@
 .portfolio.full-bg {
 	position: relative;
 
-	.cluom{
+	.egColumn {
 		height: 70vh;
 		min-height: 300px;
 		padding: 0;
 		position: relative;
 		z-index: 2;
-		border-right: 1px solid rgba(255,255,255,.3);
+		border-right: 1px solid rgba(255, 255, 255, .3);
 		transition: all .4s;
 
-		&.current{
-			background: rgba(0,0,0,.3);
+		&.current {
+			background: rgba(0, 0, 0, .3);
 		}
 
-		&:hover{
+		&:hover {
 
-			.info{
+			.info {
 				color: inherit;
 
-				&:after{
+				&:after {
 					height: 100%;
 				}
 			}
 
-			.more{
+			.more {
 				transform: translateY(0);
 				opacity: 1;
 			}
 		}
-		
-		.info{
+
+		.info {
 			padding: 40px 10px 40px 20px;
 			color: #fff;
 			position: relative;
@@ -252,7 +250,7 @@
 			transition: all .4s;
 			overflow: hidden;
 
-			&:after{
+			&:after {
 				content: '';
 				position: absolute;
 				top: 0;
@@ -264,7 +262,7 @@
 				transition: all .4s;
 			}
 
-			h6{
+			h6 {
 				font-size: 11px;
 				font-weight: 400;
 				letter-spacing: 4px;
@@ -272,12 +270,12 @@
 				margin-bottom: 10px;
 			}
 
-			h5{
+			h5 {
 				font-size: 21px;
 			}
 		}
 
-		.more{
+		.more {
 			position: absolute;
 			bottom: 50px;
 			right: 50px;
@@ -289,7 +287,7 @@
 			opacity: 0;
 			transition: all .4s;
 
-			i{
+			i {
 				font-size: 10px;
 				margin-left: 2px;
 			}
@@ -305,17 +303,17 @@
 		height: 100%;
 	}
 
-	.glry-img{
+	.glry-img {
 		overflow: hidden;
 
-		.bg-img{
-			transform: scale(1.1,1.1);
+		.bg-img {
+			transform: scale(1.1, 1.1);
 			opacity: 0;
 			transition: all .7s;
 			background-size: cover;
 			background-position: center center;
 
-			&.current{
+			&.current {
 				transform: scale(1);
 				opacity: 1;
 			}
@@ -323,21 +321,21 @@
 	}
 }
 
-.index3{
-	.works .item .cont.vis{
+.index3 {
+	.works .item .cont.vis {
 		background: #181818;
 	}
 }
 
-.work-header{
+.work-header {
 	min-height: 65vh;
 	background-size: auto;
 	background-repeat: repeat;
 
-	.cont{
+	.cont {
 		margin-top: 100px;
 
-		h2{
+		h2 {
 			letter-spacing: 2px;
 			margin-bottom: 30px;
 		}

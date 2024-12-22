@@ -1,8 +1,9 @@
 import React from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
-import AboutUs4 from "../../components/About-Us4";
-import Skills2 from "../../components/Skills2";
+import AboutDetail from "../../components/AboutDetail";
+import Skills from "../../components/Skills";
+import AboutTeam from "../../components/About-Team";
 
 const About = () => {
   React.useEffect(() => {
@@ -18,8 +19,9 @@ const About = () => {
           { id: 2, name: "about us", url: "/about" },
         ]}
       />
-      <AboutUs4 />
-      <Skills2 />
+      <AboutDetail />
+      <AboutTeam />
+      <Skills />
     </MainLayout>
   );
 };

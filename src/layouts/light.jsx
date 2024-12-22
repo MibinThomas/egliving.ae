@@ -28,9 +28,6 @@ const LightLayout = ({ children, footerClass }) => {
   }, [navbarRef]);
   return (
     <>
-      <Head>
-        <link rel="stylesheet" href="/assets/css/style-light.css" />
-      </Head>
       <Navbar navbarRef={navbarRef} logoRef={logoRef} />
       {children}
       <Footer classText={footerClass} />

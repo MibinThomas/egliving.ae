@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/corner-rack/hkcr-8003.webp",
+        "name": "HKCR 8003",
+        "tag": "cornerRack"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/corner-rack/hkcr-8004.webp",
+        "name": "HKCR 8004",
+        "tag": "cornerRack"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/corner-rack/hkcr-8008.webp",
+        "name": "HKCR 8008",
+        "tag": "cornerRack"
+    }
+]

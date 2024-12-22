@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/bedroom-set/breeze.webp",
+        "name": "Breeze",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/bedroom-set/brio.webp",
+        "name": "Brio",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/img/products/bedroom-set/camilie.webp",
+        "name": "Camilie",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/img/products/bedroom-set/canoodle.webp",
+        "name": "Canoodle",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/assets/img/products/bedroom-set/daffodle.webp",
+        "name": "Daffodle",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/assets/img/products/bedroom-set/darcy.webp",
+        "name": "Darcy",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 7,
+        "imgSrc": "/assets/img/products/bedroom-set/foxy.webp",
+        "name": "Foxy",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 8,
+        "imgSrc": "/assets/img/products/bedroom-set/irish.webp",
+        "name": "Irish",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 9,
+        "imgSrc": "/assets/img/products/bedroom-set/lebella.webp",
+        "name": "Lebella",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 10,
+        "imgSrc": "/assets/img/products/bedroom-set/lebella.webp",
+        "name": "Lebella",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 11,
+        "imgSrc": "/assets/img/products/bedroom-set/lorenzo.webp",
+        "name": "Lorenzo",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 12,
+        "imgSrc": "/assets/img/products/bedroom-set/muffin-gray.webp",
+        "name": "Muffin Gray",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 13,
+        "imgSrc": "/assets/img/products/bedroom-set/muffin-white.webp",
+        "name": "Muffin White",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 14,
+        "imgSrc": "/assets/img/products/bedroom-set/oliver-gold.webp",
+        "name": "Oliver Gold",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 15,
+        "imgSrc": "/assets/img/products/bedroom-set/oliver.webp",
+        "name": "Oliver",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 16,
+        "imgSrc": "/assets/img/products/bedroom-set/sueno-4door.webp",
+        "name": "Sueno 4 Door",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 17,
+        "imgSrc": "/assets/img/products/bedroom-set/sueno-lite-3door.webp",
+        "name": "Sueno Lite 3 Door",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 18,
+        "imgSrc": "/assets/img/products/bedroom-set/terronni.webp",
+        "name": "Terronni",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 19,
+        "imgSrc": "/assets/img/products/bedroom-set/venezia.webp",
+        "name": "Venezia",
+        "tag": "bedroomSet"
+    },
+    {
+        "id": 20,
+        "imgSrc": "/assets/img/products/bedroom-set/zeoy.webp",
+        "name": "Zeoy",
+        "tag": "bedroomSet"
+    }
+]

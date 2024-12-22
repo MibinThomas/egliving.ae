@@ -1,10 +1,17 @@
 import React from "react";
 
 const Chat = () => {
+  const phone = "+971561998327";
+  const message =
+    "Hello EG Team, I would like to know more about your services.";
+  const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(
+    message
+  )}`;
+
   return (
     <div>
       <a
-        href="https://wa.me/+971065448335?text=Hello%20EG%20Team%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+        href={whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
         style={{

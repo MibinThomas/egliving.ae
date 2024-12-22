@@ -74,7 +74,7 @@ const Footer = ({ classText }) => {
                   <div className="img">
                     <Link href="/blog-details">
                       <img
-                        src="/assets/img/blog/eg-living-office-furnitures.jpg"
+                        src="/assets/img/blog/eg-living-office-furnitures.webp"
                         alt=""
                       />
                     </Link>
@@ -94,7 +94,7 @@ const Footer = ({ classText }) => {
                   <div className="img">
                     <Link href="/blog-details">
                       <img
-                        src="/assets/img/blog/eg-living-office-furnitures.jpg"
+                        src="/assets/img/blog/eg-living-office-furnitures.webp"
                         alt=""
                       />
                     </Link>
@@ -127,16 +127,26 @@ const Footer = ({ classText }) => {
                 />
               </div>
               <div className="social">
-                <Link href="#">
+                <Link
+                  href="https://www.facebook.com/profile.php?id=61566560664247"
+                  target="_blank"
+                  rel=""
+                  title=""
+                >
                   <i className="fab fa-facebook-f"></i>
                 </Link>
-                <Link href="#">
+                <Link href="#" target="_blank" rel="" title="">
                   <i className="fab fa-twitter"></i>
                 </Link>
-                <Link href="#">
+                <Link
+                  href="https://www.instagram.com/eg_living.ae/"
+                  target="_blank"
+                  rel=""
+                  title=""
+                >
                   <i className="fab fa-instagram"></i>
                 </Link>
-                <Link href="#">
+                <Link href="#" target="_blank" rel="" title="">
                   <i className="fab fa-youtube"></i>
                 </Link>
               </div>

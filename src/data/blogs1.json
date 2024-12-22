@@ -1,21 +1,21 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
     "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
     "by": "John Doe",
     "date": "Aug 06 2024"
   },
   {
     "id": 2,
-    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
     "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
     "by": "John Doe",
     "date": "Aug 06 2024"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/eg-living-office-furnitures.jpg",
+    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
     "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
     "by": "John Doe",
     "date": "Aug 06 2024"

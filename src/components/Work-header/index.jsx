@@ -4,7 +4,7 @@ const WorkHeader = ({ title, content, center }) => {
   return (
     <div
       className="work-header bg-img valign"
-      style={{ backgroundImage: "url(/assets/img/works/eg-living-works.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/works/eg-living-works.webp)" }}
     >
       <div className="container">
         <div className={`row ${center ? "justify-content-center" : ""}`}>

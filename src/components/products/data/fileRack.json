@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/file-rack/hkfr-4001-1700x500x430.webp",
+        "name": "HKFR 4001 1700x500x430",
+        "tag": "fileRack"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/file-rack/hkfr-4002-1700x500x430.webp",
+        "name": "HKFR 4002 1700x500x430",
+        "tag": "fileRack"
+    }
+]
