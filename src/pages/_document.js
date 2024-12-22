@@ -160,9 +160,6 @@ class MyDocument extends Document {
           <meta name="twitter:site" content="@egliving" />
 
           <link rel="canonical" href={canonical} />
-
-          <link rel="preload" href="/assets/css/style-light.css" as="style" />
-          <link rel="stylesheet" href="/assets/css/style-light.css" />
         </Head>
 
         <body>

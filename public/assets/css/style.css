@@ -2936,7 +2936,8 @@ body {
 }
 
 .works.filter-img .filtering .filter span.active {
-  color: #4cb753;
+  color: #ffffff;
+  background-color: #4cb753;
 }
 
 .works.filter-img .filtering .filter.floating {
@@ -6115,3 +6116,35 @@ footer .item .copy-right p a {
 }
 
 /* ====================== [ End Responsive ] ====================== */
+
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5rem !important;
+}
+
+.pagination .btn {
+  padding: 3px 12px;
+  border: 1px solid #4cb753;
+  color: #ffffff;
+  background: transparent;
+  cursor: pointer;
+}
+
+.pagination .btn:hover {
+  background: #4cb753;
+}
+
+.pagination .btn.active {
+  background: #4cb753;
+  color: #fff;
+}
+
+.pagination .btn[disabled],
+.pagination .btn[disabled]:hover {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: transparent;
+}

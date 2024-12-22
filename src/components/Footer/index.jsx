@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
 
@@ -72,16 +71,17 @@ const Footer = ({ classText }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/blog-details" title="Read More">
                       <img
                         src="/assets/img/blog/eg-living-office-furnitures.webp"
-                        alt=""
+                        alt="Best office furniture in UAE"
+                        title="Best office furniture in UAE"
                       />
                     </Link>
                   </div>
 
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/blog-details" title="Read More">
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Totam possimus.
@@ -92,15 +92,16 @@ const Footer = ({ classText }) => {
                 </li>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/blog-details" title="Read More">
                       <img
                         src="/assets/img/blog/eg-living-office-furnitures.webp"
-                        alt=""
+                        alt="EG Living Office Furniture"
+                        title="EG Living Office Furniture"
                       />
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/blog-details" title="Read More">
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Totam possimus.
@@ -124,29 +125,28 @@ const Footer = ({ classText }) => {
                 <img
                   src="/assets/img/logo/eg_logo-full-white.png"
                   alt="EG Living"
+                  title="EG Living"
                 />
               </div>
               <div className="social">
                 <Link
                   href="https://www.facebook.com/profile.php?id=61566560664247"
                   target="_blank"
-                  rel=""
-                  title=""
+                  title="Follow Facebook"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </Link>
-                <Link href="#" target="_blank" rel="" title="">
+                <Link href="#" target="_blank" title="Follow Twitter">
                   <i className="fab fa-twitter"></i>
                 </Link>
                 <Link
                   href="https://www.instagram.com/eg_living.ae/"
                   target="_blank"
-                  rel=""
-                  title=""
+                  title="Follow Instagram"
                 >
                   <i className="fab fa-instagram"></i>
                 </Link>
-                <Link href="#" target="_blank" rel="" title="">
+                <Link href="#" target="_blank" title="Subscribe Youtube">
                   <i className="fab fa-youtube"></i>
                 </Link>
               </div>

@@ -28,6 +28,9 @@ const MainLayout = ({ children, logoClassText }) => {
   }, [navbarRef]);
   return (
     <>
+      <Head>
+        <link rel="stylesheet" href="/assets/css/style.css" />
+      </Head>
       <Navbar
         navbarRef={navbarRef}
         logoRef={logoRef}
