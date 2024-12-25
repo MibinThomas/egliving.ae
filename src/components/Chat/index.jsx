@@ -9,7 +9,24 @@ const Chat = () => {
   )}`;
 
   return (
-    <div>
+    <div
+      style={{
+        position: "fixed",
+        bottom: "30px",
+        left: "30px",
+        background: "#4cb753 !important",
+        backgroundColor: "#4cb753 !important",
+        color: "white",
+        borderRadius: "50%",
+        width: "44px",
+        height: "44px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.2)",
+        zIndex: 1000,
+      }}
+    >
       <a
         href={whatsappLink}
         target="_blank"
@@ -18,7 +35,8 @@ const Chat = () => {
           position: "fixed",
           bottom: "30px",
           left: "30px",
-          background: "#4cb753",
+          background: "#4cb753 !important",
+          backgroundColor: "#4cb753 !important",
           color: "white",
           borderRadius: "50%",
           width: "44px",
