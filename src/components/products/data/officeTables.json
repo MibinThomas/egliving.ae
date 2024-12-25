@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/office-tables/hkct-2013-900x450x750.webp",
+        "name": "HKCT 2013 900x450x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2001.webp",
+        "name": "HKOT 2001",
+        "tag": "officeTables"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2002-1800x750x750.webp",
+        "name": "HKOT 2002 1800x750x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2004-1200x600x750.webp",
+        "name": "HKOT 2004 1200x600x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2006-1000x600x750.webp",
+        "name": "HKOT 2006 1000x600x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2008-1200x600x750.webp",
+        "name": "HKOT 2008 1200x600x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 7,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2012-900x450x750.webp",
+        "name": "HKOT 2012 900x450x750",
+        "tag": "officeTables"
+    },
+    {
+        "id": 8,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2014.webp",
+        "name": "HKOT 2014",
+        "tag": "officeTables"
+    },
+    {
+        "id": 9,
+        "imgSrc": "/assets/img/products/office-tables/hkot-2015.webp",
+        "name": "HKOT 2015",
+        "tag": "officeTables"
+    }
+]

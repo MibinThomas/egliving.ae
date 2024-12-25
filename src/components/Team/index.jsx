@@ -90,24 +90,12 @@ class Team1 extends React.Component {
                     key={item.id}
                   >
                     <div className="img wow">
-                      <img src={item.image} alt="" />
-                      <div className="social">
-                        <Link href={item.facebook} title={item.username}>
-                          <i className="fab fa-facebook-f"></i>
-                        </Link>
-
-                        <Link href={item.twitter} title={item.username}>
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-
-                        <Link href={item.behance} title={item.username}>
-                          <i className="fab fa-behance"></i>
-                        </Link>
-
-                        <Link href={item.linkedin} title={item.username}>
-                          <i className="fab fa-linkedin-in"></i>
-                        </Link>
-                      </div>
+                      <img
+                        src={item.image}
+                        alt={item.username}
+                        title={item.username}
+                        loading="lazy"
+                      />
                     </div>
                     <div className="info">
                       <h5>{item.username}</h5>

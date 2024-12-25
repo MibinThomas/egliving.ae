@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/shoe-rack/hksr-7007.webp",
+        "name": "HKSR 7007",
+        "tag": "shoeRack"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/shoe-rack/hksr-7008.webp",
+        "name": "HKSR 7008",
+        "tag": "shoeRack"
+    }
+]

@@ -18,12 +18,43 @@ export const WorkTwoColumn = () => {
 
               <div className="filtering mt-30">
                 <div className="filter">
-                  <span data-filter="*" className="active">
+                  <span
+                    data-filter="*"
+                    className="active"
+                    style={{
+                      padding: "2px 10px",
+                      border: "1px solid #4cb753",
+                    }}
+                  >
                     All
                   </span>
-                  <span data-filter=".interior">Modern Office</span>
-                  <span data-filter=".office-design">Office Design</span>
-                  <span data-filter=".workstations">Workstations</span>
+                  <span
+                    data-filter=".interior"
+                    style={{
+                      padding: "2px 10px",
+                      border: "1px solid #4cb753",
+                    }}
+                  >
+                    Modern Office
+                  </span>
+                  <span
+                    data-filter=".office-design"
+                    style={{
+                      padding: "2px 10px",
+                      border: "1px solid #4cb753",
+                    }}
+                  >
+                    Office Design
+                  </span>
+                  <span
+                    data-filter=".workstations"
+                    style={{
+                      padding: "2px 10px",
+                      border: "1px solid #4cb753",
+                    }}
+                  >
+                    Workstations
+                  </span>
                 </div>
               </div>
             </div>

@@ -4,14 +4,26 @@ const ProductsHero = ({ title, content, center }) => {
   return (
     <div
       className="work-header bg-img valign"
-      style={{ backgroundImage: "url(/assets/img/works/eg-living-works.webp)" }}
+      style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(/assets/img/products/bedroom-set/sueno-lite-3door.webp)`,
+        backgroundPosition: "center",
+      }}
     >
       <div className="container">
-        <div className={`row ${center ? "justify-content-center" : ""}`}>
-          <div className="col-lg-9">
-            <div className={`cont ${center ? "text-center" : ""}`}>
-              <h1 style={{ fontSize: "36px", marginBottom: "10px" }}>
-                {typeof title == "object" ? (
+        <div
+          className={`row align-items-center ${
+            center ? "justify-content-center" : ""
+          }`}
+        >
+          <div className="col-lg-9 m-auto text-center">
+            <div className={`m-auto cont ${center ? "text-center" : ""}`}>
+              <h1
+                style={{
+                  fontSize: "46px",
+                  marginBottom: "10px",
+                }}
+              >
+                {typeof title === "object" ? (
                   <>
                     {title.first} <br /> {title.second}
                   </>
@@ -20,7 +32,7 @@ const ProductsHero = ({ title, content, center }) => {
                 )}
               </h1>
 
-              <p>{content}</p>
+              <p style={{ color: "#ffffff90" }}>{content}</p>
             </div>
           </div>
         </div>

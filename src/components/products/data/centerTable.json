@@ -7,24 +7,18 @@
     },
     {
         "id": 2,
-        "imgSrc": "/assets/img/products/center-table/hkct-8007.webp",
-        "name": "HKCT 8007",
-        "tag": "centerTable"
-    },
-    {
-        "id": 4,
         "imgSrc": "/assets/img/products/center-table/hkct-8009.webp",
         "name": "HKCT 8009",
         "tag": "centerTable"
     },
     {
-        "id": 5,
+        "id": 3,
         "imgSrc": "/assets/img/products/center-table/hkct-8010.webp",
         "name": "HKCT 8010",
         "tag": "centerTable"
     },
     {
-        "id": 6,
+        "id": 4,
         "imgSrc": "/assets/img/products/center-table/hkct-8011.webp",
         "name": "HKCT 8011",
         "tag": "centerTable"

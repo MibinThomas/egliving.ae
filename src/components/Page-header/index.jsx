@@ -4,6 +4,9 @@ import { useRouter } from "next/router";
 
 const PageHeader = ({ title, fullPath, image }) => {
   const router = useRouter();
+
+  console.log(fullPath);
+
   return (
     <div
       className="pages-header bg-img valign parallaxie"
@@ -25,13 +28,17 @@ const PageHeader = ({ title, fullPath, image }) => {
               <div className="path">
                 {fullPath.map((item, index) => (
                   <React.Fragment key={item.id}>
-                    <Link
-                      href={item.url}
-                      className={router.pathname == item.url ? "active" : ""}
-                      title={item.name}
-                    >
-                      {item.name}
-                    </Link>
+                    {item.url ? (
+                      <Link
+                        href={item.url}
+                        className={router.pathname == item.url ? "active" : ""}
+                        title={item.name}
+                      >
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <span>{item.name}</span> // Fallback if `url` is undefined
+                    )}
                     {index != fullPath.length - 1 ? <span>/</span> : ""}
                   </React.Fragment>
                 ))}

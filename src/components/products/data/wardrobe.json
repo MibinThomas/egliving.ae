@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/wardrobe/aerin.webp",
+        "name": "Aerin",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/wardrobe/calix.webp",
+        "name": "Calix",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/img/products/wardrobe/dalise.webp",
+        "name": "Dalise",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/img/products/wardrobe/hkwr-1001-2000x900x450.webp",
+        "name": "HKWR 1001 2000x900x450",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 5,
+        "imgSrc": "/assets/img/products/wardrobe/hkwr-1002.webp",
+        "name": "HKWR 1002",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 6,
+        "imgSrc": "/assets/img/products/wardrobe/merle-1010.webp",
+        "name": "Merle 1010",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 7,
+        "imgSrc": "/assets/img/products/wardrobe/talis.webp",
+        "name": "Talis",
+        "tag": "wardrobe"
+    },
+    {
+        "id": 8,
+        "imgSrc": "/assets/img/products/wardrobe/yarah.webp",
+        "name": "Yarah",
+        "tag": "wardrobe"
+    }
+]

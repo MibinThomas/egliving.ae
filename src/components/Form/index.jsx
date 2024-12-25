@@ -1,6 +1,46 @@
-import React from "react";
+// src/components/Form/index.jsx
+import React, { useState } from "react";
 
 const Form = ({ onClose }) => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Sending...");
+
+    try {
+      // Sending form data to the correct API route
+      const response = await fetch("../../api/sendEmail.js", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setStatus("Email sent successfully!");
+        setFormData({ name: "", email: "", phone: "", message: "" });
+      } else {
+        setStatus("Failed to send email. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setStatus("An error occurred. Please try again.");
+    }
+  };
+
   return (
     <div
       style={{
@@ -62,44 +102,50 @@ const Form = ({ onClose }) => {
             </div>
 
             <div className="cta-form">
-              <form id="contact-form" method="post">
+              <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="messages"></div>
                 <div className="controls">
                   <div className="form-group">
                     <input
-                      id="form_name"
                       type="text"
                       name="name"
                       placeholder="Name"
-                      required="required"
+                      value={formData.name}
+                      onChange={handleChange}
+                      required
                     />
                   </div>
 
                   <div className="form-group">
                     <input
-                      id="form_phone"
                       type="tel"
                       name="phone"
                       placeholder="Phone"
-                      required="required"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      required
                     />
                   </div>
 
                   <div className="form-group">
                     <input
-                      id="form_email"
                       type="email"
                       name="email"
                       placeholder="Email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
                     />
                   </div>
 
                   <div className="form-group">
                     <textarea
-                      id="form_message"
                       name="message"
                       placeholder="Message"
                       rows="4"
+                      value={formData.message}
+                      onChange={handleChange}
+                      required
                     ></textarea>
                   </div>
 
@@ -115,6 +161,7 @@ const Form = ({ onClose }) => {
                     Enquire Now
                   </button>
                 </div>
+                <p>{status}</p>
               </form>
             </div>
           </div>

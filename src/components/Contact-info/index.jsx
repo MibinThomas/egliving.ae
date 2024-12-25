@@ -11,7 +11,7 @@ const ContactInfo = () => {
               <span className="icon pe-7s-phone"></span>
               <div className="cont">
                 <h6 className="custom-font">Call Us</h6>
-                <Link to="tel:+971 065448335" title="Call EG Living team">
+                <Link href="tel:+971065448335" title="Call EG Living team">
                   +971 065448335
                 </Link>
                 <br />
@@ -25,7 +25,10 @@ const ContactInfo = () => {
               <span className="icon pe-7s-mail-open"></span>
               <div className="cont">
                 <h6 className="custom-font">Email Us</h6>
-                <Link to="mailto:info@egliving.ae" title="Mail EG Living team">
+                <Link
+                  href="mailto:info@egliving.ae"
+                  title="Mail EG Living team"
+                >
                   info@egliving.ae
                 </Link>
                 <br />

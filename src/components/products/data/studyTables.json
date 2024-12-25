@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "/assets/img/products/study-tables/hkst-3001-1600x1600x600.webp",
+        "name": "HKST 3001 1600x1600x600",
+        "tag": "studyTables"
+    },
+    {
+        "id": 2,
+        "imgSrc": "/assets/img/products/study-tables/hkst-3002-1300x1200x400.webp",
+        "name": "HKST 3002 1300x1200x400",
+        "tag": "studyTables"
+    },
+    {
+        "id": 3,
+        "imgSrc": "/assets/img/products/study-tables/hkst-3004-1200x1200x400.webp",
+        "name": "HKST 3004 1200x1200x400",
+        "tag": "studyTables"
+    },
+    {
+        "id": 4,
+        "imgSrc": "/assets/img/products/study-tables/hkst-3010-1200x600x450.webp",
+        "name": "HKST 3010 1200x600x450",
+        "tag": "studyTables"
+    }
+]

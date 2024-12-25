@@ -26,7 +26,7 @@ const Home = () => {
 
   return (
     <LightLayout>
-      {/* {showForm && <Form onClose={() => setShowForm(false)} />} */}
+      {showForm && <Form onClose={() => setShowForm(false)} />}
       <Hero />
       <Services />
       <AboutUs />

@@ -18,7 +18,7 @@ const Chat = () => {
           position: "fixed",
           bottom: "30px",
           left: "30px",
-          backgroundColor: "#25D366",
+          background: "#4cb753",
           color: "white",
           borderRadius: "50%",
           width: "44px",

@@ -10,6 +10,10 @@ import chestDrawer from "./data/chestDrawer.json";
 import lcdUnits from "./data/lcdUnits.json";
 import fileRack from "./data/fileRack.json";
 import cornerRack from "./data/cornerRack.json";
+import officeTables from "./data/officeTables.json";
+import shoeRack from "./data/shoeRack.json";
+import studyTables from "./data/studyTables.json";
+import wardrobe from "./data/wardrobe.json";
 
 const allProducts = [
   ...bedroomSet,
@@ -19,6 +23,10 @@ const allProducts = [
   ...lcdUnits,
   ...fileRack,
   ...cornerRack,
+  ...officeTables,
+  ...shoeRack,
+  ...studyTables,
+  ...wardrobe,
 ];
 
 const ITEMS_PER_PAGE = 15;
@@ -26,15 +34,21 @@ const ITEMS_PER_PAGE = 15;
 const Products = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [visibleProducts, setVisibleProducts] = useState([]);
+  const [activeFilter, setActiveFilter] = useState("*");
 
   useEffect(() => {
+    const filteredProducts =
+      activeFilter === "*"
+        ? allProducts
+        : allProducts.filter((product) => product.tag === activeFilter);
+
     setVisibleProducts(
-      allProducts.slice(
+      filteredProducts.slice(
         (currentPage - 1) * ITEMS_PER_PAGE,
         currentPage * ITEMS_PER_PAGE
       )
     );
-  }, [currentPage]);
+  }, [currentPage, activeFilter]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -42,7 +56,12 @@ const Products = () => {
     }, 1000);
   }, [visibleProducts]);
 
-  const totalPages = Math.ceil(allProducts.length / ITEMS_PER_PAGE);
+  const totalPages = Math.ceil(
+    (activeFilter === "*"
+      ? allProducts.length
+      : allProducts.filter((product) => product.tag === activeFilter).length) /
+      ITEMS_PER_PAGE
+  );
 
   const handlePageChange = (page) => {
     if (page > 0 && page <= totalPages) {
@@ -50,30 +69,88 @@ const Products = () => {
     }
   };
 
+  const handleFilterChange = (filter) => {
+    setActiveFilter(filter);
+    setCurrentPage(1); // Reset to the first page when filter changes
+  };
+
   return (
     <section className="works filter-img four-col section-padding">
       <div className="container-fluid">
         {/* Filtering Buttons */}
-        <div className="filtering text-center mb-30">
-          <div className="filter">
+        <div className="container filtering text-center mb-30">
+          <div
+            className="filter"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "20px",
+              flexWrap: "wrap",
+            }}
+          >
             <span
-              data-filter="*"
-              className="active"
-              style={{ padding: "2px 8px", border: "1px solid #4cb753" }}
+              onClick={() => handleFilterChange("*")}
+              className={activeFilter === "*" ? "active" : ""}
+              style={{
+                padding: "2px 8px",
+                border: "1px solid #4cb753",
+                marginRight: "unset",
+              }}
             >
               All
             </span>
             {Object.keys(filterTags).map((key) => (
               <span
                 key={key}
-                data-filter={`${key}`}
-                style={{ padding: "2px 8px", border: "1px solid #4cb753" }}
+                onClick={() => handleFilterChange(key)}
+                className={activeFilter === key ? "active" : ""}
+                style={{
+                  padding: "2px 8px",
+                  border: "1px solid #4cb753",
+                  marginRight: "unset",
+                }}
               >
                 {filterTags[key]}
               </span>
             ))}
           </div>
         </div>
+
+        {/* 
+        <div
+          className="container d-flex align-items-center filtering mb-30"
+          style={{ gap: "10px" }}
+        >
+          <span>Filter:</span>
+          <select
+            className="filter"
+            style={{
+              padding: "2px 8px",
+              border: "1px solid #4cb753",
+              color: "#4cb753",
+              fontWeight: "bold",
+              background: "transparent",
+            }}
+          >
+            <option
+              data-filter="*"
+              className="active"
+              style={{ padding: "2px 8px", border: "1px solid #4cb753" }}
+            >
+              All
+            </option>
+            {Object.keys(filterTags).map((key) => (
+              <option
+                key={key}
+                data-filter={`${key}`}
+                style={{ padding: "2px 8px", border: "1px solid #4cb753" }}
+              >
+                {filterTags[key]}
+              </option>
+            ))}
+          </select>
+        </div> */}
 
         {/* Product Grid */}
         <div className="row gallery">
