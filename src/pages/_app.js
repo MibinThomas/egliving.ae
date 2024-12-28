@@ -16,7 +16,9 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>EG Living - Office Furniture, Workstations in Dubai</title>
+        <title>
+          EG Living - Custom Furniture & Modular Design Experts in UAE
+        </title>
       </Head>
 
       <Lenis

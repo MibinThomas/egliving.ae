@@ -63,7 +63,7 @@ const IntroWithVertical = () => {
               el: paginationRef.current,
             }}
             autoplay={{
-              delay: 3000,
+              delay: 4500,
               disableOnInteraction: false,
             }}
             slidesPerView={1}

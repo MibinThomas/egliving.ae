@@ -16,7 +16,7 @@ class MyDocument extends Document {
   render() {
     const { canonical } = this.props;
     return (
-      <Html lang="en">
+      <Html lang={this.props.__NEXT_DATA__.props.initialLanguage || "en"}>
         <Head>
           <title>EG Living - Office Furniture, Workstations in Dubai</title>
 
@@ -115,11 +115,11 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#ffffff" />
           <meta
             name="keywords"
-            content="EG Living | Modular Design Experts | Office Furniture Solutions | Commercial Design Trends | Innovative Space Solutions | Best Modular Living Ideas | Functional & Stylish Living Spaces | Luxury Home Furniture Online | Luxury Home Furniture UAE | Best Furniture Shop UAE | High End Furniture UAE | Modular Conference Table | Office Conference Table | Modern Conference Table | Conference Table Chairs | Modular Kitchen Design Company in UAE | Modular Kitchen Near Me | Modular Kitchen Accessories Shop Near Me |  Modular Kitchen Shop Near Me​ | Best Modular Kitchen Near Me​"
+            content="EG Living | Custom Furniture Solutions UAE | Modular Furniture Design | Bespoke Furniture Dubai | Modular Living Spaces UAE | Luxury Custom Furniture UAE | Sustainable Furniture Dubai | Modular Office Solutions UAE | High-End Custom Furniture | Tailored Furniture Designs | Modern Modular Kitchens UAE | Innovative Living Spaces Dubai | Sustainable Home Furniture UAE | Custom Modular Architecture Dubai | Flexible Space Design UAE | Custom Luxury Furniture Online UAE | Expert Furniture Craftsmanship UAE"
           />
           <meta
             name="description"
-            content="Discover EG Living: Innovative office solutions, versatile commercial designs, and superior modular living. Elevate your space with over 20 years of industry expertise, redefining style and functionality."
+            content="Transform your space with EG Living's custom furniture and modular design solutions. We specialize in luxury, sustainability, and expert craftsmanship to create bespoke, functional spaces that reflect your style and vision. Over 20 years of industry expertise."
           />
           <meta name="author" content="WebEyeCraft Technologies" />
           <meta name="publisher" content="EG Living" />
@@ -132,11 +132,11 @@ class MyDocument extends Document {
           <meta name="robots" content="index, follow" />
           <meta
             property="og:title"
-            content="EG Living - Office Furniture, Workstations in Dubai"
+            content="EG Living - Custom Furniture & Modular Design Experts in UAE"
           />
           <meta
             property="og:description"
-            content="Discover EG Living: Innovative office solutions, versatile commercial designs, and superior modular living. Elevate your space with over 20 years of industry expertise, redefining style and functionality."
+            content="Discover EG Living: Transforming spaces with bespoke custom furniture and modular design solutions. Elevating style, functionality, and sustainability with over 20 years of industry expertise."
           />
           <meta
             property="og:image"
@@ -147,11 +147,11 @@ class MyDocument extends Document {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content="EG Living - Office Furniture, Workstations in Dubai"
+            content="EG Living - Custom Furniture & Modular Design Experts"
           />
           <meta
             name="twitter:description"
-            content="Discover EG Living: Innovative office solutions, versatile commercial designs, and superior modular living. Elevate your space with over 20 years of industry expertise, redefining style and functionality."
+            content="Transform your space with EG Living's custom furniture and modular design solutions. Expert craftsmanship, innovation, and sustainability define our approach to elevating your living and working spaces."
           />
           <meta
             name="twitter:image"
