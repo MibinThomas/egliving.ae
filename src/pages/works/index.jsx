@@ -11,10 +11,10 @@ const Work1 = () => {
     <MainLayout>
       <WorkHeader
         title={{
-          first: "Crafting Inspiring Workspaces,",
+          first: "Crafting Inspiring You Dream spaces",
           second: "Where Design Meets Functionality",
         }}
-        content="EG Living specializes in modern, functional office furniture and workstations that enhance productivity and creativity. Our high-quality, ergonomic solutions are designed to fit businesses' needs."
+        content="EG Living specializes in modern, functional custom furniture that enhance productivity and creativity. Our high-quality, ergonomic solutions are designed to fit businesses' needs."
       />
       <WorkTwoColumn />
     </MainLayout>

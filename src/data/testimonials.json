@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "content": "This platform is amazing. It helped me a lot!",
+        "username": "John Doe",
+        "usertitle": "CEO at Company",
+        "image": "/assets/img/clients/john.jpg"
+    },
+    {
+        "id": 2,
+        "content": "I love the user interface and experience!",
+        "username": "Jane Smith",
+        "usertitle": "Manager at Business",
+        "image": "/assets/img/clients/jane.jpg"
+    },
+    {
+        "id": 3,
+        "content": "Highly recommend to everyone.",
+        "username": "Robert Brown",
+        "usertitle": "Freelancer",
+        "image": "/assets/img/clients/robert.jpg"
+    }
+]

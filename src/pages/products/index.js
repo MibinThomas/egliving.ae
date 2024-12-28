@@ -11,8 +11,8 @@ const Work1 = () => {
     <MainLayout>
       <ProductsHero
         title={{
-          first: "Crafting Inspiring Workspaces,",
-          second: "Where Design Meets Functionality",
+          first: "Elegant and Functional",
+          second: "Furniture for Every Space",
         }}
         content="EG Living specializes in modern, functional office furniture and workstations that enhance productivity and creativity. Our high-quality, ergonomic solutions are designed to fit businesses' needs."
       />

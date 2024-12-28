@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "question": "What is customized furniture?",
+        "answer": "Customized furniture is tailor-made to meet your specific requirements, including size, design, material, and finish. It ensures the perfect fit and style for your home or office."
+    },
+    {
+        "id": 2,
+        "question": "What types of furniture do you specialize in?",
+        "answer": "We specialize in:\n- Modular Furniture\n- Bedroom Furniture\n- Kitchen Furniture\n- Custom Designed Furniture's"
+    },
+    {
+        "id": 3,
+        "question": "How do I place an order for customized furniture?",
+        "answer": "You can contact us through our website or visit our store. Share your design preferences, measurements, and requirements, and our team will guide you through the process."
+    },
+    {
+        "id": 4,
+        "question": "Can you help with design ideas for my furniture?",
+        "answer": "Yes, our experts can assist with design ideas to match your space, preferences, and style. We also offer consultations to create unique furniture designs."
+    },
+    {
+        "id": 5,
+        "question": "What materials do you use for your furniture?",
+        "answer": "We use high-quality materials such as solid wood, engineered wood, metal, and premium finishes to ensure durability and elegance in our furniture."
+    },
+    {
+        "id": 7,
+        "question": "Do you offer delivery and installation services?",
+        "answer": "Yes, we provide delivery and professional installation services to ensure your furniture is perfectly set up."
+    },
+    {
+        "id": 8,
+        "question": "Can I customize modular furniture to fit my space?",
+        "answer": "Absolutely! Our modular furniture is designed to be flexible and adaptable, making it easy to customize for any space."
+    },
+    {
+        "id": 9,
+        "question": "Do you provide warranties on your furniture?",
+        "answer": "Yes, we offer warranties on all our furniture to guarantee quality and customer satisfaction. Specific terms vary based on the product."
+    },
+    {
+        "id": 10,
+        "question": "Where do you deliver?",
+        "answer": "We deliver across the UAE, ensuring your customized furniture reaches you safely and on time."
+    },
+    {
+        "id": 12,
+        "question": "How can I contact your customer support team?",
+        "answer": "You can reach us via phone, email, or the contact form on our website. Our team is available to assist you with any inquiries or support."
+    }
+]

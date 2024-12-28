@@ -138,11 +138,11 @@ const IntroWithVertical = () => {
                             </p>
                           )}
                           <Link
-                            href="/works"
+                            href="/products"
                             className="btn-curve btn-color mt-30"
                             title="View EG Living Works"
                           >
-                            <span>Discover Work</span>
+                            <span>Our Collections</span>
                           </Link>
                         </div>
                       </div>

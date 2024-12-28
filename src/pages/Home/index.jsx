@@ -9,7 +9,9 @@ import AboutUs from "../../components/AboutUs";
 import Portfolio from "../../components/Portfolio";
 import Process from "../../components/Process";
 import Team from "../../components/Team";
+import Testimonials from "../../components/Testimonials";
 import Blogs from "../../components/Blogs";
+import FAQs from "../../components/FAQs";
 
 const Home = () => {
   const [showForm, setShowForm] = useState(false);
@@ -33,7 +35,9 @@ const Home = () => {
       <Portfolio />
       <Process />
       <Team />
+      {/* <Testimonials /> */}
       <Blogs />
+      <FAQs />
     </LightLayout>
   );
 };
