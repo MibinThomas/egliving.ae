@@ -6148,3 +6148,41 @@ footer .item .copy-right p a {
   opacity: 0.5;
   background: transparent;
 }
+
+
+
+
+
+
+.network-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.network-status.online {
+  background-color: #4cb753;
+}
+
+.network-status.offline {
+  background-color: red;
+}
+
+.network-status.check-connection {
+  background-color: darkred;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.network-status p {
+  margin: 0;
+  font-size: 14px;
+}
