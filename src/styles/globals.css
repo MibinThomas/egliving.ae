@@ -1,3 +1,29 @@
+/* Base styles */
+html {
+  direction: ltr;
+  transition: direction 0.3s ease;
+}
+
+body {
+  @apply bg-white text-gray-900;
+}
+
+.dark body {
+  @apply bg-black text-gray-100;
+}
+
+html[lang='ar'] {
+  direction: rtl;
+}
+
+body[dir='rtl'] {
+  text-align: right;
+}
+
+body[dir='ltr'] {
+  text-align: left;
+}
+
 svg.CircularProgressbar {
   width: 110px;
   height: 110px;

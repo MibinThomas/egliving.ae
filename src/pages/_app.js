@@ -1,3 +1,5 @@
+//  src/pages/_app.js
+
 import React from "react";
 import Script from "next/script";
 import Head from "next/head";
@@ -8,6 +10,8 @@ import ScrollToTop from "../components/scrollToTop";
 import { Lenis, useLenis } from "lenis/react";
 import Chat from "../components/Chat";
 import NetworkStatus from "../components/NetworkStatus";
+import { appWithTranslation } from "next-i18next";
+import "../../i18n";
 
 function MyApp({ Component, pageProps }) {
   useLenis((lenis) => {
@@ -54,4 +58,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default appWithTranslation(MyApp);

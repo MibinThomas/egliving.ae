@@ -1,11 +1,14 @@
+// next.config.js
+
 const path = require("path");
 
 module.exports = {
   i18n: {
     locales: ["en", "ar"],
     defaultLocale: "en",
+    localeDetection: true,
   },
-  reactStrictMode: false,
+  reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
   },

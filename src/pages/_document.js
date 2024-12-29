@@ -1,22 +1,29 @@
+// src/pages/_document.js
+
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import { i18n } from "next-i18next";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx);
+    const locale = ctx.locale || "en";
+    const canonical = ctx.req
+      ? `${ctx.req.headers["x-forwarded-proto"] || "http"}://${
+          ctx.req.headers.host
+        }${ctx.req.url}`
+      : "";
+
     return {
       ...initialProps,
-      canonical: ctx.req
-        ? `${ctx.req.protocol || "http"}://${ctx.req.headers.host}${
-            ctx.req.url
-          }`
-        : "",
+      locale,
+      canonical,
     };
   }
 
   render() {
-    const { canonical } = this.props;
+    const { locale, canonical } = this.props;
     return (
-      <Html lang={this.props.__NEXT_DATA__.props.initialLanguage || "en"}>
+      <Html lang={locale}>
         <Head>
           <title>EG Living - Office Furniture, Workstations in Dubai</title>
 
