@@ -163,7 +163,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <ThemeSwitcher />
 
             {/* Language Switcher */}
-            <LocaleSwitcher />
+            {/* <LocaleSwitcher /> */}
           </div>
         </div>
       </div>
