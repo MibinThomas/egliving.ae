@@ -10,6 +10,7 @@ const Chat = () => {
 
   return (
     <div
+    className="whatsapp-chat-btn"
       style={{
         position: "fixed",
         bottom: "30px",

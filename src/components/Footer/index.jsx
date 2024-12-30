@@ -123,7 +123,7 @@ const Footer = ({ classText }) => {
             <div className="item">
               <div className="logo">
                 <img
-                  src="/assets/img/logo/eg_logo-full-white.png"
+                  src="/assets/img/logo/eg_logo-full.png"
                   alt="EG Living"
                   title="EG Living"
                 />

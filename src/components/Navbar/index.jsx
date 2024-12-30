@@ -43,7 +43,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
 
         {/* Navigation Links */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ml-auto">
+          <ul className="ml-auto navbar-nav">
             <li className="nav-item">
               <Link
                 href={`/${locale}/`}
@@ -106,7 +106,10 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             </li>
           </ul>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+          <div
+            className="social-wrapper"
+            style={{ display: "flex", alignItems: "center", gap: "10px" }}
+          >
             <span style={{ opacity: 0.2 }}>|</span>
 
             {/* Social Media Links */}

@@ -12,6 +12,7 @@ import Team from "../../components/Team";
 import Testimonials from "../../components/Testimonials";
 import Blogs from "../../components/Blogs";
 import FAQs from "../../components/FAQs";
+import NetworkStatus from "../../components/NetworkStatus";
 
 const Home = () => {
   const [showForm, setShowForm] = useState(false);
@@ -38,6 +39,8 @@ const Home = () => {
       {/* <Testimonials /> */}
       <Blogs />
       <FAQs />
+
+      <NetworkStatus />
     </LightLayout>
   );
 };

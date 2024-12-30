@@ -13,7 +13,10 @@ const WorkHeader = ({ title, content, center }) => {
         <div className={`row ${center ? "justify-content-center" : ""}`}>
           <div className="col-lg-9">
             <div className={`cont ${center ? "text-center" : ""}`}>
-              <h1 style={{ fontSize: "36px", marginBottom: "10px" }}>
+              <h1
+                className="h1-h1-h1-"
+                style={{ fontSize: "36px", marginBottom: "10px" }}
+              >
                 {typeof title == "object" ? (
                   <>
                     {title.first} <br /> {title.second}

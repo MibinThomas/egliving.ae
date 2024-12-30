@@ -85,14 +85,14 @@ const AboutUs4 = () => {
               integrity
             </p>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 img-img">
             <div style={{ maxWidth: "70%", margin: "auto" }}>
               <img src="/assets/img/eg-living-vision.jpeg" alt="" />
             </div>
           </div>
         </div>
         <div className="row" style={{ marginTop: "8rem" }}>
-          <div className="col-lg-6">
+          <div className="col-lg-6 img-img">
             <div style={{ maxWidth: "70%", margin: "auto" }}>
               <img src="/assets/img/eg-living-mission.jpeg" alt="" />
             </div>

@@ -9,7 +9,6 @@ import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/scrollToTop";
 import { Lenis, useLenis } from "lenis/react";
 import Chat from "../components/Chat";
-import NetworkStatus from "../components/NetworkStatus";
 import { appWithTranslation } from "next-i18next";
 import "../../i18n";
 
@@ -38,7 +37,6 @@ function MyApp({ Component, pageProps }) {
         <LoadingScreen />
         <Component {...pageProps} />
         <Chat />
-        <NetworkStatus />
         <ScrollToTop />
       </Lenis>
 

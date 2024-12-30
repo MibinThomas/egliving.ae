@@ -15,9 +15,9 @@ const ProductsHero = ({ title, content, center }) => {
             center ? "justify-content-center" : ""
           }`}
         >
-          <div className="col-lg-9 m-auto text-center">
+          <div className="m-auto text-center col-lg-9">
             <div className={`m-auto cont ${center ? "text-center" : ""}`}>
-              <h1
+              <h1 className="h1-h1-h1-"
                 style={{
                   fontSize: "46px",
                   marginBottom: "10px",

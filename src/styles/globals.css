@@ -12,15 +12,15 @@ body {
   @apply bg-black text-gray-100;
 }
 
-html[lang='ar'] {
+html[lang="ar"] {
   direction: rtl;
 }
 
-body[dir='rtl'] {
+body[dir="rtl"] {
   text-align: right;
 }
 
-body[dir='ltr'] {
+body[dir="ltr"] {
   text-align: left;
 }
 
@@ -40,7 +40,7 @@ a,
   display: none !important;
 }
 
-.testimonials.grid .testim .slick-track .slick-active>div {
+.testimonials.grid .testim .slick-track .slick-active > div {
   position: relative;
   margin: 0 20px;
 }
@@ -83,7 +83,7 @@ a,
   color: inherit;
   border: 1px solid #4db753;
   border-radius: 10px;
-  background: #ffffff
+  background: #ffffff;
 }
 
 .form-group {
@@ -260,7 +260,7 @@ a.col-lg-4.col-xl-3.col-md-12 {
   z-index: 55;
 }
 
-.testimonials2 .slick-slide>div {
+.testimonials2 .slick-slide > div {
   padding: 0 10px !important;
 }
 
@@ -270,7 +270,7 @@ a.col-lg-4.col-xl-3.col-md-12 {
     opacity: 0;
     padding: 0;
     height: 0;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
   }
 
   .navbar .navbar-collapse.show-with-trans {
@@ -335,7 +335,7 @@ body.hideX .pace {
 }
 
 .main {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 @media screen and (min-width: 991px) {
@@ -347,8 +347,6 @@ body.hideX .pace {
     display: none;
   }
 }
-
-
 
 /* FAQs Section */
 .faqs {
@@ -388,6 +386,14 @@ body.hideX .pace {
   text-transform: capitalize;
 }
 
+html.dark .faq-question {
+  color: #ddd;
+}
+
+html.dark .faq-answer {
+  color: #dddddd90;
+}
+
 .faq-question:hover {
   color: #4db753;
 }
@@ -396,4 +402,30 @@ body.hideX .pace {
   font-size: 16px;
   color: #555;
   line-height: 1.6;
+}
+
+@media screen and (max-width: 991px) {
+  .whatsapp-chat-btn,
+  .whatsapp-chat-btn a {
+    left: 20px !important;
+    bottom: 20px !important;
+  }
+
+  .navbar .navbar-collapse.show-with-trans ul li,
+  .navbar .navbar-collapse.show-with-trans ul li a {
+    width: max-content;
+  }
+
+  .navbar .navbar-collapse.show-with-trans ul {
+    margin-bottom: 2rem;
+  }
+
+  .navbar .social-wrapper {
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+
+  .navbar .navbar-collapse {
+    max-height: 80vh !important;
+  }
 }
