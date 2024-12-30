@@ -1,23 +1,16 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
-    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
-    "by": "John Doe",
-    "date": "Aug 06 2024"
-  },
-  {
-    "id": 2,
-    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
-    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
-    "by": "John Doe",
-    "date": "Aug 06 2024"
+    "image": "/assets/img/blog/modular-living.jpg",
+    "title": "Elevate Your Space with EG Living: Modular Designs for a Better Tomorrow",
+    "by": "Eg Team",
+    "date": "Dec 30 2024"
   },
   {
     "id": 3,
-    "image": "/assets/img/blog/eg-living-office-furnitures.webp",
-    "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, sapiente at nemo est accusantium.",
-    "by": "John Doe",
-    "date": "Aug 06 2024"
+    "image": "/assets/img/blog/smart-spaces.jpg",
+    "title": "Smart Spaces: How EG Living is Revolutionizing Furniture Design",
+    "by": "EG Team",
+    "date": "Jan 15 2025"
   }
 ]

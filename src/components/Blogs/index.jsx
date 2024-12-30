@@ -7,7 +7,7 @@ const Blogs2 = () => {
   return (
     <section className="blog-grid center bg-gray section-padding">
       <div className="container">
-        <div className="section-head text-center">
+        <div className="text-center section-head">
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-8 col-sm-10">
               <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
