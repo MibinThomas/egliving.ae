@@ -25,12 +25,7 @@ export default function ThemeSwitcher() {
         boxShadow: "none",
       }}
     >
-      <i
-        className={`fas fa-${theme === "light" ? "sun" : "moon"}`}
-        style={{
-          color: `${theme === "light" ? "#000" : "#fff"}`,
-        }}
-      ></i>
+      <i className={`fas fa-${theme === "light" ? "sun" : "moon"}`}></i>
     </button>
   );
 }

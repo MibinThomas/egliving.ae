@@ -9,8 +9,8 @@ import Cursor from "../components/Cursor";
 import ScrollToTop from "../components/scrollToTop";
 import { Lenis, useLenis } from "lenis/react";
 import Chat from "../components/Chat";
-import { appWithTranslation } from "next-i18next";
-import "../../i18n";
+import { I18nextProvider } from "react-i18next";
+import i18next from "../i18n";
 
 function MyApp({ Component, pageProps }) {
   useLenis((lenis) => {
@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
   });
 
   return (
-    <>
+    <I18nextProvider i18n={i18next}>
       <Head>
         <title>
           EG Living - Custom Furniture & Modular Design Experts in UAE
@@ -52,8 +52,8 @@ function MyApp({ Component, pageProps }) {
       ></Script>
       <Script id="isotope" src="/assets/js/isotope.pkgd.min.js"></Script>
       <Script src="/assets/js/main.js" id="init" strategy="lazyOnload"></Script>
-    </>
+    </I18nextProvider>
   );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;

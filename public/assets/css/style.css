@@ -1565,10 +1565,20 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: transparent;
+  background: #fff;
+  color: #000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 999;
   min-height: 80px;
-  font-family: "Jost", sans-serif;
+}
+
+html.dark .navbar {
+  background: #000;
+  color: #fff;
+}
+
+html.dark .navbar button {
+  color: #fff !important;
 }
 
 .navbar.bord {
@@ -1576,7 +1586,7 @@ body {
 }
 
 .navbar .logo {
-  width: 150px;
+  width: 100px;
 }
 
 .navbar .logo.dis {
@@ -5600,8 +5610,8 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    margin-left: 15px;
-    width: 150px;
+    /* margin-left: 15px; */
+    width: 100px;
   }
 
   .navbar .social-icon,
@@ -5847,7 +5857,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 150px;
+    width: 60px;
   }
 
   .main-header h3 {

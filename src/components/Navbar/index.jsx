@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
@@ -10,7 +10,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const router = useRouter();
   const currentRoute = router.pathname;
   const { locale } = router;
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    console.log("Current language:", i18n.language);
+    console.log("Home Translated:", t("home"));
+  }, [i18n.language, t]);
 
   // Handle mobile dropdown toggle
   const handleMobileDropdown = () => {
@@ -104,6 +109,18 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 {t("contact")}
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                href={`/${locale}/#!`}
+                className={`nav-link ${
+                  currentRoute === "/frequently-asked-questions"
+                    ? "active-link"
+                    : ""
+                }`}
+              >
+                {t("faqs")}
+              </Link>
+            </li>
           </ul>
 
           <div
@@ -166,7 +183,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <ThemeSwitcher />
 
             {/* Language Switcher */}
-            {/* <LocaleSwitcher /> */}
+            <LocaleSwitcher />
           </div>
         </div>
       </div>

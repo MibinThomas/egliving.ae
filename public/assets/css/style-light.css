@@ -1501,14 +1501,24 @@ body {
   padding: 0;
   margin: 0;
   width: 100%;
-  background: transparent;
+  background: #fff;
+  color: #000;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 999;
   min-height: 80px;
 }
 
+html.dark .navbar {
+  background: #000;
+  color: #fff;
+}
+
+html.dark .navbar button {
+  color: #fff !important;
+}
+
 .navbar .logo {
-  width: 150px;
+  width: 100px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -4714,7 +4724,7 @@ footer .item .copy-right p a {
 
   .navbar .logo {
     margin-left: 15px;
-    width: 150px;
+    width: 100px;
   }
 
   .nav-scroll .navbar-collapse .nav-link,
@@ -5017,7 +5027,7 @@ footer .item .copy-right p a {
   }
 
   .navbar .logo {
-    width: 150px;
+    width: 60px;
   }
 
   .btn-curve {
@@ -5368,7 +5378,6 @@ footer .item .copy-right p a {
 }
 
 /* custom style for the CTA form in the home page */
-
 
 html.dark .navbar .navbar-collapse {
   background: #000;

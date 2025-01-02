@@ -170,7 +170,7 @@ const Products = () => {
                 </div>
                 <div className="cont">
                   <h5>
-                    <Link href="#!" title={product.name}>
+                    <Link href="/" title={product.name}>
                       {product.name}
                     </Link>
                   </h5>

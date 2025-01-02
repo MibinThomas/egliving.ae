@@ -105,7 +105,7 @@ const Intro4 = () => {
                               {slide.content.second}
                             </p>
                           )}
-                          <Link href="#!">
+                          <Link href="/">
                             <a className="btn-curve btn-bord btn-lit mt-30">
                               <span>Read More</span>
                             </a>
