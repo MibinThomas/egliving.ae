@@ -1,3 +1,5 @@
+// src/pages/about/index.jsx
+
 import React from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
@@ -5,7 +7,7 @@ import AboutDetail from "../../components/AboutDetail";
 import Skills from "../../components/Skills";
 import AboutTeam from "../../components/About-Team";
 
-const About = () => {
+export default function About() {
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   }, []);
@@ -24,6 +26,4 @@ const About = () => {
       <Skills />
     </MainLayout>
   );
-};
-
-export default About;
+}

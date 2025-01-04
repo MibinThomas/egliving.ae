@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-css-tags */
+// src/layouts/main.jsx
+
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";

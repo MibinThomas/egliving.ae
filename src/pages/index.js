@@ -1,3 +1,6 @@
+// src/pages/index.js
+
+
 import React, { useEffect } from "react";
 import Home from "./Home";
 

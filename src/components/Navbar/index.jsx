@@ -4,18 +4,24 @@ import appData from "../../data/app.json";
 import { useRouter } from "next/router";
 import { useTranslation } from "react-i18next";
 import ThemeSwitcher from "../Theme/ThemeSwitcher";
-import LocaleSwitcher from "../LocaleSwitcher";
+import LanguageSwitcher from "../LanguageSwitcher";
 
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const router = useRouter();
   const currentRoute = router.pathname;
-  const { locale } = router;
   const { t, i18n } = useTranslation();
+  const locale = i18n.language;
 
   useEffect(() => {
     console.log("Current language:", i18n.language);
     console.log("Home Translated:", t("home"));
   }, [i18n.language, t]);
+
+  useEffect(() => {
+    if (router.locale && i18n.language !== router.locale) {
+      i18n.changeLanguage(router.locale);
+    }
+  }, [router.locale, i18n]);
 
   // Handle mobile dropdown toggle
   const handleMobileDropdown = () => {
@@ -56,7 +62,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/" ? "active-link" : ""
                 }`}
               >
-                {t("home")}
+                {t("common.navbar.home")}
               </Link>
             </li>
             <li className="nav-item">
@@ -66,7 +72,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/products" ? "active-link" : ""
                 }`}
               >
-                {t("products")}
+                {t("common.navbar.products")}
               </Link>
             </li>
             <li className="nav-item">
@@ -76,7 +82,17 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/works" ? "active-link" : ""
                 }`}
               >
-                {t("works")}
+                {t("common.navbar.works")}
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                href={`/${locale}/#!`}
+                className={`nav-link ${
+                  currentRoute === "/#!" ? "active-link" : ""
+                }`}
+              >
+                {t("common.navbar.our-factory")}
               </Link>
             </li>
             <li className="nav-item">
@@ -86,7 +102,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/about" ? "active-link" : ""
                 }`}
               >
-                {t("about")}
+                {t("common.navbar.about")}
               </Link>
             </li>
             <li className="nav-item">
@@ -96,7 +112,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/blog" ? "active-link" : ""
                 }`}
               >
-                {t("blog")}
+                {t("common.navbar.blog")}
               </Link>
             </li>
             <li className="nav-item">
@@ -106,7 +122,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   currentRoute === "/contact" ? "active-link" : ""
                 }`}
               >
-                {t("contact")}
+                {t("common.navbar.contact")}
               </Link>
             </li>
             <li className="nav-item">
@@ -118,7 +134,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     : ""
                 }`}
               >
-                {t("faqs")}
+                {t("common.navbar.faqs")}
               </Link>
             </li>
           </ul>
@@ -150,29 +166,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Twitter"
-                href="#"
-                style={{ color: "#4cb753" }}
-              >
-                <i className="fab fa-twitter"></i>
-              </Link>
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
                 title="Instagram"
                 href="https://www.instagram.com/eg_living.ae/"
                 style={{ color: "#4cb753" }}
               >
                 <i className="fab fa-instagram"></i>
-              </Link>
-              <Link
-                target="_blank"
-                rel="noopener noreferrer"
-                title="YouTube"
-                href="#"
-                style={{ color: "#4cb753" }}
-              >
-                <i className="fab fa-youtube"></i>
               </Link>
             </div>
 
@@ -183,7 +181,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <ThemeSwitcher />
 
             {/* Language Switcher */}
-            <LocaleSwitcher />
+            <LanguageSwitcher />
           </div>
         </div>
       </div>
