@@ -18,7 +18,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
       <div className="container">
         {/* Logo */}
-        <Link href={`/`} className={`logo ${logoClass && logoClass}`}>
+        <Link
+          href={`/`}
+          hrefLang="en"
+          className={`logo ${logoClass && logoClass}`}
+        >
           <img src={appData.lightLogo} alt="EG Logo" ref={logoRef} />
         </Link>
 
@@ -42,6 +46,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/" ? "active-link" : ""
                 }`}
@@ -52,6 +57,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/products`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/products" ? "active-link" : ""
                 }`}
@@ -62,6 +68,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/works`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/works" ? "active-link" : ""
                 }`}
@@ -71,9 +78,10 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             </li>
             <li className="nav-item">
               <Link
-                href={`/#!`}
+                href={`/our-factory`}
+                hrefLang="en"
                 className={`nav-link ${
-                  currentRoute === "/#!" ? "active-link" : ""
+                  currentRoute === "/our-factory" ? "active-link" : ""
                 }`}
               >
                 Our Factory
@@ -82,6 +90,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/about`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/about" ? "active-link" : ""
                 }`}
@@ -92,6 +101,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/blog`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/blog" ? "active-link" : ""
                 }`}
@@ -102,6 +112,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/contact`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/contact" ? "active-link" : ""
                 }`}
@@ -112,6 +123,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             <li className="nav-item">
               <Link
                 href={`/frequently-asked-questions`}
+                hrefLang="en"
                 className={`nav-link ${
                   currentRoute === "/frequently-asked-questions"
                     ? "active-link"
@@ -143,6 +155,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 rel="noopener noreferrer"
                 title="Facebook"
                 href="https://www.facebook.com/profile.php?id=61566560664247"
+                hrefLang="en"
                 style={{ color: "#4cb753" }}
               >
                 <i className="fab fa-facebook-f"></i>
@@ -152,6 +165,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 rel="noopener noreferrer"
                 title="Instagram"
                 href="https://www.instagram.com/eg_living.ae/"
+                hrefLang="en"
                 style={{ color: "#4cb753" }}
               >
                 <i className="fab fa-instagram"></i>
