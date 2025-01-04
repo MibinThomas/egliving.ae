@@ -1,29 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
-import { useTranslation } from "react-i18next";
 import ThemeSwitcher from "../Theme/ThemeSwitcher";
-import LanguageSwitcher from "../LanguageSwitcher";
 
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const router = useRouter();
   const currentRoute = router.pathname;
-  const { t, i18n } = useTranslation();
-  const locale = i18n.language;
 
-  useEffect(() => {
-    console.log("Current language:", i18n.language);
-    console.log("Home Translated:", t("home"));
-  }, [i18n.language, t]);
-
-  useEffect(() => {
-    if (router.locale && i18n.language !== router.locale) {
-      i18n.changeLanguage(router.locale);
-    }
-  }, [router.locale, i18n]);
-
-  // Handle mobile dropdown toggle
   const handleMobileDropdown = () => {
     document
       .getElementById("navbarSupportedContent")
@@ -34,7 +18,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
       <div className="container">
         {/* Logo */}
-        <Link href={`/${locale}`} className={`logo ${logoClass && logoClass}`}>
+        <Link href={`/`} className={`logo ${logoClass && logoClass}`}>
           <img src={appData.lightLogo} alt="EG Logo" ref={logoRef} />
         </Link>
 
@@ -57,84 +41,84 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           <ul className="ml-auto navbar-nav">
             <li className="nav-item">
               <Link
-                href={`/${locale}/`}
+                href={`/`}
                 className={`nav-link ${
                   currentRoute === "/" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.home")}
+                Home
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/products`}
+                href={`/products`}
                 className={`nav-link ${
                   currentRoute === "/products" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.products")}
+                Products
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/works`}
+                href={`/works`}
                 className={`nav-link ${
                   currentRoute === "/works" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.works")}
+                Works
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/#!`}
+                href={`/#!`}
                 className={`nav-link ${
                   currentRoute === "/#!" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.our-factory")}
+                Our Factory
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/about`}
+                href={`/about`}
                 className={`nav-link ${
                   currentRoute === "/about" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.about")}
+                About Us
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/blog`}
+                href={`/blog`}
                 className={`nav-link ${
                   currentRoute === "/blog" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.blog")}
+                Blog
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/contact`}
+                href={`/contact`}
                 className={`nav-link ${
                   currentRoute === "/contact" ? "active-link" : ""
                 }`}
               >
-                {t("common.navbar.contact")}
+                Contact Us
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                href={`/${locale}/#!`}
+                href={`/#!`}
                 className={`nav-link ${
                   currentRoute === "/frequently-asked-questions"
                     ? "active-link"
                     : ""
                 }`}
               >
-                {t("common.navbar.faqs")}
+                FAQs
               </Link>
             </li>
           </ul>
@@ -179,9 +163,6 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
 
             {/* Theme Switcher */}
             <ThemeSwitcher />
-
-            {/* Language Switcher */}
-            <LanguageSwitcher />
           </div>
         </div>
       </div>
