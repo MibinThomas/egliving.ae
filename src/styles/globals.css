@@ -384,6 +384,7 @@ body.hideX .pace {
   color: #333;
   transition: color 0.3s ease;
   text-transform: capitalize;
+  text-align: left;
 }
 
 html.dark .faq-question {
@@ -394,8 +395,16 @@ html.dark .faq-answer {
   color: #dddddd90;
 }
 
-.faq-question:hover {
+.faq-question:hover,
+.faq-question:active,
+.faq-question:focus,
+html.dark .faq-question:hover,
+html.dark .faq-question:focus,
+html.dark .faq-question:active {
   color: #4db753;
+  border: none;
+  background: none;
+  outline: none;
 }
 
 .faq-answer {

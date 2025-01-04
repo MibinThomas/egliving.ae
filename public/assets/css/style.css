@@ -65,7 +65,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  .img-img>div {
+  .img-img > div {
     max-width: 100% !important;
   }
 }
@@ -2091,7 +2091,10 @@ html.dark .navbar button {
   -webkit-text-stroke: 0.5px #fff;
 }
 
-.slider-slide .side .swiper-pagination-fraction .swiper-pagination-current:after {
+.slider-slide
+  .side
+  .swiper-pagination-fraction
+  .swiper-pagination-current:after {
   content: "/";
   position: relative;
   margin: 10px 0;
@@ -2557,11 +2560,13 @@ html.dark .navbar button {
   font-weight: 800;
   line-height: 1;
   z-index: 4;
-  background: -webkit-gradient(linear,
-      left top,
-      right bottom,
-      color-stop(10%, transparent),
-      to(#fff));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(10%, transparent),
+    to(#fff)
+  );
   background: -webkit-linear-gradient(left top, transparent 10%, #fff);
   background: -o-linear-gradient(left top, transparent 10%, #fff);
   background: linear-gradient(to right bottom, transparent 10%, #fff);
@@ -3023,17 +3028,23 @@ html.dark .navbar button {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.7)),
-      to(rgba(0, 0, 0, 0.05)));
-  background: -webkit-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.05));
-  background: -o-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.05));
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.7)),
+    to(rgba(0, 0, 0, 0.05))
+  );
+  background: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.05)
+  );
+  background: -o-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.05)
+  );
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
   opacity: 0;
   -webkit-transition: all 0.4s;
@@ -3568,20 +3579,28 @@ html.dark .navbar button {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(linear,
-      left bottom,
-      left top,
-      from(rgba(0, 0, 0, 0.2)),
-      to(rgba(43, 47, 53, 0.7)));
-  background-image: -webkit-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
-  background-image: -o-linear-gradient(bottom,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
-  background-image: linear-gradient(to top,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(43, 47, 53, 0.7) 100%);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(43, 47, 53, 0.7))
+  );
+  background-image: -webkit-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
+  background-image: -o-linear-gradient(
+    bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(43, 47, 53, 0.7) 100%
+  );
   background-repeat: repeat-x;
 }
 
@@ -6243,6 +6262,9 @@ html.dark .navbar .navbar-nav .nav-link {
 
 html.dark .nav-scroll {
   background: #000;
+}
+.h1-h1-h1- {
+  color: #fff;
 }
 
 @media screen and (max-width: 991px) {

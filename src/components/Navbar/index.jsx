@@ -111,7 +111,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             </li>
             <li className="nav-item">
               <Link
-                href={`/#!`}
+                href={`/frequently-asked-questions`}
                 className={`nav-link ${
                   currentRoute === "/frequently-asked-questions"
                     ? "active-link"

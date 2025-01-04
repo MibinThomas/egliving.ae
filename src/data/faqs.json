@@ -48,5 +48,65 @@
         "id": 12,
         "question": "How can I contact your customer support team?",
         "answer": "You can reach us via phone, email, or the contact form on our website. Our team is available to assist you with any inquiries or support."
+    },
+    {
+        "id": 11,
+        "question": "What makes customized furniture better than ready-made options?",
+        "answer": "Customized furniture ensures a perfect fit for your space and reflects your personal style. It provides greater flexibility in design, materials, and functionality compared to ready-made furniture."
+    },
+    {
+        "id": 13,
+        "question": "How long does it take to deliver customized furniture?",
+        "answer": "The delivery timeline varies depending on the complexity of the design and materials. Typically, customized furniture takes 4–6 weeks to complete and deliver."
+    },
+    {
+        "id": 14,
+        "question": "Can I see a preview or mockup of my furniture design?",
+        "answer": "Yes, we provide 3D visualizations or sketches of your furniture design during the consultation process to ensure it meets your expectations."
+    },
+    {
+        "id": 15,
+        "question": "Do you offer eco-friendly furniture options?",
+        "answer": "Yes, we use sustainable materials and eco-friendly finishes for customers seeking environmentally conscious furniture solutions."
+    },
+    {
+        "id": 16,
+        "question": "Can I make changes to my order after it has been placed?",
+        "answer": "Minor changes may be possible depending on the stage of production. Please contact us as soon as possible to discuss your modifications."
+    },
+    {
+        "id": 18,
+        "question": "How do I care for my furniture to ensure longevity?",
+        "answer": "To maintain your furniture, avoid exposure to direct sunlight, clean with a damp cloth, and use protective pads for heavy items. Specific care instructions are provided with each product."
+    },
+    {
+        "id": 19,
+        "question": "Do you offer furniture for commercial spaces?",
+        "answer": "Yes, we design and deliver custom furniture solutions for offices, restaurants, and other commercial spaces, ensuring both style and functionality."
+    },
+    {
+        "id": 20,
+        "question": "What happens if my furniture is damaged during delivery?",
+        "answer": "We take utmost care to ensure safe delivery. In the unlikely event of damage, our team will repair or replace the item promptly."
+    },
+    {
+        "id": 21,
+        "question": "Can I visit your showroom to see samples of your work?",
+        "answer": "Yes, we welcome customers to visit our showroom to explore a wide range of furniture designs, materials, and finishes in person."
+    },
+    {
+        "id": 22,
+        "question": "Do you offer seasonal or promotional discounts?",
+        "answer": "Yes, we occasionally run promotions and discounts. Follow us on social media or subscribe to our newsletter for updates."
+    },
+    {
+        "id": 23,
+        "question": "Can I request a custom finish for my furniture?",
+        "answer": "Certainly! We offer a variety of finishes to match your preferences, including matte, glossy, textured, and natural wood finishes."
+    },
+    {
+        "id": 24,
+        "question": "What’s the difference between modular and traditional furniture?",
+        "answer": "Modular furniture is designed for flexibility and adaptability, while traditional furniture is typically fixed and built for specific spaces."
     }
 ]

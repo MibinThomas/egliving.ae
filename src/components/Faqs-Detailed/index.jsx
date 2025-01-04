@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import faqsData from "../../data/faqs.json";
-import Link from "next/link";
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -10,17 +9,15 @@ const FAQs = () => {
   };
 
   return (
-    <section className="faqs section-padding">
+    <section className="faqs">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="text-center section-head">
-              <h6>FAQs</h6>
+            <div className="text-left section-head">
               <h4>Frequently Asked Questions</h4>
             </div>
             <div className="faqs-content">
-              {/* Display only the first 5 FAQs */}
-              {faqsData.slice(0, 5).map((faq, index) => (
+              {faqsData.map((faq, index) => (
                 <div key={faq.id} className="faq-item">
                   <button
                     type="button"
@@ -47,17 +44,6 @@ const FAQs = () => {
                 </div>
               ))}
             </div>
-
-            {faqsData.length > 5 && (
-              <div className="mt-4 text-center">
-                <Link
-                  href="/frequently-asked-questions"
-                  className="btn-curve btn-color mt-30"
-                >
-                  <span>Read More</span>
-                </Link>
-              </div>
-            )}
           </div>
         </div>
       </div>
