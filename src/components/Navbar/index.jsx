@@ -100,13 +100,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
             </li>
             <li className="nav-item">
               <Link
-                href={`/blog`}
+                href={`/blogs`}
                 hrefLang="en"
                 className={`nav-link ${
-                  currentRoute === "/blog" ? "active-link" : ""
+                  currentRoute === "/blogs" ? "active-link" : ""
                 }`}
               >
-                Blog
+                Blogs
               </Link>
             </li>
             <li className="nav-item">

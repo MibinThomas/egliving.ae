@@ -13,7 +13,7 @@ const PageHeader = ({ title, fullPath, image }) => {
       style={{
         backgroundImage: `url(${
           !image
-            ? "/assets/img/about-eg-living-best-furniture-in-dubai.jpg"
+            ? "/assets/img/blog/eg-living-customized-home-living.webp"
             : image
         })`,
         backgroundPosition: "center",
@@ -23,7 +23,7 @@ const PageHeader = ({ title, fullPath, image }) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <div className="cont text-center">
+            <div className="text-center cont">
               <h1>{title}</h1>
               <div className="path">
                 {fullPath.map((item, index) => (

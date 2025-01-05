@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import BlogsData from "../../data/blogsData.json";
 
 const Footer = ({ classText }) => {
   return (
@@ -72,47 +73,43 @@ const Footer = ({ classText }) => {
                 <h5>Recent Blogs</h5>
               </div>
               <ul>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details" title="Read More">
-                      <img
-                        src="/assets/img/blog/eg-living-office-furnitures.webp"
-                        alt="Best office furniture in UAE"
-                        title="Best office furniture in UAE"
-                      />
-                    </Link>
-                  </div>
-
-                  <div className="sm-post">
-                    <Link href="/blog-details" title="Read More">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Totam possimus.
-                      </p>
-                    </Link>
-                    <span className="date">14 Jan 2024</span>
-                  </div>
-                </li>
-                <li>
-                  <div className="img">
-                    <Link href="/blog-details" title="Read More">
-                      <img
-                        src="/assets/img/blog/eg-living-office-furnitures.webp"
-                        alt="EG Living Office Furniture"
-                        title="EG Living Office Furniture"
-                      />
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details" title="Read More">
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Totam possimus.
-                      </p>
-                    </Link>
-                    <span className="date">14 Jan 2024</span>
-                  </div>
-                </li>
+                {BlogsData.slice(0, 2).map((blog) => (
+                  <li key={blog.id}>
+                    <div className="im">
+                      <Link
+                        href={`/${blog.blogSlug}`}
+                        title={blog.blogTitle}
+                        target="_blank"
+                        rel="alternate author"
+                        hrefLang="en"
+                      >
+                        <img
+                          src={blog.blogBanner}
+                          alt={blog.blogTitle}
+                          title={blog.blogTitle}
+                          loading="lazy"
+                          style={{ width: "100px", marginRight: "10px" }}
+                        />
+                      </Link>
+                    </div>
+                    <div className="sm-post">
+                      <Link
+                        href={`/${blog.blogSlug}`}
+                        title={blog.blogTitle}
+                        target="_blank"
+                        rel="alternate author"
+                        hrefLang="en"
+                      >
+                        <p>
+                          {blog.blogTitle.length > 35
+                            ? blog.blogTitle.substring(0, 35) + "..."
+                            : blog.blogTitle}
+                        </p>
+                      </Link>
+                      <span className="date">{blog.blogDate}</span>
+                    </div>
+                  </li>
+                ))}
                 <li>
                   <div className="subscribe">
                     <input type="text" placeholder="Type Your Email" />

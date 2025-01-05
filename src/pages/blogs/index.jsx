@@ -15,7 +15,7 @@ const Blogs = () => {
           { id: 1, name: "home", url: "/" },
           { id: 2, name: "blogs", url: "/blogs" },
         ]}
-        image={"/assets/img/blog/eg-living-office-furnitures.webp"}
+        image={"/assets/img/blog/eg-living-customized-home-living.webp"}
       />
       <BlogsList />
     </MainLayout>

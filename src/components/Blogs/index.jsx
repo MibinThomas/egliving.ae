@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Blog1Data from "../../data/blogs1.json";
+import BlogsData from "../../data/blogsData.json";
 import Link from "next/link";
 
 const Blogs2 = () => {
@@ -20,7 +20,7 @@ const Blogs2 = () => {
           </div>
         </div>
         <div className="row">
-          {Blog1Data.slice(0, 2).map((blog, index) => (
+          {BlogsData.slice(0, 2).map((blog, index) => (
             <div className="col-lg-6" key={blog.id}>
               <div
                 className="item wow fadeInUp md-mb50"
@@ -29,9 +29,9 @@ const Blogs2 = () => {
                 <div className="post-img">
                   <div className="img">
                     <img
-                      src={blog.image}
-                      alt={blog.title}
-                      title={blog.title}
+                      src={blog.blogBanner}
+                      alt={blog.blogTitle}
+                      title={blog.blogTitle}
                       loading="lazy"
                     />
                   </div>
@@ -39,34 +39,47 @@ const Blogs2 = () => {
                 <div className="cont">
                   <div className="info">
                     <Link
-                      href="/blog-details"
-                      title={blog.title}
+                      href={blog.blogSlug}
+                      hrefLang="en"
+                      target="_blank"
+                      title={blog.blogTitle}
                       rel="alternate author"
                     >
-                      {blog.by}
+                      {blog.blogAuthor}
                     </Link>
                     <Link
-                      href="/blog-details"
-                      title={blog.title}
+                      href={blog.blogSlug}
+                      hrefLang="en"
+                      target="_blank"
+                      title={blog.blogTitle}
                       rel="alternate author"
                     >
-                      {blog.date}
+                      {blog.blogDate}
                     </Link>
                   </div>
 
                   <h5 className="playfont">
                     <Link
-                      href="/blog-details"
-                      title={blog.title}
+                      href={blog.blogSlug}
+                      hrefLang="en"
+                      target="_blank"
+                      title={blog.blogTitle}
                       rel="alternate author"
                     >
-                      {blog.title}
+                      {blog.blogTitle}
                     </Link>
                   </h5>
+                  <p>
+                    {blog.blogShortDesc.length > 80
+                      ? blog.blogShortDesc.substring(0, 80) + "..."
+                      : blog.blogShortDesc}
+                  </p>
 
                   <Link
-                    href="/blog-details"
-                    title={blog.title}
+                    href={blog.blogSlug}
+                    hrefLang="en"
+                    target="_blank"
+                    title={blog.blogTitle}
                     rel="alternate author"
                     className="more"
                   >

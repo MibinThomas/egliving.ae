@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Blog1Data from "../../data/blog1.json";
+import blogsData from "../../data/blogsData.json";
 import Link from "next/link";
 import thumparallaxUp from "../../common/thumparallaxUp";
 
@@ -10,69 +10,93 @@ const BlogsList = () => {
       if (window.simpleParallax) thumparallaxUp();
     }, 1000);
   }, []);
+
   return (
-    <>
-      <section className="blog-pg section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-10 offset-lg-1">
-              <div className="posts">
-                {Blog1Data.map((item) => (
-                  <div className="item mb-80" key={item.id}>
-                    <div className="img">
-                      <Link href="/blog-details">
-                        <img src={item.image} alt="" className="thumparallax" />
+    <section className="blog-pg section-padding">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="posts">
+              {blogsData.map((item) => (
+                <div className="item mb-80" key={item.id}>
+                  <div className="img">
+                    <Link
+                      href={item.blogSlug}
+                      title={item.blogTitle}
+                      hrefLang="en"
+                      target="_blank"
+                    >
+                      <img
+                        src={item.blogBanner}
+                        alt={item.blogTitle}
+                        className="thumparallax"
+                      />
+                    </Link>
+                  </div>
+                  <div className="content">
+                    <div className="date">
+                      <h5>
+                        <Link
+                          href={item.blogSlug}
+                          title={item.blogTitle}
+                          hrefLang="en"
+                          target="_blank"
+                        >
+                          <span className="num">
+                            {new Date(item.blogDate).getDate()}
+                          </span>
+                          <span>
+                            {new Date(item.blogDate).toLocaleString("default", {
+                              month: "short",
+                              year: "numeric",
+                            })}
+                          </span>
+                        </Link>
+                      </h5>
+                    </div>
+                    <div className="cont">
+                      <h4 className="title">
+                        <Link
+                          href={item.blogSlug}
+                          title={item.blogTitle}
+                          hrefLang="en"
+                          target="_blank"
+                        >
+                          {item.blogTitle}
+                        </Link>
+                      </h4>
+                      <p>{item.blogShortDesc}</p>
+                      <Link
+                        href={item.blogSlug}
+                        title={item.blogTitle}
+                        hrefLang="en"
+                        target="_blank"
+                        className="more"
+                      >
+                        Read More
                       </Link>
                     </div>
-                    <div className="content">
-                      <div className="date">
-                        <h5>
-                          <Link href="/blog-details">
-                            <span className="num">{item.date2[1]}</span>
-                            <span>{item.date2[0]}</span>
-                          </Link>
-                        </h5>
-                      </div>
-                      <div className="cont">
-                        <h4 className="title">
-                          <Link href="/blog-details">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Fugit, sapiente at nemo est accusantium.
-                          </Link>
-                        </h4>
-                        <p>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Illo eius numquam tempore saepe laborum ut,
-                          assumenda repellendus dolorum praesentium porro
-                          pariatur quam dolores nemo, ducimus nostrum ipsa.
-                          Dolorem, fugit eos?
-                        </p>
-                        <Link href="/blog-details" className="more">
-                          Read More
-                        </Link>
-                      </div>
-                    </div>
                   </div>
-                ))}
-                <div className="pagination">
-                  <span className="active">
-                    <Link href="#">1</Link>
-                  </span>
-                  <span>
-                    <Link href="#">2</Link>
-                  </span>
-                  <span>
-                    <Link href="#">
-                      <i className="fas fa-angle-right"></i>
-                    </Link>
-                  </span>
                 </div>
-              </div>
+              ))}
+              {/* <div className="pagination">
+                <span className="active">
+                  <Link href="#">1</Link>
+                </span>
+                <span>
+                  <Link href="#">2</Link>
+                </span>
+                <span>
+                  <Link href="#">
+                    <i className="fas fa-angle-right"></i>
+                  </Link>
+                </span>
+              </div> */}
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
