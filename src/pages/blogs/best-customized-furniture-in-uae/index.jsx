@@ -276,7 +276,7 @@ const BestCustomizedFurnitureInUae = () => {
                 <div className="pagination">
                   <span>
                     <Link
-                      href="/blogs/luxury-custom-made-furniture-in-the-uae"
+                      href="/blogs/luxury-custom-made-furniture-in-the-uae.html"
                       title="Luxury Custom Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"
@@ -292,7 +292,7 @@ const BestCustomizedFurnitureInUae = () => {
                   </span>
                   <span className="text-right">
                     <Link
-                      href="/blogs/luxury-custom-made-furniture-in-the-uae"
+                      href="/blogs/luxury-custom-made-furniture-in-the-uae.html"
                       title="Luxury Custom Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"

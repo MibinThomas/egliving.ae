@@ -1,8 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import BlogsData from "../../data/blogsData.json";
 
 const Footer = ({ classText }) => {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState("");
+
+  const handleEmailChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleEmailSubmit = async (e) => {
+    e.preventDefault();
+    setStatus("Submitting...");
+
+    // Send email to backend (or store it for your purpose)
+    try {
+      const response = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        setStatus("Subscribed successfully!");
+        setEmail(""); // Reset the email field
+      } else {
+        const error = await response.json();
+        setStatus(`Failed to subscribe: ${error.message}`);
+      }
+    } catch (error) {
+      setStatus("An error occurred. Please try again.");
+      console.error("Error during subscription:", error);
+    }
+  };
+
   return (
     <footer
       className={`${classText ? classText : ""}`}
@@ -112,8 +146,20 @@ const Footer = ({ classText }) => {
                 ))}
                 <li>
                   <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
+                    <form onSubmit={handleEmailSubmit}>
+                      <input
+                        type="email"
+                        placeholder="Type Your Email"
+                        value={email}
+                        onChange={handleEmailChange}
+                        required
+                      />
+                      <button
+                        type="submit"
+                        className="subs pe-7s-paper-plane"
+                      />
+                    </form>
+                    <p>{status}</p>
                   </div>
                 </li>
               </ul>

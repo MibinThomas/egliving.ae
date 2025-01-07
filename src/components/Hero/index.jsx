@@ -71,12 +71,15 @@ const IntroWithVertical = () => {
             loop={true}
             grabCursor={true}
             watchSlidesProgress={true}
-            touchMoveStopPropagation={isMobile ? false : true}
-            touchRatio={isMobile ? 0 : 1}
-            onBeforeInit={(swiper) => {
-              swiper.params.navigation.prevEl = navigationPrevRef.current;
-              swiper.params.navigation.nextEl = navigationNextRef.current;
-              swiper.params.pagination.el = paginationRef.current;
+            touchMoveStopPropagation={false} // Allow touch events to propagate
+            touchStartPreventDefault={false} // Don't block native touch behaviors
+            onTouchMove={(swiper, event) => {
+              // Detect if the user is scrolling vertically
+              if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
+                swiper.allowTouchMove = false; // Disable Swiper for vertical scrolling
+              } else {
+                swiper.allowTouchMove = true; // Enable Swiper for horizontal scrolling
+              }
             }}
             onSwiper={(swiper) => {
               if (swiper?.slides) {

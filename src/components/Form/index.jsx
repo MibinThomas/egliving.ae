@@ -1,4 +1,5 @@
 // src/components/Form/index.jsx
+
 import React, { useState } from "react";
 
 const Form = ({ onClose }) => {
@@ -20,8 +21,7 @@ const Form = ({ onClose }) => {
     setStatus("Sending...");
 
     try {
-      // Sending form data to the correct API route
-      const response = await fetch("../../api/sendEmail.js", {
+      const response = await fetch("/api/sendEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -29,14 +29,18 @@ const Form = ({ onClose }) => {
         body: JSON.stringify(formData),
       });
 
+      console.log("Email API Response:", response); // Debugging
+
       if (response.ok) {
         setStatus("Email sent successfully!");
         setFormData({ name: "", email: "", phone: "", message: "" });
       } else {
-        setStatus("Failed to send email. Please try again.");
+        const error = await response.json();
+        console.error("API Error Response:", error); // Debugging
+        setStatus(`Failed to send email: ${error.message}`);
       }
     } catch (error) {
-      console.error("Error:", error);
+      console.error("Error in handleSubmit:", error); // Debugging
       setStatus("An error occurred. Please try again.");
     }
   };
@@ -103,7 +107,6 @@ const Form = ({ onClose }) => {
 
             <div className="cta-form">
               <form id="contact-form" onSubmit={handleSubmit}>
-                <div className="messages"></div>
                 <div className="controls">
                   <div className="form-group">
                     <input

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import { useRouter } from "next/router";
@@ -7,12 +7,34 @@ import ThemeSwitcher from "../Theme/ThemeSwitcher";
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const router = useRouter();
   const currentRoute = router.pathname;
+  const dropdownRef = useRef(null);
 
   const handleMobileDropdown = () => {
     document
       .getElementById("navbarSupportedContent")
       .classList.toggle("show-with-trans");
   };
+
+  const handleClickOutside = (event) => {
+    const dropdown = document.getElementById("navbarSupportedContent");
+    if (
+      dropdown &&
+      !dropdown.contains(event.target) &&
+      !dropdownRef.current.contains(event.target)
+    ) {
+      dropdown.classList.remove("show-with-trans");
+    }
+  };
+
+  useEffect(() => {
+    // Attach event listener to detect clicks outside the dropdown
+    document.addEventListener("mousedown", handleClickOutside);
+
+    // Cleanup event listener on component unmount
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
@@ -34,6 +56,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
+          ref={dropdownRef}
         >
           <span className="icon-bar">
             <i className="fas fa-bars"></i>

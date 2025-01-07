@@ -20,6 +20,7 @@ body {
   font-weight: 400;
   overflow-x: hidden !important;
   font-family: "Poppins", sans-serif;
+  -webkit-overflow-scrolling: touch;
 }
 
 img {
@@ -1969,7 +1970,14 @@ html.dark .light {
 
 .slid-half {
   position: relative;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
+
+.cta__slider {
+  touch-action: pan-y;
+}
+
 
 .slid-half .nofull {
   position: relative;
@@ -2775,7 +2783,7 @@ html.dark .portfolio.full-bg .egColumn .info:after {
   height: 440px;
 }
 
-.portfolio .gallery .items .item-img > a {
+.portfolio .gallery .items .item-img>a {
   display: block;
 }
 
@@ -4577,8 +4585,6 @@ footer .item li .subscribe input {
   padding: 15px;
   border-radius: 30px;
   border: 1px solid #4cb753;
-  background: transparent;
-  color: #fff;
   font-size: 13px;
 }
 
@@ -5159,7 +5165,7 @@ footer .item .copy-right p a {
     width: 15px;
   }
 
-  .brands .box-top .row > div {
+  .brands .box-top .row>div {
     width: 50%;
   }
 

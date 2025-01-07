@@ -218,7 +218,7 @@ const LuxuryCustomMadeFurniture = () => {
                 <div className="pagination">
                   <span>
                     <Link
-                      href="/blogs/best-customized-furniture-in-uae"
+                      href="/blogs/best-customized-furniture-in-uae.html"
                       title="Luxury & Custom-Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"
@@ -234,7 +234,7 @@ const LuxuryCustomMadeFurniture = () => {
                   </span>
                   <span className="text-right">
                     <Link
-                      href="/blogs/best-customized-furniture-in-uae"
+                      href="/blogs/best-customized-furniture-in-uae.html"
                       title="Luxury & Custom-Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"
