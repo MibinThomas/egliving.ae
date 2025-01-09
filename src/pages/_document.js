@@ -121,14 +121,6 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
 
           <meta name="msapplication-TileColor" content="#ffffff" />
-          <meta
-            name="keywords"
-            content="EG Living | Custom Furniture Solutions UAE | Modular Furniture Design | Bespoke Furniture Dubai | Modular Living Spaces UAE | Luxury Custom Furniture UAE | Sustainable Furniture Dubai | Modular Office Solutions UAE | High-End Custom Furniture | Tailored Furniture Designs | Modern Modular Kitchens UAE | Innovative Living Spaces Dubai | Sustainable Home Furniture UAE | Custom Modular Architecture Dubai | Flexible Space Design UAE | Custom Luxury Furniture Online UAE | Expert Furniture Craftsmanship UAE"
-          />
-          <meta
-            name="description"
-            content="Transform your space with EG Living's custom furniture and modular design solutions. We specialize in luxury, sustainability, and expert craftsmanship to create bespoke, functional spaces that reflect your style and vision. Over 20 years of industry expertise."
-          />
           <meta name="author" content="WebEyeCraft Technologies" />
           <meta name="publisher" content="EG Living" />
           <meta
@@ -138,33 +130,6 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#ffffff" />
 
           <meta name="robots" content="index, follow" />
-          <meta
-            property="og:title"
-            content="EG Living - Custom Furniture & Modular Design Experts in UAE"
-          />
-          <meta
-            property="og:description"
-            content="Discover EG Living: Transforming spaces with bespoke custom furniture and modular design solutions. Elevating style, functionality, and sustainability with over 20 years of industry expertise."
-          />
-          <meta
-            property="og:image"
-            content="/assets/favicon/android-icon-192x192.png"
-          />
-          <meta property="og:url" content="https://egliving.ae" />
-          <meta property="og:type" content="website" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta
-            name="twitter:title"
-            content="EG Living - Custom Furniture & Modular Design Experts"
-          />
-          <meta
-            name="twitter:description"
-            content="Transform your space with EG Living's custom furniture and modular design solutions. Expert craftsmanship, innovation, and sustainability define our approach to elevating your living and working spaces."
-          />
-          <meta
-            name="twitter:image"
-            content="/assets/favicon/android-icon-192x192.png"
-          />
           <meta name="twitter:site" content="@egliving" />
 
           <link rel="canonical" href={canonical} />

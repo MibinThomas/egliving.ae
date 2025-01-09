@@ -3,6 +3,7 @@ import Link from "next/link";
 import thumparallaxUp from "../../../common/thumparallaxUp";
 import MainLayout from "../../../layouts/main";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const LuxuryCustomMadeFurniture = () => {
   const router = useRouter();
@@ -26,6 +27,52 @@ const LuxuryCustomMadeFurniture = () => {
 
   return (
     <MainLayout>
+      <Head>
+        <title>Luxury Custom-Made Furniture in UAE | EG Living Blog</title>
+
+        <meta
+          name="description"
+          content="Discover luxury, custom-made furniture solutions in the UAE. EG Living offers high-end, tailored designs for every space."
+        />
+
+        <meta
+          name="keywords"
+          content="Luxury Furniture UAE, Custom Made Furniture Dubai, High-End Furniture UAE, Custom Wood Furniture Dubai"
+        />
+
+        <meta
+          property="og:title"
+          content="Luxury Custom-Made Furniture in UAE | EG Living Blog"
+        />
+        <meta
+          property="og:description"
+          content="Discover luxury, custom-made furniture solutions in the UAE. EG Living offers high-end, tailored designs for every space."
+        />
+        <meta
+          property="og:image"
+          content="https://egliving.ae/assets/img/blog/luxury-custom-made-furniture-in-the-uae.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://egliving.ae/blogs/luxury-custom-made-furniture-in-the-uae"
+        />
+        <meta property="og:type" content="article" />
+
+        <meta
+          name="twitter:title"
+          content="Luxury Custom-Made Furniture in UAE | EG Living Blog"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover luxury, custom-made furniture solutions in the UAE. EG Living offers high-end, tailored designs for every space."
+        />
+        <meta
+          name="twitter:image"
+          content="https://egliving.ae/assets/img/blog/luxury-custom-made-furniture-in-the-uae.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
+
       <div>
         <div
           className="pages-header bg-img valign parallaxie"
@@ -218,7 +265,7 @@ const LuxuryCustomMadeFurniture = () => {
                 <div className="pagination">
                   <span>
                     <Link
-                      href="/blogs/best-customized-furniture-in-uae.html"
+                      href="/blogs/best-customized-furniture-in-uae"
                       title="Luxury & Custom-Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"
@@ -234,7 +281,7 @@ const LuxuryCustomMadeFurniture = () => {
                   </span>
                   <span className="text-right">
                     <Link
-                      href="/blogs/best-customized-furniture-in-uae.html"
+                      href="/blogs/best-customized-furniture-in-uae"
                       title="Luxury & Custom-Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"

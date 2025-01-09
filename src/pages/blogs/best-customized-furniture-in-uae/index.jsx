@@ -3,6 +3,7 @@ import Link from "next/link";
 import thumparallaxUp from "../../../common/thumparallaxUp";
 import MainLayout from "../../../layouts/main";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 const BestCustomizedFurnitureInUae = () => {
   const router = useRouter();
@@ -25,6 +26,47 @@ const BestCustomizedFurnitureInUae = () => {
   ];
   return (
     <MainLayout>
+      <Head>
+        <title>Best Customized Furniture in UAE | EG Living Blog</title>
+        <meta
+          name="description"
+          content="Explore the best customized furniture solutions in the UAE with EG Living. Learn how our bespoke designs can transform your space."
+        />
+        <meta
+          name="keywords"
+          content="Best Customized Furniture Dubai, Furniture Customization Dubai, Best Furniture Shop UAE, Modern Home Furniture UAE"
+        />
+        <meta
+          property="og:title"
+          content="Best Customized Furniture in UAE | EG Living Blog"
+        />
+        <meta
+          property="og:description"
+          content="Explore the best customized furniture solutions in the UAE with EG Living. Learn how our bespoke designs can transform your space."
+        />
+        <meta
+          property="og:image"
+          content="https://egliving.ae/assets/img/blog/best-customized-furniture-in-uae.webp"
+        />
+        <meta
+          property="og:url"
+          content="https://egliving.ae/blogs/best-customized-furniture-in-uae"
+        />
+        <meta property="og:type" content="article" />
+        <meta
+          name="twitter:title"
+          content="Best Customized Furniture in UAE | EG Living Blog"
+        />
+        <meta
+          name="twitter:description"
+          content="Explore the best customized furniture solutions in the UAE with EG Living. Learn how our bespoke designs can transform your space."
+        />
+        <meta
+          name="twitter:image"
+          content="https://egliving.ae/assets/img/blog/best-customized-furniture-in-uae.webp"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+      </Head>
       <div>
         <div
           className="pages-header bg-img valign parallaxie"
@@ -276,7 +318,7 @@ const BestCustomizedFurnitureInUae = () => {
                 <div className="pagination">
                   <span>
                     <Link
-                      href="/blogs/luxury-custom-made-furniture-in-the-uae.html"
+                      href="/blogs/luxury-custom-made-furniture-in-the-uae"
                       title="Luxury Custom Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"
@@ -292,7 +334,7 @@ const BestCustomizedFurnitureInUae = () => {
                   </span>
                   <span className="text-right">
                     <Link
-                      href="/blogs/luxury-custom-made-furniture-in-the-uae.html"
+                      href="/blogs/luxury-custom-made-furniture-in-the-uae"
                       title="Luxury Custom Made Furniture in the UAE"
                       hrefLang="en"
                       target="_blank"

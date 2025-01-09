@@ -2,7 +2,6 @@
 
 import React, { useEffect } from "react";
 import Script from "next/script";
-import Head from "next/head";
 import LoadingScreen from "../components/Loading-Screen/loading-screen";
 import "../styles/globals.css";
 import Cursor from "../components/Cursor";
@@ -37,12 +36,6 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <Head>
-        <title>
-          EG Living - Custom Furniture & Modular Design Experts in UAE
-        </title>
-      </Head>
-
       <Lenis
         root
         options={{
