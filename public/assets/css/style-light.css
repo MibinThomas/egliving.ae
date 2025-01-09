@@ -1978,7 +1978,6 @@ html.dark .light {
   touch-action: pan-y;
 }
 
-
 .slid-half .nofull {
   position: relative;
   overflow: hidden;
@@ -2783,7 +2782,7 @@ html.dark .portfolio.full-bg .egColumn .info:after {
   height: 440px;
 }
 
-.portfolio .gallery .items .item-img>a {
+.portfolio .gallery .items .item-img > a {
   display: block;
 }
 
@@ -4536,6 +4535,12 @@ footer {
   padding: 100px 0;
 }
 
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 80px 0 !important;
+  }
+}
+
 footer .item .title h5 {
   margin-bottom: 30px;
 }
@@ -5165,7 +5170,7 @@ footer .item .copy-right p a {
     width: 15px;
   }
 
-  .brands .box-top .row>div {
+  .brands .box-top .row > div {
     width: 50%;
   }
 

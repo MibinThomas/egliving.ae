@@ -15,6 +15,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       .classList.toggle("show-with-trans");
   };
 
+  const closeMobileDropdown = () => {
+    const dropdown = document.getElementById("navbarSupportedContent");
+    if (dropdown && dropdown.classList.contains("show-with-trans")) {
+      dropdown.classList.remove("show-with-trans");
+    }
+  };
+
   const handleClickOutside = (event) => {
     const dropdown = document.getElementById("navbarSupportedContent");
     if (
@@ -22,7 +29,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       !dropdown.contains(event.target) &&
       !dropdownRef.current.contains(event.target)
     ) {
-      dropdown.classList.remove("show-with-trans");
+      closeMobileDropdown();
     }
   };
 
@@ -44,6 +51,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
           href={`/`}
           hrefLang="en"
           className={`logo ${logoClass && logoClass}`}
+          onClick={closeMobileDropdown} // Close on logo click
         >
           <img src={appData.lightLogo} alt="EG Logo" ref={logoRef} />
         </Link>
@@ -66,96 +74,29 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
         {/* Navigation Links */}
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="ml-auto navbar-nav">
-            <li className="nav-item">
-              <Link
-                href={`/`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/" ? "active-link" : ""
-                }`}
-              >
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/products`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/products" ? "active-link" : ""
-                }`}
-              >
-                Products
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/works`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/works" ? "active-link" : ""
-                }`}
-              >
-                Works
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/our-factory`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/our-factory" ? "active-link" : ""
-                }`}
-              >
-                Our Factory
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/about`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/about" ? "active-link" : ""
-                }`}
-              >
-                About Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/blogs`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/blogs" ? "active-link" : ""
-                }`}
-              >
-                Blogs
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/contact`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/contact" ? "active-link" : ""
-                }`}
-              >
-                Contact Us
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                href={`/frequently-asked-questions`}
-                hrefLang="en"
-                className={`nav-link ${
-                  currentRoute === "/frequently-asked-questions"
-                    ? "active-link"
-                    : ""
-                }`}
-              >
-                FAQs
-              </Link>
-            </li>
+            {[
+              { path: "/", label: "Home" },
+              { path: "/products", label: "Products" },
+              { path: "/works", label: "Works" },
+              { path: "/our-factory", label: "Our Factory" },
+              { path: "/about", label: "About Us" },
+              { path: "/blogs", label: "Blogs" },
+              { path: "/contact", label: "Contact Us" },
+              { path: "/frequently-asked-questions", label: "FAQs" },
+            ].map((link) => (
+              <li className="nav-item" key={link.path}>
+                <Link
+                  href={link.path}
+                  hrefLang="en"
+                  className={`nav-link ${
+                    currentRoute === link.path ? "active-link" : ""
+                  }`}
+                  onClick={closeMobileDropdown}
+                >
+                  {link.label}
+                </Link>
+              </li>
+            ))}
           </ul>
 
           <div
@@ -180,6 +121,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 href="https://www.facebook.com/profile.php?id=61566560664247"
                 hrefLang="en"
                 style={{ color: "#4cb753" }}
+                onClick={closeMobileDropdown} // Close on social link click
               >
                 <i className="fab fa-facebook-f"></i>
               </Link>
@@ -190,16 +132,20 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 href="https://www.instagram.com/eg_living.ae/"
                 hrefLang="en"
                 style={{ color: "#4cb753" }}
+                onClick={closeMobileDropdown} // Close on social link click
               >
                 <i className="fab fa-instagram"></i>
               </Link>
             </div>
 
-            {/* Divider */}
             <span style={{ opacity: 0.2 }}>|</span>
 
             {/* Theme Switcher */}
-            <ThemeSwitcher />
+            <div onClick={closeMobileDropdown}>
+              {" "}
+              {/* Close on theme switch */}
+              <ThemeSwitcher />
+            </div>
           </div>
         </div>
       </div>

@@ -18,7 +18,7 @@ const IntroWithVertical = () => {
 
   React.useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 991);
+      setIsMobile(window.innerWidth <= 991); // Update isMobile state
     };
 
     if (typeof window !== "undefined") {
@@ -67,20 +67,12 @@ const IntroWithVertical = () => {
               disableOnInteraction: false,
             }}
             slidesPerView={1}
-            direction="vertical"
+            direction={isMobile ? "horizontal" : "vertical"} // Change direction based on screen size
             loop={true}
             grabCursor={true}
             watchSlidesProgress={true}
-            touchMoveStopPropagation={false} // Allow touch events to propagate
-            touchStartPreventDefault={false} // Don't block native touch behaviors
-            onTouchMove={(swiper, event) => {
-              // Detect if the user is scrolling vertically
-              if (Math.abs(event.deltaY) > Math.abs(event.deltaX)) {
-                swiper.allowTouchMove = false; // Disable Swiper for vertical scrolling
-              } else {
-                swiper.allowTouchMove = true; // Enable Swiper for horizontal scrolling
-              }
-            }}
+            touchMoveStopPropagation={false}
+            touchStartPreventDefault={false}
             onSwiper={(swiper) => {
               if (swiper?.slides) {
                 for (let i = 0; i < swiper.slides.length; i++) {
