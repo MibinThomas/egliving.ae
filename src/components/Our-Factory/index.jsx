@@ -18,7 +18,7 @@ const FactoryDetails = () => {
           <div className="mt-4 col-lg-12">
             <video
               className="bg-video"
-              src="assets/video/eg-living-factory.mp4"
+              src="/assets/video/eg-living-factory.mp4"
               playsInline
               autoPlay
               muted
