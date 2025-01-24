@@ -1,7 +1,7 @@
 import React from "react";
 
 const Chat = () => {
-  const phone = "+971561998327";
+  const phone = "+971561998245";
   const message =
     "Hello EG Team, I would like to know more about your services.";
   const whatsappLink = `https://wa.me/${phone}?text=${encodeURIComponent(
